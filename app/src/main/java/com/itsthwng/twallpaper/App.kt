@@ -11,14 +11,13 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.hilt.work.HiltWorkerFactory
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.work.Configuration
 import com.downloader.PRDownloader
+import com.google.firebase.auth.FirebaseAuth
 import com.itsthwng.twallpaper.data.CommonInfo
 import com.itsthwng.twallpaper.local.LocalStorage
 import com.itsthwng.twallpaper.local.MobileIdInfo
@@ -26,12 +25,11 @@ import com.itsthwng.twallpaper.remote.RemoteConfig
 import com.itsthwng.twallpaper.server.Network
 import com.itsthwng.twallpaper.ui.component.splash.view.SplashLoadingActivity
 import com.itsthwng.twallpaper.utils.AppConfig
-import com.itsthwng.twallpaper.utils.ConnectionLiveDataJava
-import com.itsthwng.twallpaper.utils.NetworkUtils
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.lang.ref.WeakReference
 import java.time.LocalDate
 import javax.inject.Inject
 
@@ -57,10 +55,6 @@ class App : Application(), Configuration.Provider, DefaultLifecycleObserver{
     private val initListeners = mutableListOf<() -> Unit>()
     var isInitialized = false
         private set
-
-    var countClickSplash: Int = 0
-    var isTurnOnDebugMode = false
-
 
     override fun onStart(owner: LifecycleOwner) {
         super.onStart(owner)
@@ -123,6 +117,15 @@ class App : Application(), Configuration.Provider, DefaultLifecycleObserver{
 
         setupAppConfig()
 
+        FirebaseAuth.getInstance().signInAnonymously()
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    Log.d("FirebaseAuth", "✅ Anonymous sign-in successful")
+                } else {
+                    Log.e("FirebaseAuth", "❌ Anonymous sign-in failed: ${task.exception?.message}")
+                }
+            }
+
         CoroutineScope(Dispatchers.IO).launch {
             CommonInfo.initDefaults()
             CommonInfo.fetchRemoteConfig {
@@ -164,7 +167,9 @@ class App : Application(), Configuration.Provider, DefaultLifecycleObserver{
 
 
 object TopActivityHolder : Application.ActivityLifecycleCallbacks {
-    @Volatile var currentActivity: Activity? = null
+    private var currentActivityRef: WeakReference<Activity>? = null
+    val currentActivity
+        get() = currentActivityRef?.get()
 
     fun init(app: Application) {
         app.registerActivityLifecycleCallbacks(this)
@@ -178,18 +183,19 @@ object TopActivityHolder : Application.ActivityLifecycleCallbacks {
     }
 
     override fun onActivityStarted(activity: Activity) {
-        currentActivity = activity
+        currentActivityRef = WeakReference(activity)
     }
 
     override fun onActivityResumed(activity: Activity) {
-        currentActivity = activity
+        currentActivityRef = WeakReference(activity)
     }
     override fun onActivityPaused(activity: Activity) {
 
     }
 
     override fun onActivityStopped(activity: Activity) {
-        if (currentActivity === activity) currentActivity = null
+        if (currentActivityRef?.get() === activity)
+            currentActivityRef = null
     }
 
     override fun onActivitySaveInstanceState(
