@@ -274,7 +274,7 @@ class LocaleSyncWorker@AssistedInject constructor(
 //                    Log.e("Storage", "other error", e)
 //                }
 //            }
-            val ref = storage.reference.child("cloudflare_all_data_${locale}.json")
+            val ref = storage.reference.child("data_${locale}.json")
             val bytes = ref.getBytes(5 * 1024 * 1024).await() // 5MB
             val json = bytes.toString(Charsets.UTF_8)
             var obj: LocaleDataModel? = gson.fromJson(json, LocaleDataModel::class.java)
