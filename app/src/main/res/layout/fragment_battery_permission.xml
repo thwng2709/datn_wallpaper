@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/img_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/common_18dp"
+                android:paddingVertical="@dimen/common_20dp"
+                android:scaleType="center"
+                android:src="@drawable/manage_file_permission_img"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/common_20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/battery_limit_free"
+            android:textColor="@color/color_2E5077"
+            android:textSize="@dimen/text_size_16sp"
+            android:fontFamily="@font/sf_pro_bold"/>
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/common_20dp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/common_16dp"
+            android:layout_marginBottom="@dimen/common_24dp"
+            android:text="@string/battery_optimization_label"
+            android:textColor="@color/color_6F7384"
+            android:textSize="@dimen/text_size_13sp"
+            android:fontFamily="@font/sf_pro_regular"/>
+
+        <TextView
+            android:id="@+id/btnNext"
+            style="@style/ButtonSelectStyle"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_corner_46"
+            android:layout_marginTop="@dimen/common_24dp"
+            android:text="@string/allow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lytContent"
+            android:layout_marginHorizontal="@dimen/common_20dp"/>
+
+        <TextView
+            android:id="@+id/btnNotNow"
+            style="@style/ButtonCancelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_12dp"
+            android:text="@string/not_now"
+            android:textColor="@color/color_424141"
+            android:background="@drawable/bg_button_stroke"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConfirmYes"
+            android:layout_marginHorizontal="@dimen/common_20dp"
+            android:layout_marginBottom="@dimen/common_16dp"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mgs_ok"><![CDATA[확인]]></string>
+    <string name="text_welcome"><![CDATA[환영합니다]]></string>
+    <string name="text_create_by"><![CDATA[개발자]]></string>
+    <string name="text_next"><![CDATA[다음]]></string>
+    <string name="text_intro1_msg"><![CDATA[모든 게임, 앱 또는 웹사이트에서 자동으로 탭합니다.]]></string>
+    <string name="text_intro2_msg"><![CDATA[클릭 위치, 속도 및 각 클릭기의 지속 시간을 쉽게 설정하세요.]]></string>
+    <string name="text_intro3_msg"><![CDATA[자주 사용하는 설정을 저장할 수 있습니다. 한 번 설정하고 언제든지 사용하세요!]]></string>
+    <string name="text_app_version"><![CDATA[앱 버전]]></string>
+    <string name="msg_apply_language_dialog"><![CDATA[이 언어를 적용하시겠습니까?]]></string>
+
+    <string name="save_script"><![CDATA[저장]]></string>
+    <string name="cancel"><![CDATA[취소]]></string>
+    <string name="allow"><![CDATA[허용]]></string>
+
+    <string name="title_apply_change_language_dialog"><![CDATA[언어 변경 적용]]></string>
+    <string name="title_notification_24h"><![CDATA[자동 클릭커가 기다리고 있습니다]]></string>
+    <string name="title_notification"><![CDATA[알림 권한]]></string>
+    <string name="message_notification"><![CDATA[자동 클릭커가 알림을 보낼 수 있도록 허용하세요.]]></string>
+    <string name="deny"><![CDATA[거부]]></string>
+
+    <string name="other_app"><![CDATA[다른 앱]]></string>
+
+    <string name="title_update_version"><![CDATA[새 버전 업데이트]]></string>
+    <string name="message_update_version"><![CDATA[자동 클릭커에 새 버전이 있습니다. 최상의 경험을 위해 새 버전으로 업데이트하세요!]]></string>
+    <string name="btn_update"><![CDATA[업데이트]]></string>
+    <string name="btn_later"><![CDATA[나중에]]></string>
+
+    <string name="dont_show_again"><![CDATA[다시 표시 안 함]]></string>
+
+    <string name="rating"><![CDATA[자동 클릭커를 즐기고 계신가요?]]></string>
+    <string name="rating_message"><![CDATA[우리는 항상 앱과 사용자 경험을 개선하기 위해 노력합니다. 잠시 시간을 내어 앱을 평가해 주시겠어요? 모든 피드백은 매우 소중합니다!]]></string>
+
+    <string name="smile_rating_terrible"><![CDATA[1 🌟]]></string>
+    <string name="smile_rating_bad"><![CDATA[2 🌟]]></string>
+    <string name="smile_rating_okay"><![CDATA[3 🌟]]></string>
+    <string name="smile_rating_good"><![CDATA[4 🌟]]></string>
+    <string name="smile_rating_great"><![CDATA[5 🌟]]></string>
+    <string name="choose_email"><![CDATA[이메일 선택:]]></string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+    <string name="feedback"><![CDATA[피드백]]></string>
+    <string name="share_app"><![CDATA[앱 공유]]></string>
+
+    <string name="allowed"><![CDATA[허용됨]]></string>
+
+    <string name="permission"><![CDATA[권한]]></string>
+    <string name="rate_us_now"><![CDATA[지금 평가하기]]></string>
+    <string name="choose_language"><![CDATA[언어 선택]]></string>
+    <string name="please_select_language"><![CDATA[표시 언어를 선택해주세요.]]></string>
+
+    <string name="content_feedback"><![CDATA[자동 클릭커에 만족하지 못하신다니 죄송합니다. 향후 서비스를 개선할 수 있도록 피드백과 제안을 이메일로 보내주세요.]]></string>
+    <string name="warning_rating"><![CDATA[평가를 선택해주세요.]]></string>
+    <string name="video_starting_in_text"><![CDATA[비디오 시작 예정]]></string>
+    <string name="watch_ad_button_text"><![CDATA[광고 보기]]></string>
+    <string name="purchase_vip_button_text"><![CDATA[VIP 구매]]></string>
+    <string name="description_remind_watch_ad"><![CDATA[마지막 스크립트를 적용하려면 짧은 동영상을 시청하세요]]></string>
+
+    <string name="connect_internet"><![CDATA[인터넷 연결]]></string>
+    <string name="message_connect_internet"><![CDATA[애플리케이션을 유지하고 개선하기 위해 네트워크 연결이 필수적입니다. 앱 사용을 계속하려면 네트워크를 활성화해 주세요.]]></string>
+    <string name="lost_network_connection"><![CDATA[네트워크 연결이 끊어졌습니다. 네트워크에 다시 연결해 주세요.]]></string>
+    <string name="reconnect"><![CDATA[재연결]]></string>
+
+    <string name="str_close">닫기</string>
+
+    <string name="exit_app">종료</string>
+    <string name="creator" translatable="false">Higher Studio</string>
+    <string name="txt_loading_ads">광고 로딩 중…</string>
+    <string name="segment_intro1">액션을 자동화하여\n효율성을 높이세요!</string>
+    <string name="segment_intro2">멀티 타겟, 고\n성능!</string>
+    <string name="segment_intro3">편리하게 일정을 계획하고\n설정을 저장하세요!</string>
+    <string name="segment_intro4">유연한 사용자 정의, 사용\n하기 쉬움!</string>
+    <string name="get_started">시작하기</string>
+    <string name="swipe_to_explore">둘러보려면 스와이프하세요</string>
+    <string name="skip_ads">광고 건너뛰기</string>
+    <string name="title_exit_app">앱 종료</string>
+    <string name="label_exit_app">앱을 종료하시겠습니까?</string>
+
+    <string name="description_watch_ad_reward_skin">광고를 시청하고 이 스킨에 대한 무제한 액세스를 즉시 잠금 해제하세요!</string>
+    <string name="app_water_reminder_des">제때 물을 마시고 건강을 유지하세요.</string>
+    <string name="app_recovery_des">삭제된 사진을 쉽게 복구하세요.</string>
+    <string name="str_you_might_like">이런 콘텐츠를 좋아할 수 있어요</string>
+    <string name="app_hide_app_des">앱, 사진, 동영상 숨기기.</string>
+    <string name="app_sleep_sounds_des">빨리 잠들도록 도와줍니다.</string>
+    <string name="text_pro">프로</string>
+    <string name="setting">설정</string>
+    <string name="overview">개요</string>
+    <string name="languages">언어</string>
+    <string name="more">더 보기</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="email">이메일</string>
+    <string name="hint_enter_email">이메일 주소를 입력해주세요</string>
+    <string name="problem_type">문제 유형</string>
+    <string name="suggestions">제안</string>
+    <string name="bugs">버그</string>
+    <string name="others">기타</string>
+    <string name="content">내용</string>
+    <string name="hint_content_description">문제를 더 효과적으로 해결하는 데 도움이 되도록 encountered된 문제에 대한 자세한 설명을 제공해 주세요.</string>
+    <string name="str_submit">제출</string>
+    <string name="invalid_email_format">유효한 이메일 주소를 입력해주세요</string>
+    <string name="not_empty_email">이메일은 비워둘 수 없습니다</string>
+    <string name="not_empty_content">내용은 비워둘 수 없습니다</string>
+    <string name="sent_feedback_success">피드백이 성공적으로 전송되었습니다!</string>
+    <string name="sent_feedback_fail">피드백 전송 실패!</string>
+    <string name="language_change_successful">언어 변경 성공</string>
+    <string name="label_grant_permission">앱이 제대로 작동하려면 필요한 권한을 확인하고 부여하십시오.</string>
+    <string name="notification_permission">알림 권한</string>
+    <string name="label_notification_permission">이 앱은 알림을 보낼 권한을 요청하므로 중요한 업데이트와 알림을 받을 수 있습니다.</string>
+    <string name="manage_files_permission">파일 관리 권한</string>
+    <string name="label_grant_manage_files_permission">이 앱은 파일 관리 권한이 필요하므로 콘텐츠에 원활하게 액세스, 정리 및 저장할 수 있습니다.</string>
+    <string name="write_storage_permission">저장 공간 쓰기 권한</string>
+    <string name="permission_denied">이 앱은 파일을 제대로 저장하려면 권한이 필요합니다.</string>
+    <string name="access_files_permission_message">Smart Recovery는 사진, 비디오 및 오디오 파일을 올바르게 저장하기 위해 액세스해야 합니다. 계속하려면 설정에서 이러한 권한을 부여하십시오.</string>
+    <string name="label_manage_files_permission">이 앱은 파일 관리 권한이 필요하므로 콘텐츠에 원활하게 액세스, 정리 및 저장할 수 있습니다. 모든 기능을 계속 사용하려면 이 권한을 부여하십시오.</string>
+    <string name="not_now">지금은 아님</string>
+    <string name="permission_request">앱이 제대로 작동하려면 파일 읽기 권한이 필요합니다. 권한을 부여하십시오!</string>
+    <string name="battery_limit_free">배터리 제한 무료</string>
+    <string name="battery_optimization_label">시스템에서 앱이 종료되지 않도록 방지</string>
+    <string name="str_exit">종료</string>
+
+    <string name="notification_permission_title">알림 권한</string>
+    <string name="notification_permission_desc">박수를 쳐서 휴대폰을 찾기 위해서는 애플리케이션에 알림 권한이 필요합니다.</string>
+    <string name="allow_access">액세스 허용</string>
+    <string name="featured_items">추천 항목</string>
+    <string name="download_now">지금 다운로드</string>
+    <string name="no_data_found">데이터를 찾을 수 없음</string>
+    <string name="live">라이브</string>
+    <string name="search_here">여기에서 검색</string>
+    <string name="no_data_for">데이터 없음:</string>
+    <string name="select">선택</string>
+    <string name="locked">잠김</string>
+    <string name="premium">프리미엄</string>
+    <string name="all_wallpaper">모든 배경화면</string>
+    <string name="please_type_something">무언가 입력하세요…</string>
+    <string name="set_wallpaper_as">배경화면으로 설정하시겠습니까?</string>
+    <string name="home_screen_only">홈 화면만</string>
+    <string name="lock_screen_only">잠금 화면만</string>
+    <string name="home_lock_screen"><![CDATA[홈 & 잠금 화면]]></string>
+    <string name="download">다운로드</string>
+    <string name="apply">적용</string>
+    <string name="wallpaper_added_successfully">배경화면이 성공적으로 추가되었습니다</string>
+    <string name="something_went_wrong">문제가 발생했습니다</string>
+    <string name="setting_wallpaper_is_not_allowed">배경화면 설정이 허용되지 않습니다</string>
+    <string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">모든 프리미엄 배경화면을 광고 없이 이용해 보세요.</string>
+    <string name="unlock_exclusive_wallpaper">독점 배경화면 잠금 해제</string>
+    <string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">짧은 광고를 보고 멋진 배경화면을 받아보세요. 화면이 놀랍게 보일 것입니다!</string>
+    <string name="watch_ad_amp_download"><![CDATA[광고 시청 & 다운로드]]></string>
+    <string name="watch_ad_amp_apply"><![CDATA[광고 시청 & 적용]]></string>
+    <string name="saved_to_gallery">갤러리에 저장됨</string>
+    <string name="permission_required_to_save_images">이미지를 저장하려면 저장소 권한이 필요합니다. 설정에서 권한을 허용해주세요.</string>
+    <string name="error_saving_image">이미지를 저장할 수 없습니다. 다시 시도해주세요.</string>
+    <string name="permission_required">권한 필요</string>
+    <string name="storage_permission_explanation">배경화면을 기기에 저장하려면 저장소 권한이 필요합니다. 계속하려면 권한을 허용해주세요.</string>
+    <string name="grant_permission">권한 허용</string>
+    <string name="permission_denied_go_to_settings">저장소 권한이 거부되었습니다. 설정으로 이동하여 수동으로 활성화해주세요.</string>
+    <string name="go_to_settings">설정으로 이동</string>
+    <string name="media_read_permission_explanation">이 앱은 갤러리에서 이미지를 읽을 수 있는 권한이 필요합니다</string>
+    <string name="storage_access_denied">저장소 접근이 거부되었습니다. 앱 권한을 확인하세요.</string>
+    <string name="error_network_connection">네트워크 연결 오류. 인터넷 연결을 확인하세요.</string>
+    <string name="permission_revoked_message">저장소 권한이 취소되었습니다. 배경화면을 다운로드하려면 다시 권한을 허용해주세요.</string>
+    <string name="preview">미리보기</string>
+    <string name="subscribe_to">구독하기</string>
+    <string name="become_a">되기</string>
+    <string name="all">모두</string>
+    <string name="simple">심플</string>
+    <string name="wallpaper">배경화면</string>
+    <string name="no_favourites">즐겨찾기 사진 없음</string>
+    <string name="no_photos">사진 없음</string>
+
+    <string name="action_settings">설정</string>
+    <string name="activate">활성화</string>
+    <string name="activate_lock_screen">잠금 화면 활성화</string>
+    <string name="ad">광고</string>
+    <string name="ad1">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.camouflagezipperlockscreen</string>
+    <string name="ad2">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.bluejeanszipperlockscreen</string>
+    <string name="ad3">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.diamondszipperlocker</string>
+    <string name="ad_app_name1">위장 지퍼 잠금 화면</string>
+    <string name="ad_app_name2">블루 진스 지퍼 잠금 화면</string>
+    <string name="ad_app_name3">다이아몬드 지퍼 로커</string>
+    <string name="admob_app_key">ca-app-pub-8480863067551099~7453550976</string>
+    <string name="advertisement">광고</string>
+    <string name="android_7">Android 7</string>
+    <!-- Korean (ko) -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applovin_list_item_image_description">목록 항목에 대한 자세한 정보를 표시합니다.</string>
+    <string name="backgroundCound">53</string>
+    <string name="background_wallpaper">배경 화면 설정</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="change_color">색상 변경</string>
+    <string name="change_password">비밀번호 변경</string>
+    <string name="character_counter_content_description">글자 수 제한 초과 %1$d/%2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="continue_label">계속하려면 탭하세요</string>
+    <string name="continue_str">계속</string>
+    <string name="customize">맞춤 설정</string>
+    <string name="date">날짜</string>
+    <string name="disable_lock_screen">잠금 화면 사용</string>
+    <string name="disable_pin_lock">PIN 잠금 사용</string>
+    <string name="dummy_button">더미 버튼</string>
+    <string name="dummy_content">더미\10콘텐츠</string>
+    <string name="enable_pin_lock">PIN 잠금 사용</string>
+    <string name="enter_password">비밀번호 입력:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="font_style">글꼴 스타일 설정</string>
+    <string name="forgot_password">비밀번호를 잊으셨습니까?</string>
+    <string name="general_setting">일반 설정</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_to_use">사용 방법</string>
+    <string name="info">정보</string>
+    <string name="info_str1">제작:</string>
+    <string name="info_str2">UI 아이콘 제작자:</string>
+    <string name="info_str3">https://www.flaticon.com/authors/icongeek26</string>
+    <string name="info_str4">https://icons8.com/</string>
+    <string name="install">설치</string>
+    <string name="lock_screen">잠금 화면 사용</string>
+    <string name="more_app_link">https://play.google.com/store/apps/developer?id=ZipperOnScreenApps</string>
+    <string name="more_applications">더 많은 앱</string>
+    <string name="more_apps">더 많은 앱</string>
+    <string name="more_settings">더 많은 설정</string>
+    <string name="more_zipper_themes">더 많은 지퍼 테마</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
+    <string name="native_text">네이티브 테스트</string>
+    <string name="nav_app_bar_navigate_up_description">위로 이동</string>
+    <string name="nav_app_bar_open_drawer_description">탐색 메뉴 열기</string>
+    <string name="no_thank_you">아니요, 괜찮습니다</string>
+    <string name="of">OFF</string>
+    <string name="offline_notification_text">광고를 열려면 탭하세요.</string>
+    <string name="offline_notification_title">오프라인 상태일 때 저장한 광고를 봅니다.</string>
+    <string name="offline_opt_in_confirm">확인</string>
+    <string name="offline_opt_in_confirmation">온라인에 다시 접속하면 링크가 포함된 알림이 전송됩니다.</string>
+    <string name="offline_opt_in_decline">괜찮습니다.</string>
+    <string name="offline_opt_in_message">광고주 사이트 링크가 포함된 알림을 보내드립니다.</string>
+    <string name="offline_opt_in_title">온라인에 다시 접속하면 광고를 엽니다.</string>
+    <string name="ok">확인</string>
+    <string name="on">ON</string>
+    <string name="personalisation">개인화</string>
+    <string name="privacy_policy_link">https://docs.google.com/document/d/1KJSP4ZyiHTtdWqlhu4I1M3xx6myLk9sh0q5e_pcKH0s/edit?usp=sharing</string>
+    <string name="question1">어머니의 결혼 전 성은 무엇입니까?</string>
+    <string name="question2">첫 번째 반려동물의 이름은 무엇입니까?</string>
+    <string name="question3">가장 친한 친구의 이름은 무엇입니까?</string>
+    <string name="question4">첫 번째 선생님의 이름은 무엇입니까?</string>
+    <string name="rate">평가하기</string>
+    <string name="reenter_password">비밀번호 다시 입력:</string>
+    <string name="retunr_to_default">기본값으로 돌아가기</string>
+    <string name="s1">이미지 저장</string>
+    <string name="s2">광고가 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
+    <string name="s3">수락</string>
+    <string name="s4">거부</string>
+    <string name="s5">캘린더 이벤트 만들기</string>
+    <string name="s6">광고가 캘린더 이벤트를 만들도록 허용하시겠습니까?</string>
+    <string name="s7">테스트 광고</string>
+    <string name="save">저장</string>
+    <string name="search_menu_title">검색</string>
+    <string name="security_question">보안 질문</string>
+    <string name="set">설정</string>
+    <string name="set_background">배경 설정</string>
+    <string name="set_font">글꼴 설정</string>
+    <string name="set_foreground">전경 설정</string>
+    <string name="set_lock_screen">잠금 화면 설정</string>
+    <string name="set_password">비밀번호 설정</string>
+    <string name="set_pendant_type">펜던트 스타일 설정</string>
+    <string name="set_zipper_style">지퍼 스타일 설정</string>
+    <string name="settings">설정</string>
+    <string name="share">공유</string>
+    <string name="share_text">텍스트 공유</string>
+    <string name="sound">소리</string>
+    <string name="star_4_8">4.8</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">시간</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="toast_message">토스트 메시지</string>
+    <string name="tt_will_play">지금 재생</string>
+    <string name="vibration">진동</string>
+    <string name="yes_exit">예 - 종료</string>
+    <string name="yes_i_agree">예, 동의합니다</string>
+    <string name="zipper_wallpaper">전경 설정</string>
+    <string name="notification">알림</string>
+    <string name="terms_amp_condition"><![CDATA[이용 약관]]></string>
+    <string name="terms_of_use">이용 약관</string>
+    <string name="str_new">최신의</string>
+    <string name="str_for_you">추천</string>
+    <string name="title_intro_3">즉시 배경화면 변경</string>
+    <!-- Grant Permission Fragment -->
+    <string name="grant_permission_title">권한 부여</string>
+    <string name="permission_title">권한</string>
+    <string name="notification_permission_subtitle">알림 전송 허용</string>
+    <string name="manage_files_permission_subtitle">앱이 파일에 액세스하고 관리하도록 허용</string>
+    <string name="write_storage_permission_subtitle">앱이 파일을 저장소에 저장하도록 허용</string>
+    <string name="battery_optimization_title">배터리 최적화</string>
+    <string name="battery_optimization_subtitle">앱을 백그라운드에서 계속 실행</string>
+    <string name="overlay_permission_title">다른 앱 위에 표시</string>
+    <string name="overlay_permission_subtitle">앱이 다른 앱 위에 표시되도록 허용</string>
+    <string name="overlay_permission_desc">이 권한은 장치가 잠겨 있을 때 앱이 다른 앱 위에 지퍼 잠금 화면을 표시할 수 있도록 합니다</string>
+
+    <!-- Manage File Permission Fragment -->
+    <string name="manage_file_permission_title">파일 권한</string>
+    <string name="manage_file_permission_description">이 애플리케이션은 박수 소리로 휴대폰을 찾기 위해 알림 권한이 필요합니다.</string>
+    <string name="file_permission_title">파일 권한</string>
+    <string name="file_permission_description">이 애플리케이션은 파일을 올바르게 저장하고 관리하기 위해 파일 권한이 필요합니다.</string>
+    <string name="message_disconnect_internet">연결을 확인한 후 페이지를 새로 고치세요</string>
+    <string name="str_retry">다시 시도</string>
+    <string name="no_internet_connection">인터넷 연결 없음</string>
+    <string name="maybe_later">나중에</string>
+
+    <!-- History Screen -->
+    <string name="history">기록</string>
+    <string name="home_screen">홈 화면</string>
+    <string name="no_history">아직 기록 없음</string>
+    <string name="no_history_desc">배경 화면을 설정하기 시작하면 배경 화면 기록이 여기에 나타납니다</string>
+    <string name="removed_from_history">기록에서 제거됨</string>
+    <string name="undo">실행 취소</string>
+
+    <string name="upgrade_pro">프로로 업그레이드</string>
+    <string name="str_remove_ads">광고 제거</string>
+    <string name="str_zipper">지퍼</string>
+    <string name="str_home">홈</string>
+    <string name="str_category">카테고리</string>
+    <string name="str_set_now">지금 설정</string>
+    <string name="msg_reward_change_free">보상 배경화면을 무료 배경화면으로 변경!</string>
+    <string name="intro1_msg">다양하고 독특한 테마</string>
+    <string name="intro2_msg">고품질 배경화면</string>
+    <string name="intro3_msg">즉시 배경화면 변경</string>
+    <string name="intro4_msg">정기적으로 신선한 콘텐츠</string>
+    <string name="lock_home_key">홈 키 잠금</string>
+    <string name="str_on">켜기</string>
+    <string name="str_current">현재</string>
+    <string name="answer_is_incorrect">정답이 아닙니다</string>
+    <string name="favourite">즐겨찾기</string>
+    <string name="str_zipper_wallpaper">지퍼 배경화면</string>
+    <string name="str_background_wallpaper">배경 배경화면</string>
+    <string name="default_char_lenght_2000">0/2000</string>
+    <string name="default_image_length_3">0/3</string>
+    <string name="browse_wallpapers">배경화면 찾아보기</string>
+    <string name="no_wallpaper_history">배경화면 기록 없음</string>
+    <string name="start_personalizing_device">아름다운 배경화면을 설정하여 기기 개인화 시작</string>
+    <string name="no_wallpapers_filter">배경화면을 찾을 수 없습니다</string>
+    <string name="try_different_filter">다른 필터를 선택하거나 현재 필터를 지워보세요</string>
+    <string name="clear_filters">필터 지우기</string>
+    <string name="no_search_results">검색 결과 없음</string>
+    <string name="try_different_keywords">다른 키워드로 검색해 보세요</string>
+    <string name="clear_search">검색 지우기</string>
+    <string name="overlay_permission_denied_message">지퍼 잠금 화면 기능을 사용하려면 오버레이 권한이 필요합니다</string>
+    <string name="permission_denied_title">권한 거부됨</string>
+    <string name="permission_denied_msg">지퍼 기능을 사용하려면 앱 설정에서 저장소 접근 권한을 부여해야 합니다.</string>
+    <string name="success">성공</string>
+    <string name="set_zipper_success">지퍼가 성공적으로 설정되었습니다!</string>
+    <string name="wallpapers">배경화면</string>
+    <string name="set_chain_success"> 체인 스타일이 성공적으로 설정되었습니다!</string>
+    <string name="set_font_success">글꼴이 성공적으로 설정되었습니다!</string>
+    <string name="set_background_success">배경 이미지가 성공적으로 설정되었습니다!</string>
+    <string name="set_foreground_success">전경이 성공적으로 설정되었습니다!</string>
+    <string name="app_auto_click_des">탭을 자동화합니다.</string>
+    <string name="rate_us">평가해 주세요</string>
+    <string name="rating_invitation">더 나은 사용자 경험을 위해 노력하고 있습니다. 평가해 주시면 대단히 감사하겠습니다.</string>
+    <string name="thanks_feedback">피드백 감사합니다</string>
+    <string name="the_best_we_can_get">우리가 얻을 수 있는 최고입니다</string>
+    <string name="battery_widget">배터리 위젯</string>
+    <string name="enter_your_answer">답변을 입력하세요</string>
+    <string name="enable_pin_lock_success">핀 잠금 활성화 성공!</string>
+    <string name="no_categories">카테고리 없음</string>
+    <string name="enable_disable_lock_screen">잠금 화면 활성화/비활성화</string>
+    <string name="zipper_locker_theme">지퍼 로커 테마</string>
+    <string name="zipper_description">멋진 하트 화면, 아름다운 색상!</string>
+    <string name="disable_zip_locker_toast">잠금 화면을 비활성화했습니다. 지퍼 로커를 사용하려면 다시 활성화하세요.</string>
+    <string name="pin_is_incorrect">PIN이 올바르지 않습니다 !</string>
+    <string name="enable_zip_locker_toast"><![CDATA[Zipper 잠금 화면이 성공적으로 활성화되었습니다!]]></string>
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title"><![CDATA[정말로 종료하시겠습니까?]]></string>
+    <string name="exit_dialog_cancel"><![CDATA[취소]]></string>
+    <string name="exit_dialog_exit"><![CDATA[종료]]></string>
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_title"><![CDATA[우리 앱이 마음에 드시나요?]]></string>
+    <string name="rating_dialog_message"><![CDATA[우리 앱을 즐겁게 사용하고 계시다면, Play Store에서 저희를 평가해 주시겠습니까?]]></string>
+    <string name="rating_dialog_rate_now"><![CDATA[지금 평가하기]]></string>
+    <string name="rating_dialog_no_thanks"><![CDATA[아니요, 괜찮습니다]]></string>
+    <!-- History Menu -->
+    <string name="history_select_items"><![CDATA[항목 선택]]></string>
+    <string name="history_delete_all"><![CDATA[모두 삭제]]></string>
+    <string name="history_sort_by_date"><![CDATA[날짜별 정렬]]></string>
+    <string name="history_sort_by_type"><![CDATA[유형별 정렬]]></string>
+    <string name="history_items_selected"><![CDATA[%d개 선택됨]]></string>
+    <!-- Clear History Dialog -->
+    <string name="clear_history_title"><![CDATA[기록 지우기]]></string>
+    <string name="clear_history_message"><![CDATA[기록에서 모든 배경화면을 제거하시겠습니까? 이 작업은 되돌릴 수 없습니다.]]></string>
+    <string name="clear_history_confirm"><![CDATA[모두 지우기]]></string>
+    <string name="history_cleared"><![CDATA[기록이 지워졌습니다]]></string>
+    <!-- Download Manager -->
+    <string name="download_image_title"><![CDATA[이미지 %s 다운로드]]></string>
+    <string name="download_image_description"><![CDATA[%s에서 이미지 다운로드 중]]></string>
+    <!-- Error Messages -->
+    <string name="error"><![CDATA[오류]]></string>
+    <string name="error_message"><![CDATA[오류: %s]]></string>
+    <string name="cant_share_file"><![CDATA[이 파일을 공유할 수 없습니다]]></string>
+    <!-- Status -->
+    <string name="status_on"><![CDATA[켜짐]]></string>
+    <string name="status_off"><![CDATA[꺼짐]]></string>
+    <!-- Zipper Test (Debug) -->
+    <string name="zipper_test_title"><![CDATA[Zipper 이미지 테스트]]></string>
+    <string name="zipper_test_total"><![CDATA[총 Zipper 수: %d]]></string>
+    <string name="zipper_test_filtered"><![CDATA[필터링된 Zipper 수: %d]]></string>
+    <string name="zipper_test_refresh"><![CDATA[새로고침]]></string>
+    <string name="zipper_test_free"><![CDATA[무료]]></string>
+    <string name="zipper_test_premium"><![CDATA[프리미엄]]></string>
+    <string name="zipper_test_locked"><![CDATA[잠김]]></string>
+    <string name="zipper_test_id"><![CDATA[ID: %d]]></string>
+    <string name="zipper_test_name"><![CDATA[이름: %s]]></string>
+    <string name="zipper_test_category"><![CDATA[카테고리: %s]]></string>
+    <string name="zipper_test_access"><![CDATA[액세스: %s]]></string>
+    <string name="msg_no_ads_available"><![CDATA[이런! 현재 광고가 없습니다]]></string>
+
+    <!-- Hardcoded String Fixes -->
+    <!-- Toast Messages -->
+    <string name="storage_permission_granted_zipper"><![CDATA[저장소 액세스가 허용되었습니다. 이제 지퍼 기능을 사용할 수 있습니다.]]></string>
+    <string name="no_security_password_set"><![CDATA[보안 비밀번호가 설정되지 않았습니다!]]></string>
+    <string name="confirm_your_password"><![CDATA[비밀번호를 확인하세요]]></string>
+    <string name="password_changed_successfully"><![CDATA[비밀번호가 성공적으로 변경되었습니다]]></string>
+    <string name="wrong_confirmation_password"><![CDATA[확인 비밀번호가 잘못되었습니다. 다시 시도하세요!]]></string>
+    <string name="playstore_not_found"><![CDATA[Google Play 스토어를 열 수 없습니다. Google Play 앱을 설치해 주세요.]]></string>
+    <string name="no_app_to_handle_action"><![CDATA[이 작업을 수행할 앱이 없습니다]]></string>
+
+    <!-- Service Notifications -->
+    <string name="syncing_language_data"><![CDATA[언어 데이터 동기화 중]]></string>
+    <string name="updating_app_content"><![CDATA[콘텐츠 업데이트 중...]]></string>
+    <string name="lockscreen_service_running"><![CDATA[잠금 화면 작동 중]]></string>
+    <string name="service_running"><![CDATA[실행 중]]></string>
+
+    <!-- Text/Size Selection -->
+    <string name="select_text_size_range"><![CDATA[텍스트 크기 선택 10-60]]></string>
+
+    <!-- Ad Label -->
+    <string name="upgrade_premium"><![CDATA[프리미엄으로 업그레이드]]></string>
+    <string name="show_background"><![CDATA[배경 표시]]></string>
+    <string name="locale">ko</string>
+    <string name="str_loading"><![CDATA[로딩 중...]]></string>
+    <string name="str_loading_content"><![CDATA[%1$s을(를) 적용하는 데 몇 초 정도 걸릴 수 있습니다. 잠시만 기다려 주세요...]]></string>
+    <string name="str_loading_content_download"><![CDATA[배경화면을 다운로드하는 데 몇 초 정도 걸릴 수 있습니다. 잠시만 기다려 주세요...]]></string>
+    <string name="foreground"><![CDATA[전경]]></string>
+    <string name="background"><![CDATA[배경]]></string>
+    <string name="str_font_style"><![CDATA[글꼴 스타일]]></string>
+    <string name="zipper_style"><![CDATA[지퍼 스타일]]></string>
+    <string name="pendant_style"><![CDATA[펜던트 스타일]]></string>
+    <string name="str_completed"><![CDATA[완료됨]]></string>
+    <string name="str_completed_content"><![CDATA[모든 준비가 완료되었습니다. 즐겨주세요!]]></string>
+    <string name="open_settings">설정 열기</string>
+    <string name="highlight_text"><![CDATA[250 티켓]]></string>
+    <string name="str_multi_five"><![CDATA[x5]]></string>
+    <string name="str_ad_free"><![CDATA[광고 없음]]></string>
+    <string name="str_ad_free_description_15_day"><![CDATA[15일 동안 광고 없는 경험을 즐기세요! 여기에 당첨되어 광고를 제거하고 앱을 더 원활하게 즐기세요.]]></string>
+    <string name="str_ad_free_description_1_day"><![CDATA[1일 동안 더 이상 성가신 광고가 없습니다! 중단 없이 바로 플레이하세요.]]></string>
+    <string name="str_ad_free_15_day"><![CDATA[15일 동안 광고 제거]]></string>
+    <string name="str_extra_spin"><![CDATA[추가 스핀]]></string>
+    <string name="str_extra_spin_description"><![CDATA[추가 무료 스핀을 획득하셨습니다! 계속해서 운을 시험하고 더 흥미로운 보상을 발견하세요.]]></string>
+    <string name="str_ad_free_1_day"><![CDATA[1일 동안 광고 제거]]></string>
+    <string name="str_surprise_gift"><![CDATA[깜짝 선물]]></string>
+    <string name="str_surprise_gift_description"><![CDATA[미스터리 선물을 획득하셨습니다! 이 기회를 놓치지 마세요!]]></string>
+    <string name="str_expried_on"><![CDATA[만료일]]></string>
+    <string name="str_dont_miss_it"><![CDATA[놓치지 마세요]]></string>
+    <string name="title_get_more_spin"><![CDATA[더 많은 무료 스핀 받기]]></string>
+    <string name="str_lose_turn"><![CDATA[스핀을 모두 사용하셨습니다! 내일 다시 와서 더 많은 무료 스핀을 받고 행운의 스핀을 계속하세요!]]></string>
+    <string name="come_back_tomorrow"><![CDATA[내일 다시 오세요]]></string>
+    <string name="wheel_of_fortune"><![CDATA[행운의 바퀴]]></string>
+    <string name="str_multi_one"><![CDATA[x1]]></string>
+    <string name="str_start"><![CDATA[시작]]></string>
+    <string name="str_congratulations"><![CDATA[축하합니다!]]></string>
+    <string name="str_receive"><![CDATA[받기]]></string>
+    <string name="str_multi_double"><![CDATA[x2]]></string>
+    <string name="str_award_description_title"><![CDATA[보상 설명]]></string>
+    <string name="lucky_wheel_descrepion"><![CDATA[행운의 스핀에 참여하여 1일 또는 15일 동안 광고 없는 앱을 무료로 체험할 기회를 잡으세요.]]></string>
+    <string name="str_confirm"><![CDATA[확인]]></string>
+    <string name="str_subscribe"><![CDATA[구독]]></string>
+    <string name="special_offer"><![CDATA[특별 혜택]]></string>
+    <string name="str_buy"><![CDATA[구매]]></string>
+    <string name="get_more_coins"><![CDATA[더 많은 코인 받기]]></string>
+    <string name="set_use_coins"><![CDATA[코인 사용]]></string>
+    <string name="msg_not_enough_keys"><![CDATA[코인이 부족합니다. 나중에 다시 시도해 주세요!]]></string>
+    <string name="msg_used_keys"><![CDATA[성공! %1$d 코인으로 교환했습니다. 잔액: %2$d 코인.]]></string>
+    <string name="most_popular"><![CDATA[가장\n인기 있음]]></string>
+    <string name="weekly_for_subscribers"><![CDATA[구독자 주간 혜택]]></string>
+    <string name="use_coins_content"><![CDATA[이 배경화면을 잠금 해제하려면 %1$d 코인이 필요합니다. 잔액: %2$d 코인.]]></string>
+    <string name="str_restore"><![CDATA[복원]]></string>
+    <string name="ready_to_redeem_wallpaper"><![CDATA[배경화면을 교환할 준비가 되셨나요?]]></string>
+    <string name="str_congratulations_content"><![CDATA[축하합니다! 🎉 미스터리 선물을 잠금 해제했습니다 – 코인 구매 시 특별 할인을 즐기세요!]]></string>
+    <string name="discount_month"><![CDATA[%s / 월]]></string>
+    <string name="save_75"><![CDATA[%d%% 할인]]></string>
+    <string name="discount_year"><![CDATA[%s / 년]]></string>
+    <string name="num_w_coins"><![CDATA[%1$d 코인]]></string>
+    <string name="get_more_free"><![CDATA[%1$d%% 추가 무료]]></string>
+    <string name="price_per_coins"><![CDATA[%1$s / %2$d 코인]]></string>
+    <string name="get_coins_immediately"><![CDATA[즉시 코인 받기]]></string>
+    <string name="your_daily_reward"><![CDATA[오늘의 보상]]></string>
+    <string name="plus_10"><![CDATA[+10]]></string>
+    <string name="vip_coin"><![CDATA[VIP 코인]]></string>
+    <string name="unlock_using_coins"><![CDATA[코인을 사용하여 잠금 해제]]></string>
+    <string name="str_vip_ticket_description"><![CDATA[코인을 사용하여 배경화면, 지퍼, 체인 등을 잠금 해제하고 적용하세요. 일일 보상, 광고를 통해 코인을 얻거나 구매하여 무제한 커스터마이징을 즐기세요.]]></string>
+    <string name="user_id">사용자 ID</string>
+    <string name="copy_user_id">사용자 ID 복사</string>
+    <string name="str_claim">보상 받기</string>
+    <string name="get_coin">코인 받기</string>
+    <string name="free_coins">무료 코인</string>
+    <string name="discount_number">할인 %2$s</string>
+    <string name="watch_ads_get_coins">광고 시청하고 코인 받기</string>
+    <string name="get_more_spin">스핀 더 받기</string>
+    <string name="use_coins">코인 사용하기</string>
+    <string name="congratulations_w_num_coins">%1$d개의 코인을 받았습니다</string>
+    <string name="notification_permission_message">새로운 배경화면, 업데이트 및 특별 혜택에 대한 알림을 받으세요. 설정에서 언제든지 관리할 수 있습니다.</string>
+    <string name="notification_permission_settings_message">알림을 받으려면 설정에서 권한을 활성화해야 합니다. 지금 설정을 하시겠습니까?</string>
+    <string name="wallpaper_downloaded_successfully">배경화면이 성공적으로 다운로드되었습니다</string>
+    <string name="str_static"><![CDATA[정적]]></string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_notifications">
+        <item>⚡ Bereit, deine Taps zu automatisieren? Lass uns loslegen!</item>
+        <item>🤖 Lass deinen Finger ruhen – wir übernehmen das Klicken!</item>
+        <item>🎯 Ein perfekter Tap jedes Mal – starte WallpaperTheme!</item>
+        <item>⏱️ Zeit sparen: Modus aktiviert!</item>
+        <item>🚀 Brauchst du Geschwindigkeit? WallpaperTheme ist schneller denn je!</item>
+        <item>💤 Müde vom Tippen? Wir machen das für dich!</item>
+        <item>🧠 Intelligentes Tippen leicht gemacht – starte jetzt!</item>
+        <item>🔥 Der beste Auto-Tapper hat ein Update – sieh es dir an!</item>
+        <item>📱 Weniger tippen. Mehr gewinnen. Cleverer spielen!</item>
+        <item>🧲 Magnetische Tap-Präzision – ganz ohne Hände!</item>
+        <item>🎮 Gaming? Farmen? Wir sind für dich da!</item>
+        <item>🌙 Nacht-Farming? Lass WallpaperTheme arbeiten, während du chillst!</item>
+        <item>👆 Sag\' tschüss zu schmerzenden Daumen!</item>
+        <item>🎉 Einmal einstellen, ewig tippen!</item>
+        <item>💥 Power-Tap-Modus bereit – öffne die App jetzt!</item>
+        <item>🔁 Wiederholende Taps so einfach wie noch nie!</item>
+        <item>🏆 Dominiere dein Spiel mit perfektem Timing!</item>
+        <item>🪄 Automatisierungszauber nur einen Tap entfernt!</item>
+        <item>📈 Steigere deine Produktivität mit intelligentem Tippen!</item>
+        <item>🛠️ Tap-Automation ganz nach deinem Stil!</item>
+        <item>⛏️ Farmst du Rohstoffe? Wir übernehmen das Tippen!</item>
+        <item>🎯 Verpass keinen Moment – setze deine eigenen Taps!</item>
+        <item>🔋 Schonend für den Akku, stark in der Leistung!</item>
+        <item>🧘 Entspann dich... wir übernehmen das Tippen.</item>
+        <item>💪 Arbeite klüger, nicht härter!</item>
+        <item>🚨 Dein Tap-Assistent wartet – öffne die App!</item>
+    </string-array>
+</resources>

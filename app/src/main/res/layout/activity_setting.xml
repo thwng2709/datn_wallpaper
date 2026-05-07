@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/tools">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/settingNavHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:defaultNavHost="true"/>
+
+        <LinearLayout
+            android:id="@+id/llInternetDisconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_6dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivInternetDisconnect"
+                android:layout_width="@dimen/common_24dp"
+                android:layout_height="@dimen/common_24dp"
+                android:src="@drawable/ic_no_internet"
+                app:tint="@color/colorButtonDelete" />
+
+            <TextView
+                android:id="@+id/tvInternetDisconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lost_network_connection"
+                android:fontFamily="@font/sf_pro_regular"
+                android:textSize="@dimen/text_size_13sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="@dimen/common_8dp"
+                android:textColor="@color/colorButtonDelete"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInternetConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_6dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivStatusConnect"
+                android:layout_width="@dimen/common_24dp"
+                android:layout_height="@dimen/common_24dp"
+                android:src="@drawable/ic_internet"/>
+
+            <TextView
+                android:id="@+id/tvStatusConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_internet"
+                android:fontFamily="@font/sf_pro_regular"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/common_8dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

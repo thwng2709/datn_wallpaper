@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_notifications">
+        <item>⚡ ¿Listo para automatizar tus toques? ¡Vamos!</item>
+        <item>🤖 Deja que tu dedo descanse. ¡Nosotros nos encargamos de los clics!</item>
+        <item>🎯 Un toque perfecto cada vez. ¡Inicia WallpaperTheme!</item>
+        <item>⏱️ Modo de ahorro de tiempo: ¡activado!</item>
+        <item>🚀 ¿Necesitas velocidad? ¡WallpaperTheme es más rápido que nunca!</item>
+        <item>💤 ¿Cansado de tocar? ¡Lo haremos por ti!</item>
+        <item>🧠 Tocar de forma inteligente es simple. ¡Inicia WallpaperTheme ahora!</item>
+        <item>🔥 El mejor autoclicker se acaba de actualizar. ¡Échale un vistazo!</item>
+        <item>📱 Toca menos. Gana más. ¡Juega de forma más inteligente!</item>
+        <item>🧲 Precisión de toque magnética. ¡No se necesitan manos!</item>
+        <item>🎮 ¿Jugando? ¿Farmeando? ¡Te cubrimos las espaldas!</item>
+        <item>🌙 ¿Farmeo nocturno? ¡Deja que WallpaperTheme trabaje mientras te relajas!</item>
+        <item>👆 ¡Dile adiós a los pulgares doloridos!</item>
+        <item>🎉 ¡Configúralo una vez, toca para siempre!</item>
+        <item>💥 El modo de toque potente está listo. ¡Inicia la aplicación ahora!</item>
+        <item>🔁 ¡Repetir toques es ridículamente fácil!</item>
+        <item>🏆 ¡Domina tu juego con una sincronización perfecta!</item>
+        <item>🪄 ¡La magia de la automatización a solo un toque de distancia!</item>
+        <item>📈 ¡Aumenta tu productividad con toques inteligentes!</item>
+        <item>🛠️ ¡Automatización de toques, a tu manera!</item>
+        <item>⛏️ ¿Recolectando recursos? ¡Déjanos tocar por ti!</item>
+        <item>🎯 No te pierdas ni un solo toque. ¡Configura tus toques personalizados!</item>
+        <item>🔋 ¡Poca batería, grandes resultados!</item>
+        <item>🧘 Relájate... nosotros nos encargamos de los toques.</item>
+        <item>💪 ¡Juega de forma más inteligente, no más dura!</item>
+        <item>🚨 Tu asistente de toques te está esperando. ¡Abre la aplicación!</item>
+        <item>🛸 WallpaperTheme: ¡silencioso, rápido e imparable!</item>
+        <item>👀 ¿Sigues tocando manualmente? ¡Hay una forma mejor!</item>
+        <item>🧬 ¡Control de toques de precisión al alcance de tu mano!</item>
+        <item>🎈 WallpaperTheme tiene una sorpresa esperándote. ¡Ábrelo ahora!</item>
+    </string-array>
+</resources>

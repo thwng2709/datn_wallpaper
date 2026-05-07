@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="daily_notifications">
+        <item>⚡ Ready to automate your taps? Let’s go!</item>
+        <item>🤖 Let your finger rest – we’ve got the clicking covered!</item>
+        <item>🎯 A perfect tap every time – fire up WallpaperTheme!</item>
+        <item>⏱️ Time-saving mode: activated!</item>
+        <item>🚀 Need speed? WallpaperTheme is faster than ever!</item>
+        <item>💤 Tired of tapping? We’ll do it for you!</item>
+        <item>🧠 Smart tapping made simple – launch WallpaperTheme now!</item>
+        <item>🔥 The best auto tapper just got an update – check it out!</item>
+        <item>📱 Tap less. Win more. Play smarter!</item>
+        <item>🧲 Magnetic tapping precision – no hands needed!</item>
+        <item>🎮 Gaming? Grinding? We’ve got your back!</item>
+        <item>🌙 Night grind? Let WallpaperTheme work while you chill!</item>
+        <item>👆 Say goodbye to sore thumbs!</item>
+        <item>🎉 Set it once, tap forever!</item>
+        <item>💥 Power tap mode is ready – launch the app now!</item>
+        <item>🔁 Repeating taps made ridiculously easy!</item>
+        <item>🏆 Dominate your game with perfect timing!</item>
+        <item>🪄 Automation magic just one tap away!</item>
+        <item>📈 Boost your productivity with smart tapping!</item>
+        <item>🛠️ Tap automation, tailored your way!</item>
+        <item>⛏️ Farming resources? Let us do the tapping!</item>
+        <item>🎯 Never miss a beat – set your custom taps!</item>
+        <item>🔋 Light on battery, heavy on results!</item>
+        <item>🧘 Relax... we’ll handle the taps.</item>
+        <item>💪 Grind smarter, not harder!</item>
+        <item>🚨 Your tap assistant is waiting – open the app!</item>
+        <item>🛸 WallpaperTheme: silent, fast, and unstoppable!</item>
+        <item>👀 Still tapping manually? There\'s a better way!</item>
+        <item>🧬 Precision tap control at your fingertips!</item>
+        <item>🎈 WallpaperTheme’s got a surprise waiting – open now!</item>
+    </string-array>
+
+
+    <string-array name="notification_times">
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+    </string-array>
+</resources>

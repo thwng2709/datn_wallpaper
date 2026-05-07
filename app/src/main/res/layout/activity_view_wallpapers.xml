@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.itsthwng.twallpaper.ui.component.viewWallpaper.viewModel.ViewWallpapersViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_lout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ViewWallpapersActivity">
+
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@color/black_02" />
+
+        <eightbitlab.com.blurview.BlurView
+            android:id="@+id/blurView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:blurOverlayColor="@color/color_blur_25">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btnBack"
+                        android:layout_width="@dimen/common_40dp"
+                        android:layout_height="@dimen/common_40dp"
+                        android:layout_gravity="center_vertical"
+                        android:focusable="true"
+                        android:src="@drawable/ic_arrow_back"
+                        android:background="@drawable/ripple_rectangle"
+                        app:tint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+                    <ViewAnimator
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+                <com.itsthwng.twallpaper.ui.component.customView.StickyCardSliderWrapper
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:auto_slide_time="15"
+                    app:cardSlider_otherPagesWidth="25dp"
+                    app:cardSlider_pageMargin="8dp"
+                    app:cardSlider_smallScaleFactor="0.8">
+
+                </com.itsthwng.twallpaper.ui.component.customView.StickyCardSliderWrapper>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        style="@style/TextViewLocal"
+
+                        android:id="@+id/btn_download"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_purple_gradient_500"
+                        android:backgroundTint="@color/white"
+                        android:fontFamily="@font/sf_pro_medium"
+                        android:gravity="center"
+                        android:paddingVertical="10dp"
+                        android:text="@string/download"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ts_14" />
+
+                    <TextView
+                        style="@style/TextViewLocal"
+
+                        android:id="@+id/btn_preview"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/bg_purple_gradient_500"
+                        android:backgroundTint="@color/white"
+                        android:fontFamily="@font/sf_pro_medium"
+                        android:gravity="center"
+                        android:paddingVertical="10dp"
+                        android:text="@string/preview"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ts_14" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </eightbitlab.com.blurview.BlurView>
+
+        <LinearLayout
+            android:id="@+id/lout_loader_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <include layout="@layout/layout_loader" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noInternetImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@color/color_theme_blue">
+
+            <FrameLayout
+                android:id="@+id/illustrationImageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tvNoInternetImage">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bg_internet_disconnect"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvNoInternetImage"
+                style="@style/BottomSheetTextTitle"
+                android:layout_marginTop="8dp"
+                android:text="@string/no_internet_connection"
+                android:textSize="@dimen/text_size_18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <!-- Allow Access Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnConfirmYesImage"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_button_primary_with_shadow"
+                android:fontFamily="@font/sf_pro_medium"
+                android:gravity="center"
+                android:text="@string/str_retry"
+                android:textAllCaps="false"
+                android:textColor="@color/black_02"
+                android:textSize="@dimen/text_size_16sp"
+                android:layout_marginTop="@dimen/common_18dp"
+                app:layout_constraintEnd_toEndOf="@id/btnSetting"
+                app:layout_constraintStart_toStartOf="@id/btnSetting"
+                app:layout_constraintTop_toBottomOf="@+id/tvNoInternetImage"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingHorizontal="@dimen/common_24dp"
+                android:background="@drawable/bg_button_primary_with_shadow"
+                android:fontFamily="@font/sf_pro_medium"
+                android:gravity="center"
+                android:text="@string/reconnect"
+                android:textAllCaps="false"
+                android:textColor="@color/black_02"
+                android:textSize="@dimen/text_size_16sp"
+                android:layout_marginTop="@dimen/common_12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnConfirmYesImage"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+</layout>

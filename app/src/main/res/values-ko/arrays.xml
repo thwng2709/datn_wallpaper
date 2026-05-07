@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_notifications">
+        <item>⚡ 자동 클릭 준비되셨나요? 시작해요!</item>
+        <item>🤖 손가락을 쉬게 하세요 – 저희가 눌러드릴게요!</item>
+        <item>🎯 완벽한 탭 – WallpaperTheme를 실행하세요!</item>
+        <item>⏱️ 시간 절약 모드 활성화!</item>
+        <item>🚀 속도가 필요하신가요? 더 빨라졌습니다!</item>
+        <item>💤 탭이 지겹나요? 저희가 대신 해드릴게요!</item>
+        <item>🧠 스마트한 클릭 – 지금 실행하세요!</item>
+        <item>🔥 최고의 자동 탭 앱이 업데이트되었습니다!</item>
+        <item>📱 덜 클릭하고 더 승리하세요!</item>
+        <item>🧲 손 안 대고도 정확한 탭!</item>
+        <item>🎮 게임? 파밍? 저희가 도와드려요!</item>
+        <item>🌙 야간 자동 파밍 – 이제 쉬세요!</item>
+        <item>👆 아픈 엄지손가락은 이제 그만!</item>
+        <item>🎉 한번 설정하면 계속 탭!</item>
+        <item>💥 파워 탭 모드 준비됨 – 지금 실행!</item>
+        <item>🔁 반복 탭이 아주 쉬워졌어요!</item>
+        <item>🏆 완벽한 타이밍으로 게임을 지배하세요!</item>
+        <item>🪄 자동화의 마법, 한 번의 탭으로!</item>
+        <item>📈 스마트한 탭으로 생산성 향상!</item>
+        <item>🛠️ 나만의 자동 탭 설정!</item>
+        <item>⛏️ 자원 수집도 자동으로!</item>
+        <item>🎯 커스텀 탭으로 완벽 조정!</item>
+        <item>🔋 배터리는 적게, 성능은 강하게!</item>
+        <item>🧘 이제 쉬세요… 저희가 할게요!</item>
+        <item>💪 더 똑똑하게 파밍하세요!</item>
+        <item>🚨 자동 탭 도우미가 기다립니다!</item>
+        <item>🛸 WallpaperTheme: 조용하고 빠르고 막강!</item>
+        <item>👀 아직도 수동 탭? 더 나은 방법 있어요!</item>
+        <item>🧬 정확한 탭 제어가 손끝에!</item>
+        <item>🎈 WallpaperTheme에 깜짝 선물 있어요 – 열어보세요!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mgs_ok"><![CDATA[TAMAM]]></string>
+    <string name="text_welcome"><![CDATA[Hoş Geldiniz]]></string>
+    <string name="text_create_by"><![CDATA[Geliştiren]]></string>
+    <string name="text_next"><![CDATA[İleri]]></string>
+    <string name="text_intro1_msg"><![CDATA[Herhangi bir oyunda, uygulamada veya web sitesinde otomatik olarak dokunun.]]></string>
+    <string name="text_intro2_msg"><![CDATA[Her tıklayıcının tıklama konumu, hızı ve süresini kolayca yapılandırın.]]></string>
+    <string name="text_intro3_msg"><![CDATA[Sık kullanılan ayarları kaydedebilirsiniz. Bir kez yapılandırın, istediğiniz zaman kullanın!]]></string>
+    <string name="text_app_version"><![CDATA[Uygulama sürümü]]></string>
+    <string name="msg_apply_language_dialog"><![CDATA[Bu dili uygulamak istediğinizden emin misiniz?]]></string>
+
+    <string name="save_script"><![CDATA[Kaydet]]></string>
+    <string name="cancel"><![CDATA[İptal]]></string>
+    <string name="allow"><![CDATA[İzin Ver]]></string>
+
+    <string name="title_apply_change_language_dialog"><![CDATA[Dil Değişikliğini Uygula]]></string>
+    <string name="title_notification_24h"><![CDATA[Otomatik Tıklayıcı Sizi Bekliyor]]></string>
+    <string name="title_notification"><![CDATA[Bildirim İzni]]></string>
+    <string name="message_notification"><![CDATA[Otomatik Tıklayıcı\'nın size bildirim göndermesine izin verin.]]></string>
+    <string name="deny"><![CDATA[Reddet]]></string>
+
+    <string name="other_app"><![CDATA[Diğer uygulamalar]]></string>
+
+    <string name="title_update_version"><![CDATA[Yeni Sürüm Güncelle]]></string>
+    <string name="message_update_version"><![CDATA[Otomatik Tıklayıcı\'nın yeni bir sürümü var. En iyi deneyim için lütfen yeni sürüme güncelleyin!]]></string>
+    <string name="btn_update"><![CDATA[Güncelle]]></string>
+    <string name="btn_later"><![CDATA[Daha Sonra]]></string>
+
+    <string name="dont_show_again"><![CDATA[Tekrar gösterme]]></string>
+
+    <string name="rating"><![CDATA[Otomatik Tıklayıcı\'dan memnun musunuz?]]></string>
+    <string name="rating_message"><![CDATA[Uygulamamızı ve deneyiminizi geliştirmek için her zaman çabalıyoruz. Uygulamamızı derecelendirmek için bir dakikanızı ayırır mısınız? Her geri bildirim çok değerli!]]></string>
+
+    <string name="smile_rating_terrible"><![CDATA[1 🌟]]></string>
+    <string name="smile_rating_bad"><![CDATA[2 🌟]]></string>
+    <string name="smile_rating_okay"><![CDATA[3 🌟]]></string>
+    <string name="smile_rating_good"><![CDATA[4 🌟]]></string>
+    <string name="smile_rating_great"><![CDATA[5 🌟]]></string>
+    <string name="choose_email"><![CDATA[Bir E-posta Seçin:]]></string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+    <string name="feedback"><![CDATA[Geri bildirim]]></string>
+    <string name="share_app"><![CDATA[Uygulamayı Paylaş]]></string>
+
+    <string name="allowed"><![CDATA[İzin Verildi]]></string>
+
+    <string name="permission"><![CDATA[İzin]]></string>
+    <string name="rate_us_now"><![CDATA[Bizi Derecelendirin]]></string>
+    <string name="choose_language"><![CDATA[Dil Seçin]]></string>
+    <string name="please_select_language"><![CDATA[Lütfen bir görüntüleme dili seçin.]]></string>
+
+    <string name="content_feedback"><![CDATA[Otomatik Tıklayıcı\'dan memnun olmadığınızı duyduğumuza üzgünüz. Hizmetimizi gelecekte iyileştirebilmemiz için lütfen geri bildirimlerinizi ve önerilerinizi e-posta adresimize gönderin.]]></string>
+    <string name="warning_rating"><![CDATA[Lütfen derecelendirmenizi seçin.]]></string>
+    <string name="video_starting_in_text"><![CDATA[Video başlıyor]]></string>
+    <string name="watch_ad_button_text"><![CDATA[Reklamları İzle]]></string>
+    <string name="purchase_vip_button_text"><![CDATA[VIP Satın Al]]></string>
+    <string name="description_remind_watch_ad"><![CDATA[Son betiği uygulamak için kısa bir video izleyin]]></string>
+
+    <string name="connect_internet"><![CDATA[İnternet Bağlantısı]]></string>
+    <string name="message_connect_internet"><![CDATA[Uygulamayı sürdürebilmemiz ve geliştirebilmemiz için ağ bağlantısı esastır. Lütfen uygulamayı kullanmaya devam etmek için ağınızı etkinleştirin.]]></string>
+    <string name="lost_network_connection"><![CDATA[Ağ bağlantısı kesildi. Lütfen ağa yeniden bağlanın.]]></string>
+    <string name="reconnect"><![CDATA[Yeniden Bağlan]]></string>
+
+    <string name="str_close">Kapat</string>
+
+    <string name="exit_app">Çıkış Yap</string>
+    <string name="creator" translatable="false">Higher Studio</string>
+    <string name="txt_loading_ads">Reklamlar Yükleniyor…</string>
+    <string name="segment_intro1">Eylemlerinizi otomatikleştirin,\nverimliliği artırın!</string>
+    <string name="segment_intro2">Çoklu Hedef, Yüksek\nPerformans!</string>
+    <string name="segment_intro3">Ayarları uygun şekilde planlayın ve\nkaydedin!</string>
+    <string name="segment_intro4">Esnek özelleştirme, kullanımı\nkolay!</string>
+    <string name="get_started">Başla</string>
+    <string name="swipe_to_explore">Keşfetmek için kaydırın</string>
+    <string name="skip_ads">Reklamları Atla</string>
+    <string name="title_exit_app">Uygulamadan Çık</string>
+    <string name="label_exit_app">Uygulamadan çıkmak istediğinizden emin misiniz?</string>
+
+    <string name="description_watch_ad_reward_skin">Bir reklam izleyin ve bu görünüme sınırsız erişimi anında kilidini açın!</string>
+    <string name="app_water_reminder_des">Zamanında su için, sağlıklı kalın.</string>
+    <string name="app_recovery_des">Silinen fotoğrafları kolayca kurtarın.</string>
+    <string name="str_you_might_like">Beğenebilirsiniz</string>
+    <string name="app_hide_app_des">Uygulamaları, Fotoğrafları ve Videoları Gizleyin.</string>
+    <string name="app_sleep_sounds_des">Hızlı uykuya dalmanıza yardımcı olur.</string>
+    <string name="text_pro">Pro</string>
+    <string name="setting">Ayarlar</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="languages">Diller</string>
+    <string name="more">Daha Fazla</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="email">E-posta</string>
+    <string name="hint_enter_email">Lütfen e-posta adresinizi girin</string>
+    <string name="problem_type">Sorun türü</string>
+    <string name="suggestions">Öneriler</string>
+    <string name="bugs">Hatalar</string>
+    <string name="others">Diğerleri</string>
+    <string name="content">İçerik</string>
+    <string name="hint_content_description">Sorununuzu daha etkili bir şekilde çözmemize yardımcı olacak, karşılaştığınız sorunun ayrıntılı bir açıklamasını lütfen sağlayın.</string>
+    <string name="str_submit">Gönder</string>
+    <string name="invalid_email_format">Lütfen geçerli bir e-posta adresi girin</string>
+    <string name="not_empty_email">E-posta boş olamaz</string>
+    <string name="not_empty_content">İçerik boş olamaz</string>
+    <string name="sent_feedback_success">Geri bildirim başarıyla gönderildi!</string>
+    <string name="sent_feedback_fail">Geri bildirim gönderme başarısız!</string>
+    <string name="language_change_successful">Dil değişikliği başarılı</string>
+    <string name="label_grant_permission">Uygulamanın düzgün çalışması için lütfen gerekli izinleri kontrol edin ve verin.</string>
+    <string name="notification_permission">Bildirim İzni</string>
+    <string name="label_notification_permission">Bu uygulama, önemli güncellemeler ve uyarılar almanızı sağlayan bildirim gönderme izni ister.</string>
+    <string name="manage_files_permission">Dosyaları Yönetme İzni</string>
+    <string name="label_grant_manage_files_permission">Bu uygulama, içeriğe sorunsuz bir şekilde erişmenizi, düzenlemenizi ve kaydetmenizi sağlamak için dosyalarınızı yönetme iznine ihtiyaç duyar.</string>
+    <string name="write_storage_permission">Depolama Yazma İzni</string>
+    <string name="permission_denied">Bu uygulama dosyalarınızı düzgün bir şekilde kaydetmek için izne ihtiyaç duyar.</string>
+    <string name="access_files_permission_message">Akıllı Kurtarma, fotoğraflarınızı, videolarınızı ve ses dosyalarınızı düzgün bir şekilde kaydetmek için bunlara erişim gerektirir. Devam etmek için lütfen Ayarlar\'dan bu izinleri verin.</string>
+    <string name="label_manage_files_permission">Bu uygulama, içeriğe sorunsuz bir şekilde erişmenizi, düzenlemenizi ve kaydetmenizi sağlayan dosyalarınızı yönetme iznine ihtiyaç duyar. Tüm özelliklerden yararlanmaya devam etmek için lütfen bu izni verin.</string>
+    <string name="not_now">Şimdi değil</string>
+    <string name="permission_request">Uygulamanın düzgün çalışması için dosya okuma izinlerine ihtiyacı var. Lütfen izin verin!</string>
+    <string name="battery_limit_free">Pil Sınırı Ücretsiz</string>
+    <string name="battery_optimization_label">Uygulamanın sistem tarafından kapatılmasını önleyin</string>
+    <string name="str_exit">Çıkış</string>
+
+    <string name="notification_permission_title">Bildirim İzni</string>
+    <string name="notification_permission_desc">Telefonu alkışlayarak bulmak için uygulamanın bildirim iznine ihtiyacı vardır.</string>
+    <string name="allow_access">Erişime izin ver</string>
+    <string name="featured_items">Öne çıkan öğeler</string>
+    <string name="download_now">Şimdi indir</string>
+    <string name="no_data_found">Veri bulunamadı</string>
+    <string name="live">Canlı</string>
+    <string name="search_here">Burada ara</string>
+    <string name="no_data_for">Veri yok:</string>
+    <string name="select">Seç</string>
+    <string name="locked">Kilitli</string>
+    <string name="premium">Premium</string>
+    <string name="all_wallpaper">Tüm duvar kağıtları</string>
+    <string name="please_type_something">Lütfen bir şey yazın…</string>
+    <string name="set_wallpaper_as">Duvar kağıdı olarak ayarla?</string>
+    <string name="home_screen_only">Sadece ana ekran</string>
+    <string name="lock_screen_only">Sadece kilit ekranı</string>
+    <string name="home_lock_screen"><![CDATA[Ana & Kilit ekranı]]></string>
+    <string name="download">İndir</string>
+    <string name="apply">Uygula</string>
+    <string name="wallpaper_added_successfully">Duvar kağıdı başarıyla eklendi</string>
+    <string name="something_went_wrong">Bir şeyler yanlış gitti</string>
+    <string name="setting_wallpaper_is_not_allowed">Duvar kağıdı ayarlamaya izin verilmiyor</string>
+    <string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">Tüm premium duvar kağıtlarına reklamsız erişimin tadını çıkarın.</string>
+    <string name="unlock_exclusive_wallpaper">Özel duvar kağıdının kilidini aç</string>
+    <string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">Harika bir duvar kağıdı almak için kısa bir reklam izleyin. Ekranınız harika görünecek!</string>
+    <string name="watch_ad_amp_download"><![CDATA[Reklam izle & İndir]]></string>
+    <string name="watch_ad_amp_apply"><![CDATA[Reklam izle & Uygula]]></string>
+    <string name="saved_to_gallery">Galeride kaydedildi</string>
+    <string name="permission_required_to_save_images">Görüntüleri kaydetmek için depolama izni gereklidir. Lütfen ayarlardan izin verin.</string>
+    <string name="error_saving_image">Görüntü kaydedilemedi. Lütfen tekrar deneyin.</string>
+    <string name="permission_required">İzin gerekli</string>
+    <string name="storage_permission_explanation">Duvar kağıtlarını cihazınıza kaydetmek için depolama izni gereklidir. Devam etmek için lütfen izin verin.</string>
+    <string name="grant_permission">İzin ver</string>
+    <string name="permission_denied_go_to_settings">Depolama iznini reddettiniz. Lütfen ayarlara gidin ve manuel olarak etkinleştirin.</string>
+    <string name="go_to_settings">Ayarlar\'a git</string>
+    <string name="media_read_permission_explanation">Bu uygulamanın galerinizden resim okuma iznine ihtiyacı var</string>
+    <string name="storage_access_denied">Depolama erişimi reddedildi. Lütfen uygulama izinlerini kontrol edin.</string>
+    <string name="error_network_connection">Ağ bağlantı hatası. Lütfen internet bağlantınızı kontrol edin.</string>
+    <string name="permission_revoked_message">Depolama izni iptal edildi. Lütfen tekrar izin verin.</string>
+    <string name="preview">Önizleme</string>
+    <string name="subscribe_to">Abone ol</string>
+    <string name="become_a">Ol</string>
+    <string name="all">Tümü</string>
+    <string name="simple">Basit</string>
+    <string name="wallpaper">Duvar kağıdı</string>
+    <string name="no_favourites">Favori fotoğraf yok</string>
+    <string name="no_photos">Fotoğraf yok</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="activate">Etkinleştir</string>
+    <string name="activate_lock_screen">Kilit Ekranını Etkinleştir</string>
+    <string name="ad">Reklam</string>
+    <string name="ad1">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.camouflagezipperlockscreen</string>
+    <string name="ad2">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.bluejeanszipperlockscreen</string>
+    <string name="ad3">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.diamondszipperlocker</string>
+    <string name="ad_app_name1">Kamuflaj Fermuar Kilit Ekranı</string>
+    <string name="ad_app_name2">Mavi Kot Fermuar Kilit Ekranı</string>
+    <string name="ad_app_name3">Elmas Fermuar Kilidi</string>
+    <string name="admob_app_key">ca-app-pub-8480863067551099~7453550976</string>
+    <string name="advertisement">Reklam</string>
+    <string name="android_7">Android 7</string>
+    <!-- Turkish (tr) -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applovin_list_item_image_description">Liste öğesi hakkında daha fazla bilgi görüntüler.</string>
+    <string name="backgroundCound">53</string>
+    <string name="background_wallpaper">Arka Planı Ayarla</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="change_color">Rengi Değiştir</string>
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="character_counter_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="continue_label">Devam etmek için buraya dokunun</string>
+    <string name="continue_str">Devam</string>
+    <string name="customize">Özelleştir</string>
+    <string name="date">Tarih</string>
+    <string name="disable_lock_screen">Kilit Ekranını Etkinleştir</string>
+    <string name="disable_pin_lock">Pin Kilidini Etkinleştir</string>
+    <string name="dummy_button">Sahte Düğme</string>
+    <string name="dummy_content">SAHTE\10İÇERİK</string>
+    <string name="enable_pin_lock">Pin Kilidini Etkinleştir</string>
+    <string name="enter_password">Şifreyi Girin:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="font_style">Yazı Tipini Ayarla</string>
+    <string name="forgot_password">Parolanızı mı unuttunuz?</string>
+    <string name="general_setting">Genel Ayarlar</string>
+    <string name="hello_world">Merhaba dünya!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_to_use">Nasıl Kullanılır</string>
+    <string name="info">Bilgi</string>
+    <string name="info_str1">Katkıda Bulunanlar:</string>
+    <string name="info_str2">UI İkonları Oluşturanlar:</string>
+    <string name="info_str3">https://www.flaticon.com/authors/icongeek26</string>
+    <string name="info_str4">https://icons8.com/</string>
+    <string name="install">YÜKLE</string>
+    <string name="lock_screen">Kilit Ekranını Etkinleştir</string>
+    <string name="more_app_link">https://play.google.com/store/apps/developer?id=ZipperOnScreenApps</string>
+    <string name="more_applications">Daha Fazla Uygulama</string>
+    <string name="more_apps">Daha fazla uygulama</string>
+    <string name="more_settings">Daha Fazla Ayar</string>
+    <string name="more_zipper_themes">Daha Fazla Fermuar Teması</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s öğesini kaldır</string>
+    <string name="native_text">Yerel TEST</string>
+    <string name="nav_app_bar_navigate_up_description">Yukarı git</string>
+    <string name="nav_app_bar_open_drawer_description">Gezinme çekmecesini aç</string>
+    <string name="no_thank_you">Hayır, teşekkürler</string>
+    <string name="of">KAPALI</string>
+    <string name="offline_notification_text">Reklamı açmak için dokunun</string>
+    <string name="offline_notification_title">Çevrimdışıyken kaydettiğiniz reklamı görüntüleyin</string>
+    <string name="offline_opt_in_confirm">Tamam</string>
+    <string name="offline_opt_in_confirmation">Tekrar çevrimiçi olduğunuzda bağlantıyla ilgili bir bildirim alacaksınız</string>
+    <string name="offline_opt_in_decline">Hayır, teşekkürler</string>
+    <string name="offline_opt_in_message">Size reklamverenin sitesine bir bağlantı içeren bir bildirim göndereceğiz.</string>
+    <string name="offline_opt_in_title">Tekrar çevrimiçi olduğunuzda reklamı açın.</string>
+    <string name="ok">Tamam</string>
+    <string name="on">AÇIK</string>
+    <string name="personalisation">Kişiselleştirme</string>
+    <string name="privacy_policy_link">https://docs.google.com/document/d/1KJSP4ZyiHTtdWqlhu4I1M3xx6myLk9sh0q5e_pcKH0s/edit?usp=sharing</string>
+    <string name="question1">Annenizin kızlık soyadı nedir?</string>
+    <string name="question2">İlk evcil hayvanınızın adı nedir?</string>
+    <string name="question3">En iyi arkadaşınızın adı nedir?</string>
+    <string name="question4">İlk öğretmeninizin adı nedir?</string>
+    <string name="rate">Oyla</string>
+    <string name="reenter_password">Şifreyi tekrar girin:</string>
+    <string name="retunr_to_default">Varsayılana Dön</string>
+    <string name="s1">Resmi kaydet</string>
+    <string name="s2">Reklamın resmi Resim galerisine kaydetmesine izin verilsin mi?</string>
+    <string name="s3">Kabul Et</string>
+    <string name="s4">Reddet</string>
+    <string name="s5">Takvim etkinliği oluştur</string>
+    <string name="s6">Reklamın bir takvim etkinliği oluşturmasına izin verilsin mi?</string>
+    <string name="s7">Test Reklamı</string>
+    <string name="save">Kaydet</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="security_question">Güvenlik Sorusu</string>
+    <string name="set">Ayır</string>
+    <string name="set_background">Arka planı ayarla</string>
+    <string name="set_font">Yazı tipini ayarla</string>
+    <string name="set_foreground">Ön planı ayarla</string>
+    <string name="set_lock_screen">Kilit ekranını ayarla</string>
+    <string name="set_password">Şifreyi ayarla</string>
+    <string name="set_pendant_type">Kolye stilini ayarla</string>
+    <string name="set_zipper_style">Fermuar stilini ayarla</string>
+    <string name="settings">Ayarlar</string>
+    <string name="share">Paylaş</string>
+    <string name="share_text">Metni paylaş</string>
+    <string name="sound">Ses</string>
+    <string name="star_4_8">4.8</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">Zaman</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="toast_message">Bildirim mesajı</string>
+    <string name="tt_will_play">Şimdi Oynat</string>
+    <string name="vibration">Titreşim</string>
+    <string name="yes_exit">Evet - Çıkış</string>
+    <string name="yes_i_agree">Evet, katılıyorum</string>
+    <string name="zipper_wallpaper">Ön planı ayarla</string>
+    <string name="notification">Bildirim</string>
+    <string name="terms_amp_condition"><![CDATA[Şartlar ve Koşullar]]></string>
+    <string name="terms_of_use">Kullanım Koşulları</string>
+    <string name="str_new">En yeni</string>
+    <string name="str_for_you">Senin için</string>
+    <string name="title_intro_3">Duvar kağıdınızı anında değiştirin</string>
+    <!-- Grant Permission Fragment -->
+    <string name="grant_permission_title">İzin Ver</string>
+    <string name="permission_title">İzin</string>
+    <string name="notification_permission_subtitle">Size bildirim gönderilmesine izin ver</string>
+    <string name="manage_files_permission_subtitle">Uygulamanın dosyalara erişmesine ve dosyaları yönetmesine izin ver</string>
+    <string name="write_storage_permission_subtitle">Uygulamanın dosyaları depolamaya kaydetmesine izin ver</string>
+    <string name="battery_optimization_title">Pil Optimizasyonu</string>
+    <string name="battery_optimization_subtitle">Uygulamayı arka planda çalışır durumda tut</string>
+    <string name="overlay_permission_title">Diğer Uygulamaların Üzerinde Görüntüle</string>
+    <string name="overlay_permission_subtitle">Uygulamanın diğer uygulamaların üzerinde görüntülenmesine izin ver</string>
+    <string name="overlay_permission_desc">Bu izin, cihazınız kilitliyken uygulamanın diğer uygulamaların üzerinde fermuar kilit ekranı görüntülemesine olanak tanır</string>
+
+    <!-- Manage File Permission Fragment -->
+    <string name="manage_file_permission_title">Dosya İzni</string>
+    <string name="manage_file_permission_description">Uygulama, alkışla telefon bulma özelliği sağlamak için Bildirim İzni\'ne ihtiyaç duyar.</string>
+    <string name="file_permission_title">Dosya İzni</string>
+    <string name="file_permission_description">Uygulama, dosyalarınızı doğru şekilde kaydetmek ve yönetmek için Dosya İzni\'ne ihtiyaç duyar.</string>
+    <string name="message_disconnect_internet">Lütfen bağlantınızı kontrol edin ve ardından sayfayı yenileyin</string>
+    <string name="str_retry">Tekrar dene</string>
+    <string name="no_internet_connection">İnternet bağlantısı yok</string>
+    <string name="maybe_later">Belki daha sonra</string>
+
+    <!-- History Screen -->
+    <string name="history">Geçmiş</string>
+    <string name="home_screen">Ana Ekran</string>
+    <string name="no_history">Henüz Geçmiş Yok</string>
+    <string name="no_history_desc">Duvar kağıtlarını ayarlamaya başladığınızda duvar kağıdı geçmişiniz burada görünecektir</string>
+    <string name="removed_from_history">Geçmişten kaldırıldı</string>
+    <string name="undo">Geri al</string>
+
+    <string name="upgrade_pro">Pro\'ya Yükselt</string>
+    <string name="str_remove_ads">Reklamları kaldır</string>
+    <string name="str_zipper">Fermuar</string>
+    <string name="str_home">Ana Sayfa</string>
+    <string name="str_category">Kategori</string>
+    <string name="str_set_now">Şimdi Ayarla</string>
+    <string name="msg_reward_change_free">Ödüllü duvar kağıdını ücretsiz duvar kağıdına değiştirin!</string>
+    <string name="intro1_msg">Çeşitli benzersiz temalar</string>
+    <string name="intro2_msg">Yüksek kaliteli duvar kağıtları</string>
+    <string name="intro3_msg">Duvar kağıdınızı anında değiştirin</string>
+    <string name="intro4_msg">Düzenli olarak taze içerik</string>
+    <string name="lock_home_key">Ana Sayfa Tuşunu Kilitle</string>
+    <string name="str_on">açık</string>
+    <string name="str_current">Mevcut</string>
+    <string name="answer_is_incorrect">Cevap yanlış</string>
+    <string name="favourite">Favori</string>
+    <string name="str_zipper_wallpaper">Fermuar Duvar Kağıdı</string>
+    <string name="str_background_wallpaper">Arka Plan Duvar Kağıdı</string>
+    <string name="default_char_lenght_2000">0/2000</string>
+    <string name="default_image_length_3">0/3</string>
+    <string name="browse_wallpapers">Duvar Kağıtlarına Göz At</string>
+    <string name="no_wallpaper_history">Duvar Kağıdı Geçmişi Yok</string>
+    <string name="start_personalizing_device">Güzel duvar kağıtları ayarlayarak cihazınızı kişiselleştirmeye başlayın</string>
+    <string name="no_wallpapers_filter">Hiçbir duvar kağıdı bulunamadı</string>
+    <string name="try_different_filter">Farklı bir filtre seçmeyi veya mevcut filtreyi temizlemeyi deneyin</string>
+    <string name="clear_filters">Filtreleri Temizle</string>
+    <string name="no_search_results">Arama sonucu yok</string>
+    <string name="try_different_keywords">Farklı anahtar kelimelerle aramayı deneyin</string>
+    <string name="clear_search">Aramayı Temizle</string>
+    <string name="overlay_permission_denied_message">Fermuar kilit ekranı özelliğini kullanmak için diğer uygulamaların üzerinde görüntüleme izni gereklidir</string>
+    <string name="permission_denied_title">İzin reddedildi</string>
+    <string name="permission_denied_msg">Fermuar özelliğini kullanmak için, uygulama ayarlarında depolama erişim izni vermeniz gerekir.</string>
+    <string name="success">Başarılı</string>
+    <string name="set_zipper_success">Fermuar başarıyla ayarlandı!</string>
+    <string name="wallpapers">Duvar Kağıtları</string>
+    <string name="set_chain_success"> Zincir stili başarıyla ayarlandı!</string>
+    <string name="set_font_success">Yazı tipi başarıyla ayarlandı!</string>
+    <string name="set_background_success">Arka plan görseli başarıyla ayarlandı!</string>
+    <string name="set_foreground_success">Ön plan başarıyla ayarlandı!</string>
+    <string name="app_auto_click_des">Dokunuşlarınızı otomatikleştirin.</string>
+    <string name="rate_us">Bizi değerlendirin</string>
+    <string name="rating_invitation">Daha iyi bir kullanıcı deneyimi için çok çalışıyoruz. Bizi değerlendirirseniz çok minnettar oluruz.</string>
+    <string name="thanks_feedback">Geri bildiriminiz için teşekkürler</string>
+    <string name="the_best_we_can_get">Elde edebileceğimiz en iyi şey</string>
+    <string name="battery_widget">Pil Widget\ı</string>
+    <string name="enter_your_answer">Cevabınızı girin</string>
+    <string name="enable_pin_lock_success">PIN kilidi başarıyla etkinleştirildi!</string>
+    <string name="no_categories">Kategori yok</string>
+    <string name="enable_disable_lock_screen">Kilit ekranını etkinleştir/devre dışı bırak</string>
+    <string name="zipper_locker_theme">Fermuarlı kilit teması</string>
+    <string name="zipper_description">Muhteşem kalp ekranı, güzel renkler!</string>
+    <string name="disable_zip_locker_toast">Kilit ekranı devre dışı. Fermuarlı kilidi kullanmak istiyorsanız tekrar etkinleştirin.</string>
+    <string name="pin_is_incorrect">PIN yanlış !</string>
+    <string name="enable_zip_locker_toast"><![CDATA[Fermuar kilidi ekranı başarıyla etkinleştirildi!]]></string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title"><![CDATA[Çıkmak istediğinizden emin misiniz?]]></string>
+    <string name="exit_dialog_cancel"><![CDATA[İptal]]></string>
+    <string name="exit_dialog_exit"><![CDATA[Çıkış]]></string>
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_title"><![CDATA[Uygulamamızı beğendiniz mi?]]></string>
+    <string name="rating_dialog_message"><![CDATA[Uygulamamızı kullanmaktan keyif alıyorsanız, Play Store\'da bizi oylar mısınız?]]></string>
+    <string name="rating_dialog_rate_now"><![CDATA[Şimdi Oyla]]></string>
+    <string name="rating_dialog_no_thanks"><![CDATA[Hayır, teşekkürler]]></string>
+
+    <!-- History Menu -->
+    <string name="history_select_items"><![CDATA[Öğeleri Seç]]></string>
+    <string name="history_delete_all"><![CDATA[Tümünü Sil]]></string>
+    <string name="history_sort_by_date"><![CDATA[Tarihe Göre Sırala]]></string>
+    <string name="history_sort_by_type"><![CDATA[Türe Göre Sırala]]></string>
+    <string name="history_items_selected"><![CDATA[%d seçildi]]></string>
+
+    <!-- Clear History Dialog -->
+    <string name="clear_history_title"><![CDATA[Geçmişi Temizle]]></string>
+    <string name="clear_history_message"><![CDATA[Tüm duvar kağıtları geçmişten kaldırılsın mı? Bu işlem geri alınamaz.]]></string>
+    <string name="clear_history_confirm"><![CDATA[Tümünü Temizle]]></string>
+    <string name="history_cleared"><![CDATA[Geçmiş temizlendi]]></string>
+
+    <!-- Download Manager -->
+    <string name="download_image_title"><![CDATA[%s resmini indir]]></string>
+    <string name="download_image_description"><![CDATA[%s adresinden resim indiriliyor]]></string>
+
+    <!-- Error Messages -->
+    <string name="error"><![CDATA[Hata]]></string>
+    <string name="error_message"><![CDATA[Hata: %s]]></string>
+    <string name="cant_share_file"><![CDATA[Bu dosya paylaşılamıyor]]></string>
+
+    <!-- Status -->
+    <string name="status_on"><![CDATA[açık]]></string>
+    <string name="status_off"><![CDATA[kapalı]]></string>
+
+    <!-- Zipper Test (Debug) -->
+    <string name="zipper_test_title"><![CDATA[Fermuar Resimleri Testi]]></string>
+    <string name="zipper_test_total"><![CDATA[Toplam Fermuar: %d]]></string>
+    <string name="zipper_test_filtered"><![CDATA[Filtrelenmiş Fermuar: %d]]></string>
+    <string name="zipper_test_refresh"><![CDATA[Yenile]]></string>
+    <string name="zipper_test_free"><![CDATA[Ücretsiz]]></string>
+    <string name="zipper_test_premium"><![CDATA[Premium]]></string>
+    <string name="zipper_test_locked"><![CDATA[Kilitli]]></string>
+    <string name="zipper_test_id"><![CDATA[ID: %d]]></string>
+    <string name="zipper_test_name"><![CDATA[Ad: %s]]></string>
+    <string name="zipper_test_category"><![CDATA[Kategori: %s]]></string>
+    <string name="zipper_test_access"><![CDATA[Erişim: %s]]></string>
+    <string name="msg_no_ads_available"><![CDATA[Oops! Şu anda reklam mevcut değil]]></string>
+
+    <!-- Hardcoded String Fixes -->
+    <!-- Toast Messages -->
+    <string name="storage_permission_granted_zipper"><![CDATA[Depolama erişim izni verildi. Artık fermuar özelliğini kullanabilirsiniz.]]></string>
+    <string name="no_security_password_set"><![CDATA[Güvenlik şifresi ayarlanmamış!]]></string>
+    <string name="confirm_your_password"><![CDATA[Şifrenizi onaylayın]]></string>
+    <string name="password_changed_successfully"><![CDATA[Şifre başarıyla değiştirildi]]></string>
+    <string name="wrong_confirmation_password"><![CDATA[Yanlış onay şifresi, tekrar deneyin!]]></string>
+    <string name="playstore_not_found"><![CDATA[Google Play Store açılamadı, lütfen Google Play uygulamasını yükleyin.]]></string>
+    <string name="no_app_to_handle_action"><![CDATA[Bu işlemi gerçekleştirecek uygulama yok]]></string>
+
+    <!-- Service Notifications -->
+    <string name="syncing_language_data"><![CDATA[Dil verileri senkronize ediliyor]]></string>
+    <string name="updating_app_content"><![CDATA[İçerik güncelleniyor...]]></string>
+    <string name="lockscreen_service_running"><![CDATA[Kilit ekranı çalışıyor]]></string>
+    <string name="service_running"><![CDATA[Çalışıyor]]></string>
+
+    <!-- Text/Size Selection -->
+    <string name="select_text_size_range"><![CDATA[Metin boyutu seçin 10-60]]></string>
+
+    <!-- Ad Label -->
+    <string name="upgrade_premium"><![CDATA[Premium\'a Yükselt]]></string>
+    <string name="show_background"><![CDATA[Arka Planı Göster]]></string>
+    <string name="locale">tr</string>
+    <string name="str_loading"><![CDATA[Yükleniyor...]]></string>
+    <string name="str_loading_content"><![CDATA[%1$s uygulanması birkaç saniye sürebilir. Lütfen bekleyin...]]></string>
+    <string name="str_loading_content_download"><![CDATA[Duvar kağıdını indirmek birkaç saniye sürebilir. Lütfen bekleyin...]]></string>
+    <string name="foreground"><![CDATA[Ön plan]]></string>
+    <string name="background"><![CDATA[Arka plan]]></string>
+    <string name="str_font_style"><![CDATA[Yazı Tipi Stili]]></string>
+    <string name="zipper_style"><![CDATA[Fermuar stili]]></string>
+    <string name="pendant_style"><![CDATA[Kolye ucu stili]]></string>
+    <string name="str_completed"><![CDATA[Tamamlandı]]></string>
+    <string name="str_completed_content"><![CDATA[Her şey hazır. Lütfen keyfini çıkarın!]]></string>
+    <string name="open_settings">Ayarları Aç</string>
+    <string name="highlight_text"><![CDATA[250 bilet]]></string>
+    <string name="str_multi_five"><![CDATA[x5]]></string>
+    <string name="str_ad_free"><![CDATA[Reklamsız]]></string>
+    <string name="str_ad_free_description_15_day"><![CDATA[15 gün boyunca reklamsız bir deneyimin tadını çıkarın! Reklamları kaldırmak ve uygulamanın keyfini daha sorunsuz çıkarmak için buraya gelin.]]></string>
+    <string name="str_ad_free_description_1_day"><![CDATA[1 gün boyunca artık can sıkıcı reklamlar yok! Hemen kesintisiz oynayın.]]></string>
+    <string name="str_ad_free_15_day"><![CDATA[15 gün boyunca reklamları kaldır]]></string>
+    <string name="str_extra_spin"><![CDATA[Ekstra çevirme]]></string>
+    <string name="str_extra_spin_description"><![CDATA[Ek bir ücretsiz çevirme kazandınız! Şansınızı denemeye devam edin ve daha heyecan verici ödüller keşfedin.]]></string>
+    <string name="str_ad_free_1_day"><![CDATA[1 gün boyunca reklamları kaldır]]></string>
+    <string name="str_surprise_gift"><![CDATA[Sürpriz Hediye]]></string>
+    <string name="str_surprise_gift_description"><![CDATA[Gizemli bir hediye kazandınız! Bu fırsatı kaçırmayın!]]></string>
+    <string name="str_expried_on"><![CDATA[Son kullanma tarihi]]></string>
+    <string name="str_dont_miss_it"><![CDATA[Kaçırmayın]]></string>
+    <string name="title_get_more_spin"><![CDATA[Daha fazla ücretsiz çevirme alın]]></string>
+    <string name="str_lose_turn"><![CDATA[Çevirmeleriniz bitti! Daha fazla ücretsiz çevirme almak ve şanslı çevirmenize devam etmek için yarın geri gelin!]]></string>
+    <string name="come_back_tomorrow"><![CDATA[Yarın Geri Gel]]></string>
+    <string name="wheel_of_fortune"><![CDATA[Çarkıfelek]]></string>
+    <string name="str_multi_one"><![CDATA[x1]]></string>
+    <string name="str_start"><![CDATA[Başla]]></string>
+    <string name="str_congratulations"><![CDATA[Tebrikler!]]></string>
+    <string name="str_receive"><![CDATA[Al]]></string>
+    <string name="str_multi_double"><![CDATA[x2]]></string>
+    <string name="str_award_description_title"><![CDATA[Ödül açıklaması]]></string>
+    <string name="lucky_wheel_descrepion"><![CDATA[Reklamsız uygulamayı 1 gün veya 15 gün boyunca ücretsiz deneyimleme şansı için şanslı çevirmeye katılın.]]></string>
+    <string name="str_confirm"><![CDATA[Onayla]]></string>
+    <string name="str_subscribe"><![CDATA[Abone Ol]]></string>
+    <string name="special_offer"><![CDATA[Özel teklif]]></string>
+    <string name="str_buy"><![CDATA[Satın Al]]></string>
+    <string name="get_more_coins"><![CDATA[Daha fazla jeton al]]></string>
+    <string name="set_use_coins"><![CDATA[Jeton Kullan]]></string>
+    <string name="msg_not_enough_keys"><![CDATA[Yeterli jeton yok, lütfen daha sonra tekrar deneyin!]]></string>
+    <string name="msg_used_keys"><![CDATA[Başarılı! %1$d jeton ile kullandınız. Bakiye: %2$d jeton.]]></string>
+    <string name="most_popular"><![CDATA[En\nPopüler]]></string>
+    <string name="weekly_for_subscribers"><![CDATA[Aboneler için haftalık]]></string>
+    <string name="use_coins_content"><![CDATA[Bu duvar kağıdının kilidini açmak için %1$d jetona ihtiyacınız var. Bakiyeniz: %2$d jeton.]]></string>
+    <string name="str_restore"><![CDATA[Geri Yükle]]></string>
+    <string name="ready_to_redeem_wallpaper"><![CDATA[Duvar kağıdını kullanmaya hazır mısınız?]]></string>
+    <string name="str_congratulations_content"><![CDATA[Tebrikler! 🎉 Gizemli bir Hediye\'nin kilidini açtınız – Jeton alımınızda özel bir indirimin tadını çıkarın!]]></string>
+    <string name="discount_month"><![CDATA[%s / ay]]></string>
+    <string name="save_75"><![CDATA[%d%% tasarruf edin]]></string>
+    <string name="discount_year"><![CDATA[%s / yıl]]></string>
+    <string name="num_w_coins"><![CDATA[%1$d Jeton]]></string>
+    <string name="get_more_free"><![CDATA[%%1$s daha fazla ücretsiz]]></string>
+    <string name="price_per_coins"><![CDATA[%1$s / %2$d jeton]]></string>
+    <string name="get_coins_immediately"><![CDATA[Jetonları hemen alın]]></string>
+    <string name="your_daily_reward"><![CDATA[Günlük ödülünüz]]></string>
+    <string name="plus_10"><![CDATA[+10]]></string>
+    <string name="vip_coin"><![CDATA[VIP Jeton]]></string>
+    <string name="unlock_using_coins"><![CDATA[Jeton kullanarak kilidi aç]]></string>
+    <string name="str_vip_ticket_description"><![CDATA[Duvar kağıtlarını, fermuarları, zincirleri ve daha fazlasını açmak ve uygulamak için jetonları kullanın. Sınırsız özelleştirmenin keyfini çıkarmak için günlük ödüllerden, reklamlardan jeton kazanın veya satın alın.]]></string>
+    <string name="user_id">Kullanıcı Kimliği</string>
+    <string name="copy_user_id">Kullanıcı Kimliğini Kopyala</string>
+    <string name="str_claim">Ödül talep et</string>
+    <string name="get_coin">Jetonları al</string>
+    <string name="free_coins">Ücretsiz jetonlar</string>
+    <string name="discount_number">İndirim %2$s</string>
+    <string name="watch_ads_get_coins">Reklam izle, jeton kazan</string>
+    <string name="get_more_spin">Daha fazla dönüş al</string>
+    <string name="use_coins">Jetonları kullan</string>
+    <string name="congratulations_w_num_coins">%1$d jeton aldınız</string>
+    <string name="notification_permission_message">Yeni duvar kağıtları, güncellemeler ve özel teklifler hakkında bildirim alın. Bunu istediğiniz zaman ayarlardan yönetebilirsiniz.</string>
+    <string name="notification_permission_settings_message">Bildirim alabilmek için Ayarlar\'dan izin vermeniz gerekiyor. Ayarları şimdi açmak ister misiniz?</string>
+    <string name="wallpaper_downloaded_successfully">Duvar kağıdı başarıyla indirildi</string>
+    <string name="str_static">Statik</string>
+
+</resources>

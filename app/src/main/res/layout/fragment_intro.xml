@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rootLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="locale"
+                android:background="@color/transparent"
+                android:clipToPadding="false"
+                app:layout_constraintTop_toTopOf="parent"
+                android:overScrollMode="never"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+
+                    <LinearLayout
+                        android:id="@+id/bottomLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layoutDirection="locale"
+                        android:orientation="horizontal">
+
+                        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                            android:id="@+id/indicatorPageOnboarding"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:dotsColor="@color/color_C7D9FF"
+                            app:dotsCornerRadius="16dp"
+                            app:dotsSize="@dimen/common_8dp"
+                            app:dotsSpacing="@dimen/common_4dp"
+                            app:dotsWidthFactor="2.5"
+                            app:progressMode="true"
+                            android:layout_gravity="center_vertical"
+                            app:selectedDotColor="@color/intro_color"
+                            android:layout_marginHorizontal="@dimen/common_20dp"/>
+
+                        <TextView
+                            android:id="@+id/txtNext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size_18sp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:layout_marginHorizontal="@dimen/common_20dp"
+                            android:background="@drawable/ripple_circle"
+                            android:text="@string/text_next"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/llInternetDisconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_6dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivInternetDisconnect"
+                android:layout_width="@dimen/common_24dp"
+                android:layout_height="@dimen/common_24dp"
+                android:src="@drawable/ic_no_internet"
+                app:tint="@color/colorButtonDelete" />
+
+            <TextView
+                android:id="@+id/tvInternetDisconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lost_network_connection"
+                android:fontFamily="@font/sf_pro_regular"
+                android:textSize="@dimen/text_size_13sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="@dimen/common_8dp"
+                android:textColor="@color/colorButtonDelete"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInternetConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_6dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivStatusConnect"
+                android:layout_width="@dimen/common_24dp"
+                android:layout_height="@dimen/common_24dp"
+                android:src="@drawable/ic_internet"/>
+
+            <TextView
+                android:id="@+id/tvStatusConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_internet"
+                android:fontFamily="@font/sf_pro_regular"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/common_8dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

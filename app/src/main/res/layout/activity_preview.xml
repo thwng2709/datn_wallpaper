@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_lout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_theme_blue"
+        tools:context=".activity.PreviewActivity">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/exo_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:hide_on_touch="true"
+            app:resize_mode="zoom"
+            app:shutter_background_color="@color/color_theme_blue"
+            app:use_controller="false" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/common_10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/iconVipLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnIconPremium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        app:cardBackgroundColor="@color/transparent"
+                        app:cardCornerRadius="500dp"
+                        tools:targetApi="p">
+
+
+                    <eightbitlab.com.blurview.BlurView
+                        android:id="@+id/blurViewIconPremium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:paddingHorizontal="@dimen/common_8dp"
+                        app:blurOverlayColor="@color/color_blur_25">
+
+                        <ImageView
+                            android:id="@+id/iconPremium"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_round_corner_500"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_pro"/>
+
+                    </eightbitlab.com.blurview.BlurView>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnIconLock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        app:cardBackgroundColor="@color/transparent"
+                        app:cardCornerRadius="500dp"
+                        tools:targetApi="p">
+
+
+                        <eightbitlab.com.blurview.BlurView
+                            android:id="@+id/blurViewIconLock"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:paddingHorizontal="@dimen/common_8dp"
+                            app:blurOverlayColor="@color/color_blur_25">
+
+                            <ImageView
+                                android:id="@+id/iconLock"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:background="@drawable/bg_round_corner_500"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_lock" />
+                        </eightbitlab.com.blurview.BlurView>
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:outlineSpotShadowColor="@color/transparent"
+                    app:cardBackgroundColor="@color/transparent"
+                    app:cardCornerRadius="500dp"
+                    tools:targetApi="p">
+
+                    <eightbitlab.com.blurview.BlurView
+                        android:id="@+id/blurView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:blurOverlayColor="@color/color_blur_25">
+
+                        <TextView
+                            style="@style/TextViewLocal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="center"
+                            android:paddingHorizontal="@dimen/common_12dp"
+                            android:text="@string/download"
+                            android:textSize="@dimen/ts_14"
+                            tools:visibility="visible" />
+                    </eightbitlab.com.blurview.BlurView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_apply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:outlineSpotShadowColor="@color/transparent"
+                    app:cardBackgroundColor="@color/transparent"
+                    app:cardCornerRadius="500dp"
+                    tools:targetApi="p">
+
+
+                    <eightbitlab.com.blurview.BlurView
+                        android:id="@+id/blurView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:blurOverlayColor="@color/color_blur_25">
+
+                        <TextView
+                            style="@style/TextViewLocal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:paddingHorizontal="@dimen/common_18dp"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="center"
+                            android:text="@string/apply"
+                            android:textSize="@dimen/ts_14"
+                            tools:visibility="visible" />
+                    </eightbitlab.com.blurview.BlurView>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/common_10dp"
+                android:outlineSpotShadowColor="@color/transparent"
+                app:cardBackgroundColor="@color/transparent"
+                app:cardCornerRadius="500dp"
+                tools:targetApi="p">
+
+
+                <eightbitlab.com.blurview.BlurView
+                    android:id="@+id/blurView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:blurOverlayColor="@color/color_blur_25">
+
+                    <ImageView
+                        style="@style/TextViewLocal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="19dp"
+                        android:src="@drawable/ic_close" />
+                </eightbitlab.com.blurview.BlurView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/day_date"
+                style="@style/TextViewLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sf_pro_medium"
+                android:gravity="center"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/ts_16"
+                tools:text="friday,20 ocober" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/TextViewLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/sf_pro_regular"
+                android:gravity="center"
+                android:textColor="@color/color_text_primary"
+
+                android:textSize="60sp"
+                tools:text="12:59" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lout_loader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_2"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <include layout="@layout/layout_loader" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lout_loader_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_2"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <include layout="@layout/layout_loader" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

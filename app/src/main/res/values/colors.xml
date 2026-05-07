@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C3F5E</color>
+    <color name="colorPrimaryDark">#01172C</color>
+    <color name="colorAccent">#145082</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorOK">#F2994A</color>
+    <color name="colorBgWhiteComponent">#F0F6FF</color>
+    <color name="colorTxtSettingCommon">#212833</color>
+    <color name="colorTabUnselect">#4A6572</color>
+    <color name="colorButtonDelete">#FF2D2D</color>
+    <color name="colorBlue">#96D9FF</color>
+    <color name="color_bg_native">#F5F7FF</color>
+    <color name="color_B7B7B7">#33B7B7B7</color>
+    <color name="color_F9AA33">#F9AA33</color>
+
+    <color name="colorDisable">#8A8181</color>
+    <color name="black">#FF000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="coloe_7AA8BE">#7AA8BE</color>
+    <color name="color_C7D9FF">#C7D9FF</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_797C80">#797C80</color>
+
+    <color name="md_gray_600">#757575</color>
+    <color name="md_gray_900">#212121</color>
+
+    <color name="md_blue_gray_300">#90A4AE</color>
+
+    <color name="color_33353F">#33353F</color>
+    <color name="grey_100">#FFC0C0C0</color>
+    <color name="color_D1D1D6">#D1D1D6</color>
+    <color name="color_6F7384">#6F7384</color>
+    <color name="dark_green">#0393A3</color>
+    <color name="mint">#00C7BE</color>
+    <color name="maintextcolor">#021025</color>
+    <color name="grey_80">#99C0C0C0</color>
+    <color name="color_559DAA">#559DAA</color>
+    <color name="color_2E5077">#2E5077</color>
+    <color name="text_color_5A">#5A5A5A</color>
+    <color name="color_language_selected">#CFF5E7</color>
+    <color name="color_424141">#424141</color>
+    <color name="color_DEDFE5">#DEDFE5</color>
+
+
+
+
+    <!--    New-->
+    <color name="black_30">#4D000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_2">#05000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+
+
+    <color name="color_theme_blue">#01002A</color>
+    <color name="color_theme_blue_70">#B301002A</color>
+    <color name="color_theme_blue_50">#8001002A</color>
+    <color name="color_theme_blue_20">#3301002A</color>
+
+    <color name="color_theme_purple_light">#A160E5</color>
+    <color name="color_theme_purple_dark">#541B8F</color>
+    <color name="color_blur_25">#403B396D</color>
+    <color name="color_like">#FF5B5B</color>
+    <color name="color_premium">#FF7D05</color>
+    <color name="color_dialogue_bg">#D0D7FF</color>
+
+
+    <color name="color_text_primary">#FFFFFFFF</color>
+    <color name="color_text_primary_80">#CCFFFFFF</color>
+    <color name="color_text_secondary">#C6C6C6</color>
+    <color name="color_text_tertiary">#575B6B</color>
+    <color name="color_text_hint">#40FFFFFF</color>
+    <color name="color_text_black">#000000</color>
+
+
+    <color name="color_popup_bg">#D0D7FF</color>
+    <color name="color_shimmer">#2A2845</color>
+    <color name="greyish">#AAA8A8</color>
+
+
+    <!--    Zipper Lock-->
+    <color name="textcolorwhite">#fff</color>
+
+
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bg1">#15130F</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorGrey">#9b9b9b</color>
+    <color name="defaultTextColor">#ffffff</color>
+
+    <color name="errorColor">#d50000</color>
+    <color name="error_color_material_dark">#ff7043</color>
+    <color name="error_color_material_light">#ff5722</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
+
+
+    <color name="greenDark">#448039</color>
+    <color name="green_button">#4dbe9a</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="infoColor">#3f51b5</color>
+
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff008577</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+
+    <color name="normalColor">#353a3e</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_dark">@color/material_grey_900</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="ripple_material_dark">#33ffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="space">#b8cccccc</color>
+    <color name="statusBarColor">#000000</color>
+    <color name="successColor">#388e3c</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+
+    <color name="warningColor">#8E0025</color>
+    <color name="linkColor">#8E0025</color>
+    <color name="green">#8E0025</color>
+    <color name="backgroundc">#8E0025</color>
+    <color name="white_color">#ffffff</color>
+    <color name="background_item_language">#F5F4F6</color>
+    <color name="radio_selected">#985CE2</color>
+
+
+    <color name="black_02">#020129</color>
+    <color name="bg_item_zipper">#1B1A3E</color>
+    <color name="intro_color">#44167D</color>
+    <color name="bg_permission">#020129</color>
+    <color name="label_text_permission">#A193AB</color>
+
+    <!-- Permission screen colors -->
+    <color name="color_text_permission_desc">#A193AB</color>
+    <color name="ripple_primary_button">#33020129</color>
+    <color name="ripple_secondary_button">#33FFFFFF</color>
+    <color name="button_secondary_stroke">#61536A</color>
+    <color name="color_text_secondary_button">#E0DCE3</color>
+    <color name="permission_item_bg">#1A8B5CF6</color>
+    <color name="permission_item_border">#338B5CF6</color>
+    <color name="permission_text_secondary">#B3FFFFFF</color>
+    <color name="permission_text_tertiary">#99FFFFFF</color>
+    <color name="permission_purple">#8B5CF6</color>
+    <color name="switch_track_on">#8B5CF6</color>
+    <color name="switch_track_off">#33FFFFFF</color>
+    <color name="permission_bg_gradient_start">#6C3BED</color>
+    <color name="permission_bg_gradient_end">#8B5CF6</color>
+
+    <!-- PermissionIllustrationView colors -->
+    <color name="folder_purple_start">#7C3AED</color>
+    <color name="folder_purple_end">#9F7AEA</color>
+    <color name="shield_gold_start">#F59E0B</color>
+    <color name="shield_gold_end">#FCD34D</color>
+
+    <!-- History Screen Dark Theme -->
+    <color name="chip_background_color">@color/transparent</color>
+    <color name="history_primary_bg">#020129</color>
+    <color name="history_secondary_bg">#0a0b3b</color>
+    <color name="history_accent_blue">#4A90E2</color>
+    <color name="history_accent_purple">#7B68EE</color>
+    <color name="history_accent_pink">#FF6B9D</color>
+    <color name="history_card_bg">#0D0D0D0D</color>
+    <color name="history_border_color">#1AFFFFFF</color>
+    <color name="history_selection_border">#FF6B9D</color>
+    <color name="history_selection_bg">#26FF6B9D</color>
+
+    <!-- Red color for delete actions -->
+    <color name="color_red">#FF5252</color>
+    <color name="color_0F4D7B">#0F4D7B</color>
+    <color name="color_776682">#776682</color>
+    <color name="color_8082FF">#8082FF</color>
+    <color name="color_3830A7">#3830A7</color>
+    <color name="color_FF891C">#FF891C</color>
+    <color name="color_F3F3F3">#F3F3F3</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/common_36dp"/>
+            <solid android:color="@color/color_2E5077"/>
+        </shape>
+    </item>
+    <!-- Mask để hiệu ứng ripple nhấp nháy -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/common_36dp" />
+            <solid android:color="@color/white" /> <!-- Màu trắng là màu nhấn -->
+        </shape>
+    </item>
+
+</ripple>

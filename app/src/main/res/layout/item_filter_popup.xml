@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_round_corner_30"
+            android:backgroundTint="@color/color_popup_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+
+                style="@style/TextViewLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/select"
+                android:textAllCaps="true"
+                android:textColor="@color/color_theme_blue"
+                android:textSize="@dimen/ts_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:layout_marginVertical="15dp"
+                android:alpha=".6"
+                android:background="@color/color_theme_blue" />
+
+
+            <LinearLayout
+                android:id="@+id/btn_static"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_purple_gradient_500"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_image"
+                    app:tint="@color/color_text_primary" />
+
+                <TextView
+                    style="@style/TextViewLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/sf_pro_medium"
+                    android:text="@string/str_static"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/ts_15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_live"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_purple_gradient_500"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_live"
+                    app:tint="@color/color_text_primary" />
+
+
+                <TextView
+
+                    style="@style/TextViewLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/sf_pro_medium"
+                    android:text="@string/live"
+                    android:textColor="@color/color_text_primary"
+                    android:textSize="@dimen/ts_15" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btn_all"
+                style="@style/TextViewLocal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/sf_pro_medium"
+                android:gravity="center"
+                android:text="@string/all_wallpaper"
+                android:background="@drawable/bg_purple_gradient_500"
+                android:textColor="@color/color_text_primary"
+                android:textSize="@dimen/ts_15" />
+
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/btn_cancel"-->
+        <!--            android:layout_width="40dp"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:layout_alignParentEnd="true">-->
+
+        <!--            <include-->
+
+        <!--                layout="@layout/cancel_btn"-->
+        <!--                android:layout_width="40dp"-->
+        <!--                android:layout_height="40dp" />-->
+
+        <!--        </LinearLayout>-->
+
+
+    </RelativeLayout>
+
+
+</layout>

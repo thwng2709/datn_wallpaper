@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mgs_ok"><![CDATA[OK]]></string>
+    <string name="text_welcome"><![CDATA[Ласкаво просимо]]></string>
+    <string name="text_create_by"><![CDATA[Розроблено]]></string>
+    <string name="text_next"><![CDATA[Далі]]></string>
+    <string name="text_intro1_msg"><![CDATA[Автоматично натискайте в будь-якій грі, додатку або на веб-сайті.]]></string>
+    <string name="text_intro2_msg"><![CDATA[Легко налаштуйте місце натискання, швидкість та тривалість кожного клікера.]]></string>
+    <string name="text_intro3_msg"><![CDATA[Ви можете зберігати часто використовувані налаштування. Налаштуйте один раз, використовуйте будь-коли!]]></string>
+    <string name="text_app_version"><![CDATA[Версія додатку]]></string>
+    <string name="msg_apply_language_dialog"><![CDATA[Ви впевнені, що хочете застосувати цю мову?]]></string>
+
+    <string name="save_script"><![CDATA[Зберегти]]></string>
+    <string name="cancel"><![CDATA[Скасувати]]></string>
+    <string name="allow"><![CDATA[Дозволити]]></string>
+
+    <string name="title_apply_change_language_dialog"><![CDATA[Застосувати зміну мови]]></string>
+    <string name="title_notification_24h"><![CDATA[Автоклік чекає на вас]]></string>
+    <string name="title_notification"><![CDATA[Дозвіл на сповіщення]]></string>
+    <string name="message_notification"><![CDATA[Дозвольте Автокліку надсилати вам сповіщення.]]></string>
+    <string name="deny"><![CDATA[Відхилити]]></string>
+
+    <string name="other_app"><![CDATA[Інші додатки]]></string>
+
+    <string name="title_update_version"><![CDATA[Оновити нову версію]]></string>
+    <string name="message_update_version"><![CDATA[Автоклік має нову версію. Будь ласка, оновіться до нової версії для найкращого досвіду!]]></string>
+    <string name="btn_update"><![CDATA[Оновити]]></string>
+    <string name="btn_later"><![CDATA[Пізніше]]></string>
+
+    <string name="dont_show_again"><![CDATA[Більше не показувати]]></string>
+
+    <string name="rating"><![CDATA[Вам подобається Автоклік?]]></string>
+    <string name="rating_message"><![CDATA[Ми завжди прагнемо покращувати наш додаток та ваш досвід. Чи могли б ви приділити хвилинку, щоб оцінити наш додаток? Кожен відгук дуже цінується!]]></string>
+
+    <string name="smile_rating_terrible"><![CDATA[1 🌟]]></string>
+    <string name="smile_rating_bad"><![CDATA[2 🌟]]></string>
+    <string name="smile_rating_okay"><![CDATA[3 🌟]]></string>
+    <string name="smile_rating_good"><![CDATA[4 🌟]]></string>
+    <string name="smile_rating_great"><![CDATA[5 🌟]]></string>
+    <string name="choose_email"><![CDATA[Виберіть електронну адресу:]]></string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+    <string name="feedback"><![CDATA[Відгук]]></string>
+    <string name="share_app"><![CDATA[Поділитися додатком]]></string>
+
+    <string name="allowed"><![CDATA[Дозволено]]></string>
+
+    <string name="permission"><![CDATA[Дозвіл]]></string>
+    <string name="rate_us_now"><![CDATA[Оцініть нас зараз]]></string>
+    <string name="choose_language"><![CDATA[Вибрати мову]]></string>
+    <string name="please_select_language"><![CDATA[Будь ласка, виберіть мову відображення.]]></string>
+
+    <string name="content_feedback"><![CDATA[Нам шкода чути, що ви не задоволені Автокліком. Будь ласка, надсилайте ваші відгуки та пропозиції на нашу електронну адресу, щоб ми могли покращити наш сервіс у майбутньому.]]></string>
+    <string name="warning_rating"><![CDATA[Будь ласка, виберіть вашу оцінку.]]></string>
+    <string name="video_starting_in_text"><![CDATA[Відео почнеться через]]></string>
+    <string name="watch_ad_button_text"><![CDATA[Дивитися рекламу]]></string>
+    <string name="purchase_vip_button_text"><![CDATA[Придбати VIP]]></string>
+    <string name="description_remind_watch_ad"><![CDATA[Перегляньте коротке відео, щоб застосувати останній скрипт]]></string>
+
+    <string name="connect_internet"><![CDATA[Підключення до Інтернету]]></string>
+    <string name="message_connect_internet"><![CDATA[Щоб гарантувати, що ми можемо підтримувати та покращувати додаток, необхідне підключення до мережі. Будь ласка, увімкніть вашу мережу, щоб продовжити використання додатку.]]></string>
+    <string name="lost_network_connection"><![CDATA[Втрачено мережеве з\'єднання. Будь ласка, перепідключіться до мережі.]]></string>
+    <string name="reconnect"><![CDATA[Перепідключитися]]></string>
+
+    <string name="str_close">Закрити</string>
+
+    <string name="exit_app">Вийти</string>
+    <string name="creator" translatable="false">Higher Studio</string>
+    <string name="txt_loading_ads">Завантаження реклами…</string>
+    <string name="segment_intro1">Автоматизуйте свої дії,\nпідвищуйте ефективність!</string>
+    <string name="segment_intro2">Мульти-таргетинг, висока\nпродуктивність!</string>
+    <string name="segment_intro3">Зручно плануйте та зберігайте\nналаштування!</string>
+    <string name="segment_intro4">Гнучке налаштування, простий\nу використанні!</string>
+    <string name="get_started">Почати</string>
+    <string name="swipe_to_explore">Проведіть пальцем для дослідження</string>
+    <string name="skip_ads">Пропустити рекламу</string>
+    <string name="title_exit_app">Вихід з додатку</string>
+    <string name="label_exit_app">Ви впевнені, що хочете вийти з додатку?</string>
+
+    <string name="description_watch_ad_reward_skin">Перегляньте рекламу та миттєво розблокуйте необмежений доступ до цього скіну!</string>
+    <string name="app_water_reminder_des">Пийте воду вчасно, залишайтеся здоровими.</string>
+    <string name="app_recovery_des">Легко відновлюйте видалені фотографії.</string>
+    <string name="str_you_might_like">Вам може сподобатися</string>
+    <string name="app_hide_app_des">Приховувати додатки, фотографії та відео.</string>
+    <string name="app_sleep_sounds_des">Допоможе вам швидко заснути.</string>
+    <string name="text_pro">Pro</string>
+    <string name="setting">Налаштування</string>
+    <string name="overview">Огляд</string>
+    <string name="languages">Мови</string>
+    <string name="more">Більше</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="email">Електронна пошта</string>
+    <string name="hint_enter_email">Будь ласка, введіть вашу електронну адресу</string>
+    <string name="problem_type">Тип проблеми</string>
+    <string name="suggestions">Пропозиції</string>
+    <string name="bugs">Помилки</string>
+    <string name="others">Інші</string>
+    <string name="content">Вміст</string>
+    <string name="hint_content_description">Будь ласка, надайте детальний опис проблеми, з якою ви зіткнулися, що допоможе нам ефективніше вирішити ваше питання.</string>
+    <string name="str_submit">Надіслати</string>
+    <string name="invalid_email_format">Будь ласка, введіть дійсну електронну адресу</string>
+    <string name="not_empty_email">Електронна пошта не може бути порожньою</string>
+    <string name="not_empty_content">Зміст не може бути порожнім</string>
+    <string name="sent_feedback_success">Відгук успішно надіслано!</string>
+    <string name="sent_feedback_fail">Не вдалося надіслати відгук!</string>
+    <string name="language_change_successful">Зміна мови успішна</string>
+    <string name="label_grant_permission">Будь ласка, перевірте та надайте необхідні дозволи для коректної роботи додатку.</string>
+    <string name="notification_permission">Дозвіл на сповіщення</string>
+    <string name="label_notification_permission">Цей додаток запитує дозвіл на надсилання сповіщень, що дозволить вам отримувати важливі оновлення та оповіщення.</string>
+    <string name="manage_files_permission">Дозвіл на керування файлами</string>
+    <string name="label_grant_manage_files_permission">Цей додаток потребує дозволу на керування вашими файлами, щоб ви могли безперешкодно отримувати доступ, організовувати та зберігати контент.</string>
+    <string name="write_storage_permission">Дозвіл на запис у сховище</string>
+    <string name="permission_denied">Цей додаток потребує дозволу для належного збереження ваших файлів.</string>
+    <string name="access_files_permission_message">Smart Recovery потребує доступу до ваших фотографій, відео та аудіофайлів для їх належного збереження. Будь ласка, надайте ці дозволи в Налаштуваннях, щоб продовжити.</string>
+    <string name="label_manage_files_permission">Цей додаток потребує дозволу на керування вашими файлами, що дозволяє вам безперешкодно отримувати доступ, організовувати та зберігати контент. Будь ласка, надайте цей дозвіл, щоб продовжувати використовувати всі функції.</string>
+    <string name="not_now">Не зараз</string>
+    <string name="permission_request">Додаток потребує дозволів на читання файлів для коректної роботи. Будь ласка, надайте дозвіл!</string>
+    <string name="battery_limit_free">Обмеження батареї безкоштовно</string>
+    <string name="battery_optimization_label">Заборонити системі завершувати роботу програми</string>
+    <string name="str_exit">Вихід</string>
+
+    <string name="notification_permission_title">Дозвіл на сповіщення</string>
+    <string name="notification_permission_desc">Додатку потрібен дозвіл на сповіщення, щоб знаходити телефон за оплесками.</string>
+    <string name="allow_access">Дозволити доступ</string>
+    <string name="featured_items">Рекомендовані елементи</string>
+    <string name="download_now">Завантажити зараз</string>
+    <string name="no_data_found">Даних не знайдено</string>
+    <string name="live">Наживо</string>
+    <string name="search_here">Шукати тут</string>
+    <string name="no_data_for">Немає даних для</string>
+    <string name="select">Вибрати</string>
+    <string name="locked">Заблоковано</string>
+    <string name="premium">Преміум</string>
+    <string name="all_wallpaper">Усі шпалери</string>
+    <string name="please_type_something">Будь ласка, введіть щось…</string>
+    <string name="set_wallpaper_as">Встановити шпалери як?</string>
+    <string name="home_screen_only">Лише головний екран</string>
+    <string name="lock_screen_only">Лише екран блокування</string>
+    <string name="home_lock_screen"><![CDATA[Головний & Екран блокування]]></string>
+    <string name="download">Завантажити</string>
+    <string name="apply">Застосувати</string>
+    <string name="wallpaper_added_successfully">Шпалери успішно додано</string>
+    <string name="something_went_wrong">Щось пішло не так</string>
+    <string name="setting_wallpaper_is_not_allowed">Встановлення шпалер не дозволено</string>
+    <string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">Насолоджуйтесь доступом до всіх преміум шпалер без реклами.</string>
+    <string name="unlock_exclusive_wallpaper">Розблокувати ексклюзивні шпалери</string>
+    <string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">Перегляньте коротку рекламу, щоб отримати чудові шпалери для вашого пристрою. Ваш екран виглядатиме неймовірно!</string>
+    <string name="watch_ad_amp_download"><![CDATA[Переглянути рекламу & Завантажити]]></string>
+    <string name="watch_ad_amp_apply"><![CDATA[Переглянути рекламу & Застосувати]]></string>
+    <string name="saved_to_gallery">Збережено в галерею</string>
+    <string name="permission_required_to_save_images">Для збереження зображень потрібен дозвіл на сховище. Будь ласка, надайте дозвіл у налаштуваннях.</string>
+    <string name="error_saving_image">Не вдалося зберегти зображення. Спробуйте ще раз.</string>
+    <string name="permission_required">Потрібен дозвіл</string>
+    <string name="storage_permission_explanation">Для збереження шпалер на вашому пристрої потрібен дозвіл на сховище. Будь ласка, надайте дозвіл, щоб продовжити.</string>
+    <string name="grant_permission">Надати дозвіл</string>
+    <string name="permission_denied_go_to_settings">Ви відхилили дозвіл на сховище. Перейдіть у Налаштування та увімкніть його вручну, щоб зберегти шпалери.</string>
+    <string name="go_to_settings">Перейти в налаштування</string>
+    <string name="media_read_permission_explanation">Цьому додатку потрібен дозвіл для читання зображень із вашої галереї</string>
+    <string name="storage_access_denied">Доступ до сховища заборонено. Перевірте дозволи додатку.</string>
+    <string name="error_network_connection">Помилка мережевого з\'єднання. Будь ласка, перевірте інтернет-з\'єднання.</string>
+    <string name="permission_revoked_message">Дозвіл на сховище було відкликано. Будь ласка, надайте його знову, щоб завантажити шпалери.</string>
+    <string name="preview">Попередній перегляд</string>
+    <string name="subscribe_to">Підписатися на</string>
+    <string name="become_a">Стати</string>
+    <string name="all">Усі</string>
+    <string name="simple">Простий</string>
+    <string name="wallpaper">Шпалери</string>
+    <string name="no_favourites">Немає улюблених фото</string>
+    <string name="no_photos">Немає фото</string>
+
+    <string name="action_settings">Налаштування</string>
+    <string name="activate">Активувати</string>
+    <string name="activate_lock_screen">Активувати екран блокування</string>
+    <string name="ad">Реклама</string>
+    <string name="ad1">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.camouflagezipperlockscreen</string>
+    <string name="ad2">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.bluejeanszipperlockscreen</string>
+    <string name="ad3">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.diamondszipperlocker</string>
+    <string name="ad_app_name1">Екран блокування з камуфляжною блискавкою</string>
+    <string name="ad_app_name2">Екран блокування з синьою джинсовою блискавкою</string>
+    <string name="ad_app_name3">Шафка з діамантовою блискавкою</string>
+    <string name="admob_app_key">ca-app-pub-8480863067551099~7453550976</string>
+    <string name="advertisement">Реклама</string>
+    <string name="android_7">Android 7</string>
+    <!-- Ukrainian (uk) -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applovin_list_item_image_description">Показує більше інформації про елемент списку.</string>
+    <string name="backgroundCound">53</string>
+    <string name="background_wallpaper">Встановити фон</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="change_color">Змінити колір</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="character_counter_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="continue_label">Торкніться тут, щоб продовжити</string>
+    <string name="continue_str">Продовжити</string>
+    <string name="customize">Налаштувати</string>
+    <string name="date">Дата</string>
+    <string name="disable_lock_screen">Увімкнути екран блокування</string>
+    <string name="disable_pin_lock">Увімкнути PIN-код</string>
+    <string name="dummy_button">Фіктивна кнопка</string>
+    <string name="dummy_content">ФІКТИВНИЙ\10ВМІСТ</string>
+    <string name="enable_pin_lock">Увімкнути PIN-код</string>
+    <string name="enter_password">Введіть пароль:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="font_style">Встановити стиль шрифту</string>
+    <string name="forgot_password">Забули пароль?</string>
+    <string name="general_setting">Загальні налаштування</string>
+    <string name="hello_world">Привіт, світе!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_to_use">Як використовувати</string>
+    <string name="info">Інформація</string>
+    <string name="info_str1">Автори:</string>
+    <string name="info_str2">UI іконки створені:</string>
+    <string name="info_str3">https://www.flaticon.com/authors/icongeek26</string>
+    <string name="info_str4">https://icons8.com/</string>
+    <string name="install">ВСТАНОВИТИ</string>
+    <string name="lock_screen">Увімкнути екран блокування</string>
+    <string name="more_app_link">https://play.google.com/store/apps/developer?id=ZipperOnScreenApps</string>
+    <string name="more_applications">Більше програм</string>
+    <string name="more_apps">Більше програм</string>
+    <string name="more_settings">Більше налаштувань</string>
+    <string name="more_zipper_themes">Більше тем для блискавки</string>
+    <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
+    <string name="native_text">Рідний ТЕСТ</string>
+    <string name="nav_app_bar_navigate_up_description">Перейти вгору</string>
+    <string name="nav_app_bar_open_drawer_description">Відкрити панель навігації</string>
+    <string name="no_thank_you">Ні, дякую</string>
+    <string name="of">ВИМК</string>
+    <string name="offline_notification_text">Торкніться, щоб відкрити рекламу</string>
+    <string name="offline_notification_title">Переглянути рекламу, збережену в автономному режимі</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Ви отримаєте сповіщення з посиланням, коли знову будете в мережі</string>
+    <string name="offline_opt_in_decline">Ні, дякую</string>
+    <string name="offline_opt_in_message">Ми надішлемо вам сповіщення з посиланням на сайт рекламодавця.</string>
+    <string name="offline_opt_in_title">Відкрити рекламу, коли ви знову будете в мережі.</string>
+    <string name="ok">Ok</string>
+    <string name="on">УВІМК</string>
+    <string name="personalisation">Персоналізація</string>
+    <string name="privacy_policy_link">https://docs.google.com/document/d/1KJSP4ZyiHTtdWqlhu4I1M3xx6myLk9sh0q5e_pcKH0s/edit?usp=sharing</string>
+    <string name="question1">Яке дівоче прізвище вашої матері?</string>
+    <string name="question2">Як звали вашого першого домашнього улюбленця?</string>
+    <string name="question3">Як звати вашого найкращого друга?</string>
+    <string name="question4">Як звали вашого першого вчителя?</string>
+    <string name="rate">Оцінити</string>
+    <string name="reenter_password">Повторно введіть пароль:</string>
+    <string name="retunr_to_default">Повернутися до стандартних</string>
+    <string name="s1">Зберегти зображення</string>
+    <string name="s2">Дозволити рекламі зберігати зображення в галереї зображень?</string>
+    <string name="s3">Прийняти</string>
+    <string name="s4">Відхилити</string>
+    <string name="s5">Створити подію календаря</string>
+    <string name="s6">Дозволити рекламі створити подію календаря?</string>
+    <string name="s7">Тестова реклама</string>
+    <string name="save">Зберегти</string>
+    <string name="search_menu_title">Пошук</string>
+    <string name="security_question">Секретне питання</string>
+    <string name="set">Встановити</string>
+    <string name="set_background">Встановити фон</string>
+    <string name="set_font">Встановити шрифт</string>
+    <string name="set_foreground">Встановити передній план</string>
+    <string name="set_lock_screen">Встановити екран блокування</string>
+    <string name="set_password">Встановити пароль</string>
+    <string name="set_pendant_type">Встановити стиль кулона</string>
+    <string name="set_zipper_style">Встановити стиль блискавки</string>
+    <string name="settings">Налаштування</string>
+    <string name="share">Поділитися</string>
+    <string name="share_text">Поділитися текстом</string>
+    <string name="sound">Звук</string>
+    <string name="star_4_8">4.8</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">Час</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="toast_message">Спливаюче повідомлення</string>
+    <string name="tt_will_play">Грати зараз</string>
+    <string name="vibration">Вібрація</string>
+    <string name="yes_exit">Так - Вийти</string>
+    <string name="yes_i_agree">Так, я згоден</string>
+    <string name="zipper_wallpaper">Встановити передній план</string>
+    <string name="notification">Сповіщення</string>
+    <string name="terms_amp_condition"><![CDATA[Правила та умови]]></string>
+    <string name="terms_of_use">Умови використання</string>
+    <string name="str_new">Найновіший</string>
+    <string name="str_for_you">Для тебе</string>
+    <string name="title_intro_3">Миттєво змініть шпалери</string>
+    <!-- Grant Permission Fragment -->
+    <string name="grant_permission_title">Надати дозвіл</string>
+    <string name="permission_title">Дозвіл</string>
+    <string name="notification_permission_subtitle">Дозволити надсилати вам сповіщення</string>
+    <string name="manage_files_permission_subtitle">Дозволити програмі доступ до файлів та керування ними</string>
+    <string name="write_storage_permission_subtitle">Дозволити програмі зберігати файли на носії</string>
+    <string name="battery_optimization_title">Оптимізація батареї</string>
+    <string name="battery_optimization_subtitle">Тримати програму працюючою у фоновому режимі</string>
+    <string name="overlay_permission_title">Показувати поверх інших програм</string>
+    <string name="overlay_permission_subtitle">Дозволити програмі відображатися поверх інших програм</string>
+    <string name="overlay_permission_desc">Цей дозвіл дозволяє програмі відображати екран блокування-блискавки поверх інших програм, коли ваш пристрій заблоковано</string>
+
+    <!-- Manage File Permission Fragment -->
+    <string name="manage_file_permission_title">Дозвіл на файли</string>
+    <string name="manage_file_permission_description">Додатку потрібен Дозвіл на сповіщення, щоб забезпечити пошук телефону за допомогою хлопків.</string>
+    <string name="file_permission_title">Дозвіл на файли</string>
+    <string name="file_permission_description">Додатку потрібен Дозвіл на файли для правильного збереження та керування вашими файлами.</string>
+    <string name="message_disconnect_internet">Будь ласка, перевірте ваше підключення, а потім оновіть сторінку</string>
+    <string name="str_retry">Повторити</string>
+    <string name="no_internet_connection">Немає підключення до Інтернету</string>
+    <string name="maybe_later">Можливо, пізніше</string>
+
+    <!-- History Screen -->
+    <string name="history">Історія</string>
+    <string name="home_screen">Головний екран</string>
+    <string name="no_history">Історія ще відсутня</string>
+    <string name="no_history_desc">Ваша історія шпалер з\'явиться тут, як тільки ви почнете встановлювати шпалери</string>
+    <string name="removed_from_history">Видалено з історії</string>
+    <string name="undo">Скасувати</string>
+
+    <string name="upgrade_pro">Оновити до Pro</string>
+    <string name="str_remove_ads">Видалити рекламу</string>
+    <string name="str_zipper">Блискавка</string>
+    <string name="str_home">Головна</string>
+    <string name="str_category">Категорія</string>
+    <string name="str_set_now">Встановити зараз</string>
+    <string name="msg_reward_change_free">Змініть нагороджені шпалери на безкоштовні шпалери!</string>
+    <string name="intro1_msg">Різноманітні унікальні теми</string>
+    <string name="intro2_msg">Високоякісні шпалери</string>
+    <string name="intro3_msg">Миттєво змініть шпалери</string>
+    <string name="intro4_msg">Регулярно новий контент</string>
+    <string name="lock_home_key">Заблокувати клавішу Home</string>
+    <string name="str_on">увімк</string>
+    <string name="str_current">Поточний</string>
+    <string name="answer_is_incorrect">Відповідь неправильна</string>
+    <string name="favourite">Улюблене</string>
+    <string name="str_zipper_wallpaper">Шпалери-блискавка</string>
+    <string name="str_background_wallpaper">Фонові шпалери</string>
+    <string name="default_char_lenght_2000">0/2000</string>
+    <string name="default_image_length_3">0/3</string>
+    <string name="browse_wallpapers">Переглянути шпалери</string>
+    <string name="no_wallpaper_history">Немає історії шпалер</string>
+    <string name="start_personalizing_device">Почніть персоналізувати свій пристрій, встановивши красиві шпалери</string>
+    <string name="no_wallpapers_filter">Шпалери не знайдено</string>
+    <string name="try_different_filter">Спробуйте вибрати інший фільтр або очистити поточний</string>
+    <string name="clear_filters">Очистити фільтри</string>
+    <string name="no_search_results">Немає результатів пошуку</string>
+    <string name="try_different_keywords">Спробуйте пошук за іншими ключовими словами</string>
+    <string name="clear_search">Очистити пошук</string>
+    <string name="overlay_permission_denied_message">Для використання функції екрана блокування-блискавки потрібен дозвіл на відображення поверх інших програм</string>
+    <string name="permission_denied_title">Дозвіл відхилено</string>
+    <string name="permission_denied_msg">Щоб використовувати функцію блискавки, вам потрібно надати дозвіл на доступ до сховища в налаштуваннях програми.</string>
+    <string name="success">Успіх</string>
+    <string name="set_zipper_success">Блискавка успішно налаштована!</string>
+    <string name="wallpapers">Шпалери</string>
+    <string name="set_chain_success"> Стиль ланцюга успішно встановлено!</string>
+    <string name="set_font_success">Шрифт успішно встановлено!</string>
+    <string name="set_background_success">Фонове зображення успішно встановлено!</string>
+    <string name="set_foreground_success">Передній план успішно встановлено!</string>
+    <string name="app_auto_click_des">Автоматизуйте свої натискання.</string>
+    <string name="rate_us">Оцініть нас</string>
+    <string name="rating_invitation">Ми наполегливо працюємо над покращенням досвіду користувачів. Будемо дуже вдячні, якщо ви зможете оцінити нас.</string>
+    <string name="thanks_feedback">Дякуємо за ваш відгук</string>
+    <string name="the_best_we_can_get">Найкраще, що ми можемо отримати</string>
+    <string name="battery_widget">Віджет батареї</string>
+    <string name="enter_your_answer">Введіть вашу відповідь</string>
+    <string name="enable_pin_lock_success">Пін-код успішно активовано!</string>
+    <string name="no_categories">Немає категорій</string>
+    <string name="enable_disable_lock_screen">Увімкнути/вимкнути екран блокування</string>
+    <string name="zipper_locker_theme">Тема шафки з блискавкою</string>
+    <string name="zipper_description">Чудовий екран із серцем, красиві кольори!</string>
+    <string name="disable_zip_locker_toast">Екран блокування вимкнено. Увімкніть знову, якщо хочете використовувати блокування на блискавці.</string>
+    <string name="pin_is_incorrect">PIN невірний !</string>
+    <string name="enable_zip_locker_toast"><![CDATA[Екран блокування-блискавки успішно ввімкнено!]]></string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title"><![CDATA[Ви впевнені, що хочете вийти?]]></string>
+    <string name="exit_dialog_cancel"><![CDATA[Скасувати]]></string>
+    <string name="exit_dialog_exit"><![CDATA[Вийти]]></string>
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_title"><![CDATA[Вам подобається наш додаток?]]></string>
+    <string name="rating_dialog_message"><![CDATA[Якщо вам подобається наш додаток, чи не могли б ви оцінити його в Play Store?]]></string>
+    <string name="rating_dialog_rate_now"><![CDATA[Оцінити зараз]]></string>
+    <string name="rating_dialog_no_thanks"><![CDATA[Ні, дякую]]></string>
+
+    <!-- History Menu -->
+    <string name="history_select_items"><![CDATA[Вибрати елементи]]></string>
+    <string name="history_delete_all"><![CDATA[Видалити все]]></string>
+    <string name="history_sort_by_date"><![CDATA[Сортувати за датою]]></string>
+    <string name="history_sort_by_type"><![CDATA[Сортувати за типом]]></string>
+    <string name="history_items_selected"><![CDATA[Вибрано: %d]]></string>
+
+    <!-- Clear History Dialog -->
+    <string name="clear_history_title"><![CDATA[Очистити історію]]></string>
+    <string name="clear_history_message"><![CDATA[Видалити всі шпалери з історії? Цю дію неможливо скасувати.]]></string>
+    <string name="clear_history_confirm"><![CDATA[Очистити все]]></string>
+    <string name="history_cleared"><![CDATA[Історію очищено]]></string>
+
+    <!-- Download Manager -->
+    <string name="download_image_title"><![CDATA[Завантажити зображення %s]]></string>
+    <string name="download_image_description"><![CDATA[Завантаження зображення з %s]]></string>
+
+    <!-- Error Messages -->
+    <string name="error"><![CDATA[Помилка]]></string>
+    <string name="error_message"><![CDATA[Помилка: %s]]></string>
+    <string name="cant_share_file"><![CDATA[Неможливо поділитися цим файлом]]></string>
+
+    <!-- Status -->
+    <string name="status_on"><![CDATA[увімк]]></string>
+    <string name="status_off"><![CDATA[вимк]]></string>
+
+    <!-- Zipper Test (Debug) -->
+    <string name="zipper_test_title"><![CDATA[Тест зображень-блискавок]]></string>
+    <string name="zipper_test_total"><![CDATA[Всього блискавок: %d]]></string>
+    <string name="zipper_test_filtered"><![CDATA[Відфільтровані блискавки: %d]]></string>
+    <string name="zipper_test_refresh"><![CDATA[Оновити]]></string>
+    <string name="zipper_test_free"><![CDATA[Безкоштовно]]></string>
+    <string name="zipper_test_premium"><![CDATA[Преміум]]></string>
+    <string name="zipper_test_locked"><![CDATA[Заблоковано]]></string>
+    <string name="zipper_test_id"><![CDATA[ID: %d]]></string>
+    <string name="zipper_test_name"><![CDATA[Ім\'я: %s]]></string>
+    <string name="zipper_test_category"><![CDATA[Категорія: %s]]></string>
+    <string name="zipper_test_access"><![CDATA[Доступ: %s]]></string>
+    <string name="msg_no_ads_available"><![CDATA[Ой! Зараз немає доступної реклами]]></string>
+
+    <!-- Hardcoded String Fixes -->
+    <!-- Toast Messages -->
+    <string name="storage_permission_granted_zipper"><![CDATA[Дозвіл на зберігання надано. Тепер ви можете використовувати функцію блискавки.]]></string>
+    <string name="no_security_password_set"><![CDATA[Пароль безпеки не встановлено!]]></string>
+    <string name="confirm_your_password"><![CDATA[Підтвердіть ваш пароль]]></string>
+    <string name="password_changed_successfully"><![CDATA[Пароль успішно змінено]]></string>
+    <string name="wrong_confirmation_password"><![CDATA[Неправильний пароль підтвердження. Спробуйте ще раз!]]></string>
+    <string name="playstore_not_found"><![CDATA[Не вдалося відкрити Google Play Store, будь ласка, встановіть додаток Google Play.]]></string>
+    <string name="no_app_to_handle_action"><![CDATA[Немає програми для виконання цієї дії]]></string>
+    <!-- Service Notifications -->
+    <string name="syncing_language_data"><![CDATA[Синхронізація мовних даних]]></string>
+    <string name="updating_app_content"><![CDATA[Оновлення вмісту...]]></string>
+    <string name="lockscreen_service_running"><![CDATA[Екран блокування працює]]></string>
+    <string name="service_running"><![CDATA[Працює]]></string>
+    <!-- Text/Size Selection -->
+    <string name="select_text_size_range"><![CDATA[Виберіть розмір тексту 10-60]]></string>
+    <!-- Ad Label -->
+    <string name="upgrade_premium"><![CDATA[Оновити до Преміум]]></string>
+    <string name="show_background"><![CDATA[Показати фон]]></string>
+    <string name="locale">uk</string>
+    <string name="str_loading"><![CDATA[Завантаження...]]></string>
+    <string name="str_loading_content"><![CDATA[Застосування %1$s може зайняти кілька секунд. Будь ласка, зачекайте...]]></string>
+    <string name="str_loading_content_download"><![CDATA[Завантаження шпалер може зайняти кілька секунд. Будь ласка, зачекайте...]]></string>
+    <string name="foreground"><![CDATA[Передній план]]></string>
+    <string name="background"><![CDATA[Фон]]></string>
+    <string name="str_font_style"><![CDATA[Стиль шрифту]]></string>
+    <string name="zipper_style"><![CDATA[Стиль блискавки]]></string>
+    <string name="pendant_style"><![CDATA[Стиль підвіски]]></string>
+    <string name="str_completed"><![CDATA[Завершено]]></string>
+    <string name="str_completed_content"><![CDATA[Все готово. Насолоджуйтесь!]]></string>
+    <string name="open_settings">Відкрити налаштування</string>
+    <string name="highlight_text"><![CDATA[250 квитків]]></string>
+    <string name="str_multi_five"><![CDATA[x5]]></string>
+    <string name="str_ad_free"><![CDATA[Без реклами]]></string>
+    <string name="str_ad_free_description_15_day"><![CDATA[Насолоджуйтесь досвідом без реклами протягом 15 днів! Потрапте сюди, щоб видалити рекламу та користуватися додатком більш плавно.]]></string>
+    <string name="str_ad_free_description_1_day"><![CDATA[Більше ніякої набридливої реклами протягом 1 дня! Грайте без перерв негайно.]]></string>
+    <string name="str_ad_free_15_day"><![CDATA[Видалити рекламу на 15 днів]]></string>
+    <string name="str_extra_spin"><![CDATA[Додаткові обертання]]></string>
+    <string name="str_extra_spin_description"><![CDATA[Ви виграли додаткове безкоштовне обертання! Продовжуйте випробовувати свою удачу та відкривайте нові захоплюючі нагороди.]]></string>
+    <string name="str_ad_free_1_day"><![CDATA[Видалити рекламу на 1 день]]></string>
+    <string name="str_surprise_gift"><![CDATA[Подарунок-сюрприз]]></string>
+    <string name="str_surprise_gift_description"><![CDATA[Ви виграли таємничий подарунок! Не пропустіть цю можливість!]]></string>
+    <string name="str_expried_on"><![CDATA[Термін дії закінчився]]></string>
+    <string name="str_dont_miss_it"><![CDATA[Не пропустіть]]></string>
+    <string name="title_get_more_spin"><![CDATA[Отримати більше безкоштовних обертань]]></string>
+    <string name="str_lose_turn"><![CDATA[У вас закінчилися обертання! Повертайтеся завтра, щоб отримати більше безкоштовних обертань і продовжити своє щасливе обертання!]]></string>
+    <string name="come_back_tomorrow"><![CDATA[Поверніться завтра]]></string>
+    <string name="wheel_of_fortune"><![CDATA[Колесо фортуни]]></string>
+    <string name="str_multi_one"><![CDATA[x1]]></string>
+    <string name="str_start"><![CDATA[Почати]]></string>
+    <string name="str_congratulations"><![CDATA[Вітаємо!]]></string>
+    <string name="str_receive"><![CDATA[Отримати]]></string>
+    <string name="str_multi_double"><![CDATA[x2]]></string>
+    <string name="str_award_description_title"><![CDATA[Опис нагороди]]></string>
+    <string name="lucky_wheel_descrepion"><![CDATA[Приєднуйтесь до щасливого обертання, щоб отримати шанс безкоштовно користуватися додатком без реклами протягом 1 або 15 днів.]]></string>
+    <string name="str_confirm"><![CDATA[Підтвердити]]></string>
+    <string name="str_subscribe"><![CDATA[Підписатися]]></string>
+    <string name="special_offer"><![CDATA[Спеціальна пропозиція]]></string>
+    <string name="str_buy"><![CDATA[Купити]]></string>
+    <string name="get_more_coins"><![CDATA[Отримати більше монет]]></string>
+    <string name="set_use_coins"><![CDATA[Використати монети]]></string>
+    <string name="msg_not_enough_keys"><![CDATA[Недостатньо монет, спробуйте пізніше!]]></string>
+    <string name="msg_used_keys"><![CDATA[Успіх! Ви обміняли %1$d монет. Баланс: %2$d монет.]]></string>
+    <string name="most_popular"><![CDATA[Найпопулярніше]]></string>
+    <string name="weekly_for_subscribers"><![CDATA[Щотижня для підписників]]></string>
+    <string name="use_coins_content"><![CDATA[Вам потрібно %1$d монет, щоб розблокувати ці шпалери. Ваш баланс: %2$d монет.]]></string>
+    <string name="str_restore"><![CDATA[Відновити]]></string>
+    <string name="ready_to_redeem_wallpaper"><![CDATA[Готові обміняти шпалери?]]></string>
+    <string name="str_congratulations_content"><![CDATA[Вітаємо! 🎉 Ви розблокували таємничий подарунок – насолоджуйтесь спеціальною знижкою на покупку монет!]]></string>
+    <string name="discount_month"><![CDATA[%s / місяць]]></string>
+    <string name="save_75"><![CDATA[Знижка %d%%]]></string>
+    <string name="discount_year"><![CDATA[%s / рік]]></string>
+    <string name="num_w_coins"><![CDATA[%1$d монет]]></string>
+    <string name="get_more_free"><![CDATA[На %1$d%% більше безкоштовно]]></string>
+    <string name="price_per_coins"><![CDATA[%1$s / %2$d монет]]></string>
+    <string name="get_coins_immediately"><![CDATA[Отримати монети негайно]]></string>
+    <string name="your_daily_reward"><![CDATA[Ваша щоденна нагорода]]></string>
+    <string name="plus_10"><![CDATA[+10]]></string>
+    <string name="vip_coin"><![CDATA[VIP-монета]]></string>
+    <string name="unlock_using_coins"><![CDATA[Розблокувати за монети]]></string>
+    <string name="str_vip_ticket_description"><![CDATA[Використовуйте монети, щоб розблокувати та застосувати шпалери, блискавки, ланцюжки тощо. Заробляйте монети за щоденні нагороди, рекламу або купуйте їх, щоб насолоджуватися необмеженою персоналізацією.]]></string>
+    <string name="user_id">Ідентифікатор користувача</string>
+    <string name="copy_user_id">Скопіювати ID користувача</string>
+    <string name="str_claim">Отримати нагороду</string>
+    <string name="get_coin">Отримати монети</string>
+    <string name="free_coins">Безкоштовні монети</string>
+    <string name="discount_number">Знижка %2$s</string>
+    <string name="watch_ads_get_coins">Дивіться рекламу — отримуйте монети</string>
+    <string name="get_more_spin">Отримати більше обертів</string>
+    <string name="use_coins">Використати монети</string>
+    <string name="congratulations_w_num_coins">Ви отримали %1$d монет</string>
+    <string name="notification_permission_message">Отримуйте сповіщення про нові шпалери, оновлення та спеціальні пропозиції. Ви можете керувати цим у налаштуваннях у будь-який час.</string>
+    <string name="notification_permission_settings_message">Щоб отримувати сповіщення, потрібно ввімкнути дозвіл у Налаштуваннях. Відкрити Налаштування зараз?</string>
+    <string name="wallpaper_downloaded_successfully">Шпалери успішно завантажено</string>
+    <string name="str_static"><![CDATA[Статичний]]></string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_sheet"
+        android:padding="@dimen/common_16dp">
+
+        <com.itsthwng.twallpaper.ui.component.customView.autofit.AutoResizeTextView
+            android:id="@+id/tvTitle"
+            style="@style/BottomSheetTextTitle"
+            android:maxLines="1"
+            android:text="@string/title_apply_change_language_dialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lytContent"
+            style="@style/BottomSheetTextMessage"
+            android:text="@string/msg_apply_language_dialog"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/btnConfirmYes"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/common_24dp"
+            android:background="@drawable/bg_button_primary_with_shadow"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/sf_pro_semi_bold"
+            android:gravity="center"
+            android:text="@string/mgs_ok"
+            android:textColor="@color/black_02"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lytContent" />
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/common_12dp"
+            android:background="@drawable/bg_button_secondary_permission"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/sf_pro_semi_bold"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_secondary_button"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConfirmYes" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_notifications">
+        <item>⚡ Sẵn sàng tự động hóa các lần nhấn của bạn? Bắt đầu nào!</item>
+        <item>🤖 Hãy để ngón tay bạn nghỉ ngơi – chúng tôi đã lo việc nhấp chuột!</item>
+        <item>🎯 Một cú nhấn hoàn hảo mỗi lần – khởi động Trình tự động nhấp!</item>
+        <item>⏱️ Chế độ tiết kiệm thời gian: đã kích hoạt!</item>
+        <item>🚀 Cần tốc độ? Trình tự động nhấp nhanh hơn bao giờ hết!</item>
+        <item>💤 Mệt mỏi vì phải nhấn? Chúng tôi sẽ làm điều đó cho bạn!</item>
+        <item>🧠 Nhấn thông minh thật đơn giản – khởi chạy Trình tự động nhấp ngay!</item>
+        <item>🔥 Trình nhấn tự động tốt nhất vừa có bản cập nhật – hãy xem thử!</item>
+        <item>📱 Nhấn ít hơn. Thắng nhiều hơn. Chơi thông minh hơn!</item>
+        <item>🧲 Độ chính xác khi nhấn như nam châm – không cần dùng tay!</item>
+        <item>🎮 Chơi game? Cày cuốc? Chúng tôi luôn hỗ trợ bạn!</item>
+        <item>🌙 Cày game đêm? Hãy để Trình tự động nhấp làm việc trong khi bạn thư giãn!</item>
+        <item>👆 Tạm biệt những ngón tay mỏi nhừ!</item>
+        <item>🎉 Cài đặt một lần, nhấn mãi mãi!</item>
+        <item>💥 Chế độ nhấn siêu tốc đã sẵn sàng – khởi chạy ứng dụng ngay!</item>
+        <item>🔁 Lặp lại các lần nhấn trở nên cực kỳ dễ dàng!</item>
+        <item>🏆 Thống trị trò chơi của bạn với thời gian hoàn hảo!</item>
+        <item>🪄 Phép màu tự động hóa chỉ cách một lần nhấn!</item>
+        <item>📈 Tăng năng suất của bạn với tính năng nhấn thông minh!</item>
+        <item>🛠️ Tự động hóa nhấn, theo cách của bạn!</item>
+        <item>⛏️ Farm tài nguyên? Hãy để chúng tôi nhấn giúp bạn!</item>
+        <item>🎯 Không bao giờ bỏ lỡ một nhịp nào – hãy thiết lập các lần nhấn tùy chỉnh của bạn!</item>
+        <item>🔋 Nhẹ về pin, nặng về kết quả!</item>
+        <item>🧘 Thư giãn... chúng tôi sẽ xử lý các lần nhấn.</item>
+        <item>💪 Cày game thông minh hơn, không phải chăm chỉ hơn!</item>
+        <item>🚨 Trợ lý nhấn của bạn đang chờ – hãy mở ứng dụng!</item>
+        <item>🛸 Trình tự động nhấp: im lặng, nhanh chóng và không thể ngăn cản!</item>
+        <item>👀 Vẫn đang nhấn thủ công? Có một cách tốt hơn!</item>
+        <item>🧬 Điều khiển nhấn chính xác trong tầm tay bạn!</item>
+        <item>🎈 Trình tự động nhấp có một bất ngờ đang chờ – mở ngay!</item>
+    </string-array>
+</resources>

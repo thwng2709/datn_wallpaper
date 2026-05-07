@@ -1,0 +1,27 @@
+package com.itsthwng.twallpaper.ui.component.zipper.zipperlock.utils
+
+object PrefKey {
+    const val ACTIVE: String = "active"
+    const val BATTERY_ACTIVE: String = "BatteryActivePref"
+    const val CHAIN_TYPE: String = "ChainTypePref"
+    const val DATE_ACTIVE: String = "DateActivePref"
+    const val DATA_FILENAME: String = ""
+    const val LOCKSCREEN: String = "LockScreen"
+    const val SELECTED_CHAIN: String = "SelectedChainPref"
+    const val SELECTED_FONT: String = "SelectedFont"
+    const val SELECTED_WALLPAPER: String = "SelectedWallpaper"
+    const val SELECTED_WALLPAPER_BG: String = "SelectedWallpaperBg"
+    const val SELECTED_ZIPPER: String = "SelectedZipperPref"
+    const val SELECTED_ZIPPER_TEMP: String = "SelectedZipperTempPref"
+    const val SELECTED_CHAIN_TEMP: String = "SelectedChainTempPref"
+    const val SELECTED_FONT_TEMP: String = "SelectedFontTempPref"
+    const val SELECTED_WALLPAPER_TEMP: String = "SelectedWallpaperTempPref"
+    const val SELECTED_WALLPAPER_BG_TEMP: String = "SelectedWallpaperBgTempPref"
+    const val CHAIN_TYPE_TEMP: String = "ChainTypeTempPref"
+    const val SOUND_ACTIVE: String = "SoundActivePref"
+    const val TIME_ACTIVE: String = "TimeActivePref"
+    const val VIBRATION_ACTIVE: String = "VibrateActivePref"
+    const val SHOW_BACKGROUND: String = "heart_zipper_ShowBackgroundPref"
+    const val WALLPAPER_COINS_TEMP: String = "WallpaperCoinsTemp"
+    const val WALLPAPER_BG_COIN_TEMP: String = "WallpaperBgCoinsTemp"
+}

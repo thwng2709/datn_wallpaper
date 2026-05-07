@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="is_fav"
+            type="Boolean" />
+
+        <variable
+            name="model"
+            type="com.itsthwng.twallpaper.data.model.SettingData.WallpapersItem" />
+            
+        <variable
+            name="isSelectionMode"
+            type="Boolean" />
+            
+        <variable
+            name="isSelected"
+            type="Boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/root_lout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ripple_wallpaper_item"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/img_wall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:image_url="@{model.wallpaperType==0?model.thumbnail:model.thumbnail}"
+                app:roundPercent=".3"
+                tools:src="@drawable/ic_app_water_reminder" />
+                
+            <!-- Selection overlay -->
+            <View
+                android:id="@+id/selectionOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_30"
+                android:visibility="@{isSelected ? View.VISIBLE : View.GONE}" />
+                
+            <!-- Selection border -->
+            <View
+                android:id="@+id/selectionBorder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selection_border"
+                android:visibility="@{isSelected ? View.VISIBLE : View.GONE}" />
+                
+                
+            <!-- Top-right container for checkbox and live indicator -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical"
+                android:gravity="end">
+                
+                <!-- Selection checkbox with scale animation -->
+                <FrameLayout
+                    android:id="@+id/checkboxContainer"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:visibility="@{isSelectionMode ? View.VISIBLE : View.GONE}">
+                    
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ripple_icon_button"
+                        android:backgroundTint="@{isSelected ? @color/color_theme_blue : @color/white_60}"
+                        android:elevation="2dp" />
+
+                    <ImageView
+                        android:id="@+id/ivCheckIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_check"
+                        android:visibility="@{isSelected ? View.VISIBLE : View.GONE}"
+                        app:tint="@color/white" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+                
+            <!-- Current indicator -->
+            <TextView
+                android:id="@+id/tv_current_badge"
+                style="@style/TextViewLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_round_corner_500"
+                android:backgroundTint="@color/color_theme_blue"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="3dp"
+                android:text="@string/str_current"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <!-- History indicators -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ic_home"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ripple_icon_button"
+                    android:backgroundTint="@color/color_theme_blue"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_home_select"
+                    android:visibility="gone"
+                    app:tint="@color/white"
+                    tools:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ic_lock"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/ripple_icon_button"
+                    android:backgroundTint="@color/color_theme_blue"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_lock"
+                    android:visibility="gone"
+                    app:tint="@color/white"
+                    tools:visibility="visible" />
+                <!-- Live indicator -->
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/ripple_icon_button"
+                    android:backgroundTint="@color/color_theme_blue"
+                    android:padding="6dp"
+                    android:visibility="@{model.wallpaperType==0?View.GONE:View.VISIBLE}"
+                    android:src="@drawable/ic_live"
+                    app:tint="@color/white" />
+                <TextView
+                    style="@style/TextViewLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/bg_round_corner_500"
+                    android:backgroundTint="@color/black_40"
+                    android:gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/live"
+                    android:textSize="10sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <!-- Bottom actions - Only favorite button -->
+            <ImageView
+                android:id="@+id/ic_fav_yes"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/ripple_icon_button"
+                android:backgroundTint="@color/color_theme_blue"
+                android:padding="10dp"
+                android:src="@{ is_fav ? @drawable/ic_fav_yes :@drawable/ic_fav}"
+                android:visibility="@{isSelectionMode ? View.GONE : View.VISIBLE}" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

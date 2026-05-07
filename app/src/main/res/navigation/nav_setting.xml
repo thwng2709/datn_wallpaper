@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/settingFragment2">
+
+    <fragment
+        android:id="@+id/settingFragment2"
+        android:name="com.itsthwng.twallpaper.ui.component.setting.view.SettingFragment"
+        android:label="SettingFragment" >
+        <action
+            android:id="@+id/action_settingFragment2_to_settingLanguageFragment2"
+            app:destination="@id/settingLanguageFragment2" />
+        <action
+            android:id="@+id/action_settingFragment2_to_feedbackFragment2"
+            app:destination="@id/feedbackFragment2" />
+        <action
+            android:id="@+id/action_settingFragment2_to_grantPermissionFragment2"
+            app:destination="@id/grantPermissionFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingLanguageFragment2"
+        android:name="com.itsthwng.twallpaper.ui.component.setting.view.SettingLanguageFragment"
+        android:label="SettingLanguageFragment" />
+    <fragment
+        android:id="@+id/feedbackFragment2"
+        android:name="com.itsthwng.twallpaper.ui.component.setting.view.feedback.FeedbackFragment"
+        android:label="FeedbackFragment" />
+    <fragment
+        android:id="@+id/grantPermissionFragment2"
+        android:name="com.itsthwng.twallpaper.ui.component.permission.GrantPermissionFragment"
+        android:label="GrantPermissionFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.history.fragment.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/downloadedFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.download.fragment.DownloadedFragment"
+        android:label="DownloadedFragment" />
+</navigation>

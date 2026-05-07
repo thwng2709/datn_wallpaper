@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        app:cardCornerRadius="@dimen/common_24dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bg_item_zipper"
+            android:background="@drawable/buttons2">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="25dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/enter_password"
+                android:textColor="@color/white_color"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/pinView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+            <com.itsthwng.twallpaper.ui.component.customView.PinCodeInputView
+                android:id="@+id/pinView"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:layout_marginTop="@dimen/common_8dp"
+                android:padding="16dp"
+                app:pinCount="4"
+                app:maskDelayMs="350"
+                app:dotRadius="4dp"
+                app:dotSpacing2="8dp"
+                android:inputType="numberPassword"
+                app:digitTextSize="14sp"
+                android:background="@drawable/zipper_edittext_background"
+                app:colorDotEmpty="#55FFFFFF"
+                app:colorDotFilled="#FFFFFFFF"
+                app:colorDigit="#FFFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView22" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/reenter_password"
+                android:textColor="@color/white_color"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/reenter_pinView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider" />
+
+            <com.itsthwng.twallpaper.ui.component.customView.PinCodeInputView
+                android:id="@+id/reenter_pinView"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:layout_marginTop="@dimen/common_8dp"
+                android:padding="16dp"
+                app:pinCount="4"
+                app:maskDelayMs="350"
+                app:dotRadius="4dp"
+                app:dotSpacing2="8dp"
+                app:digitTextSize="14sp"
+                android:background="@drawable/zipper_edittext_background"
+                app:colorDotEmpty="#55FFFFFF"
+                app:colorDotFilled="#FFFFFFFF"
+                app:colorDigit="#FFFFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pinView" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reenter_pinView" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/security_question"
+                android:textColor="@color/white_color"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/spinnerQuestions"
+                app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/security_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumb="@drawable/switch_thumb_custom_zipper"
+                app:track="@drawable/switch_track_custom_zipper"
+                app:layout_constraintBottom_toBottomOf="@+id/textView23"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerQuestions"
+                app:layout_constraintTop_toTopOf="@+id/textView23" />
+
+            <Spinner
+                android:id="@+id/spinnerQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingVertical="@dimen/common_8dp"
+                android:visibility="invisible"
+                android:background="@drawable/zipper_gold_white_round_button"
+                android:gravity="start|center_vertical|center_horizontal|center"
+                android:textColor="@color/white_color"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <EditText
+                android:id="@+id/questionAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/common_16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/zipper_edittext_background"
+                android:fontFamily="@font/sf_pro_medium"
+                android:importantForAutofill="no"
+                android:textAlignment="center"
+                android:textColor="@color/colorGrey"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:visibility="gone"
+                android:hint="@string/enter_your_answer"
+                android:textColorHint="@color/color_text_hint"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerQuestions" />
+
+            <ImageView
+                android:id="@+id/savePinBtn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="@dimen/common_12dp"
+                android:contentDescription="@string/save"
+                android:src="@drawable/bg_white_corner_28"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/cancelPinBtn"
+                app:layout_constraintTop_toBottomOf="@+id/questionAnswer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/save"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/savePinBtn"
+                app:layout_constraintEnd_toEndOf="@+id/savePinBtn"
+                app:layout_constraintStart_toStartOf="@+id/savePinBtn"
+                app:layout_constraintTop_toTopOf="@+id/savePinBtn" />
+
+            <ImageView
+                android:id="@+id/cancelPinBtn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="@dimen/common_12dp"
+                android:background="@drawable/bg_transparent_500"
+                android:contentDescription="@string/cancel"
+                app:layout_constraintEnd_toStartOf="@id/savePinBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/savePinBtn"
+                app:layout_constraintBottom_toBottomOf="@id/savePinBtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_medium"
+                android:text="@string/cancel"
+                android:textSize="18sp"
+                android:textColor="@color/color_text_secondary_button"
+                app:layout_constraintBottom_toBottomOf="@+id/cancelPinBtn"
+                app:layout_constraintEnd_toEndOf="@+id/cancelPinBtn"
+                app:layout_constraintStart_toStartOf="@+id/cancelPinBtn"
+                app:layout_constraintTop_toTopOf="@+id/cancelPinBtn" />
+
+            <View
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cancelPinBtn" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

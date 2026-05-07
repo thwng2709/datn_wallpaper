@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.islamkhsh.CardSliderViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/innerCardSlider"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:auto_slide_time="15"
+    app:cardSlider_otherPagesWidth="25dp"
+    app:cardSlider_pageMargin="8dp"
+    app:cardSlider_smallScaleFactor="0.8" />

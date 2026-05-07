@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.itsthwng.twallpaper.ui.component.download.viewmodel.DownloadedViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_theme_blue">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_8dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/common_16dp"
+            android:layout_marginTop="@dimen/common_42dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/common_40dp"
+                android:layout_height="@dimen/common_40dp"
+                android:layout_gravity="center_vertical"
+                android:focusable="true"
+                android:src="@drawable/ic_arrow_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/ripple_rectangle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sf_pro_semi_bold"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/download"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header_container"
+            tools:context=".fragments.DownloadedFragment">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nested_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_image_by_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adapter="@{model.wallpaperAdapter}"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="2"
+                        tools:itemCount="4"
+                        tools:listitem="@layout/item_home_image_by_cat"
+                        tools:visibility="gone">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="100dp" />
+
+                </LinearLayout>
+
+
+            </androidx.core.widget.NestedScrollView>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/sihmmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <include layout="@layout/shimmer_home" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <LinearLayout
+                android:id="@+id/lout_no_downloaded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+
+                <ImageView
+                    android:layout_width="@dimen/common_120dp"
+                    android:layout_height="@dimen/common_120dp"
+                    android:src="@drawable/img_no_photos" />
+
+                <TextView
+                    style="@style/TextViewLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/sf_pro_medium"
+                    android:text="@string/no_photos"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16sp" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateTint="@color/color_theme_purple_dark">
+
+            </ProgressBar>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/noInternetLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/common_50dp"
+                android:background="@color/color_theme_blue">
+
+                <FrameLayout
+                    android:id="@+id/illustrationImageContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/bg_internet_disconnect" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvNoInternetImage"
+                    style="@style/BottomSheetTextTitle"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/no_internet_connection"
+                    android:textSize="@dimen/text_size_18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/illustrationImageContainer" />
+
+                <!-- Allow Access Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRetry"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/common_12dp"
+                    android:background="@drawable/bg_button_primary_with_shadow"
+                    android:fontFamily="@font/sf_pro_medium"
+                    android:gravity="center"
+                    android:text="@string/str_retry"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black_02"
+                    android:textSize="@dimen/text_size_16sp"
+                    app:layout_constraintEnd_toEndOf="@id/btnSetting"
+                    app:layout_constraintStart_toStartOf="@id/btnSetting"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNoInternetImage" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/common_12dp"
+                    android:background="@drawable/bg_button_primary_with_shadow"
+                    android:fontFamily="@font/sf_pro_medium"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/common_24dp"
+                    android:text="@string/reconnect"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black_02"
+                    android:textSize="@dimen/text_size_16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnRetry" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

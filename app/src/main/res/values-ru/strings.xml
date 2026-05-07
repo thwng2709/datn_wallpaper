@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mgs_ok"><![CDATA[OK]]></string>
+    <string name="text_welcome"><![CDATA[Добро пожаловать]]></string>
+    <string name="text_create_by"><![CDATA[Разработано]]></string>
+    <string name="text_next"><![CDATA[Далее]]></string>
+    <string name="text_intro1_msg"><![CDATA[Автоматически нажимайте в любой игре, приложении или на веб-сайте.]]></string>
+    <string name="text_intro2_msg"><![CDATA[Легко настройте место, скорость и длительность каждого клика.]]></string>
+    <string name="text_intro3_msg"><![CDATA[Вы можете сохранять часто используемые настройки. Настройте один раз, используйте в любое время!]]></string>
+    <string name="text_app_version"><![CDATA[Версия приложения]]></string>
+    <string name="msg_apply_language_dialog"><![CDATA[Вы уверены, что хотите применить этот язык?]]></string>
+
+    <string name="save_script"><![CDATA[Сохранить]]></string>
+    <string name="cancel"><![CDATA[Отмена]]></string>
+    <string name="allow"><![CDATA[Разрешить]]></string>
+
+    <string name="title_apply_change_language_dialog"><![CDATA[Применить смену языка]]></string>
+    <string name="title_notification_24h"><![CDATA[Автокликер ждет вас]]></string>
+    <string name="title_notification"><![CDATA[Разрешение на уведомления]]></string>
+    <string name="message_notification"><![CDATA[Разрешите Автокликеру отправлять вам уведомления.]]></string>
+    <string name="deny"><![CDATA[Запретить]]></string>
+
+    <string name="other_app"><![CDATA[Другие приложения]]></string>
+
+    <string name="title_update_version"><![CDATA[Обновить новую версию]]></string>
+    <string name="message_update_version"><![CDATA[В Автокликере появилась новая версия. Пожалуйста, обновитесь до новой версии для наилучшего опыта!]]></string>
+    <string name="btn_update"><![CDATA[Обновить]]></string>
+    <string name="btn_later"><![CDATA[Позже]]></string>
+
+    <string name="dont_show_again"><![CDATA[Не показывать снова]]></string>
+
+    <string name="rating"><![CDATA[Вам нравится Автокликер?]]></string>
+    <string name="rating_message"><![CDATA[Мы всегда стремимся улучшать наше приложение и ваш опыт. Не могли бы вы уделить минутку, чтобы оценить наше приложение? Каждый отзыв очень ценен!]]></string>
+
+    <string name="smile_rating_terrible"><![CDATA[1 🌟]]></string>
+    <string name="smile_rating_bad"><![CDATA[2 🌟]]></string>
+    <string name="smile_rating_okay"><![CDATA[3 🌟]]></string>
+    <string name="smile_rating_good"><![CDATA[4 🌟]]></string>
+    <string name="smile_rating_great"><![CDATA[5 🌟]]></string>
+    <string name="choose_email"><![CDATA[Выберите адрес электронной почты:]]></string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+    <string name="feedback"><![CDATA[Обратная связь]]></string>
+    <string name="share_app"><![CDATA[Поделиться приложением]]></string>
+
+    <string name="allowed"><![CDATA[Разрешено]]></string>
+
+    <string name="permission"><![CDATA[Разрешение]]></string>
+    <string name="rate_us_now"><![CDATA[Оцените нас сейчас]]></string>
+    <string name="choose_language"><![CDATA[Выбрать язык]]></string>
+    <string name="please_select_language"><![CDATA[Пожалуйста, выберите язык отображения.]]></string>
+
+    <string name="content_feedback"><![CDATA[Мы сожалеем, что вы не удовлетворены Автокликером. Пожалуйста, отправьте ваши отзывы и предложения на нашу электронную почту, чтобы мы могли улучшить наш сервис в будущем.]]></string>
+    <string name="warning_rating"><![CDATA[Пожалуйста, выберите вашу оценку.]]></string>
+    <string name="video_starting_in_text"><![CDATA[Видео начнется через]]></string>
+    <string name="watch_ad_button_text"><![CDATA[Смотреть рекламу]]></string>
+    <string name="purchase_vip_button_text"><![CDATA[Купить VIP]]></string>
+    <string name="description_remind_watch_ad"><![CDATA[Посмотрите короткое видео, чтобы применить последний скрипт]]></string>
+
+    <string name="connect_internet"><![CDATA[Подключение к Интернету]]></string>
+    <string name="message_connect_internet"><![CDATA[Чтобы мы могли поддерживать и улучшать приложение, необходимо сетевое подключение. Пожалуйста, включите вашу сеть, чтобы продолжить использование приложения.]]></string>
+    <string name="lost_network_connection"><![CDATA[Потеряно сетевое соединение. Пожалуйста, переподключитесь к сети.]]></string>
+    <string name="reconnect"><![CDATA[Переподключиться]]></string>
+
+    <string name="str_close">Закрыть</string>
+
+    <string name="exit_app">Выход</string>
+    <string name="creator" translatable="false">Higher Studio</string>
+    <string name="txt_loading_ads">Загрузка рекламы…</string>
+    <string name="segment_intro1">Автоматизируйте свои действия,\nповышайте эффективность!</string>
+    <string name="segment_intro2">Мульти-таргетинг, высокая\nпроизводительность!</string>
+    <string name="segment_intro3">Удобно планируйте и сохраняйте\nнастройки!</string>
+    <string name="segment_intro4">Гибкая настройка, прост\nв использовании!</string>
+    <string name="get_started">Начать</string>
+    <string name="swipe_to_explore">Свайпните для изучения</string>
+    <string name="skip_ads">Пропустить рекламу</string>
+    <string name="title_exit_app">Выход из приложения</string>
+    <string name="label_exit_app">Вы уверены, что хотите выйти из приложения?</string>
+
+    <string name="description_watch_ad_reward_skin">Посмотрите рекламу и мгновенно разблокируйте неограниченный доступ к этому скину!</string>
+    <string name="app_water_reminder_des">Пейте воду вовремя, будьте здоровы.</string>
+    <string name="app_recovery_des">Легко восстанавливайте удаленные фотографии.</string>
+    <string name="str_you_might_like">Вам может понравиться</string>
+    <string name="app_hide_app_des">Скрывать приложения, фото и видео.</string>
+    <string name="app_sleep_sounds_des">Помогает быстро заснуть.</string>
+    <string name="text_pro">Pro</string>
+    <string name="setting">Настройки</string>
+    <string name="overview">Обзор</string>
+    <string name="languages">Языки</string>
+    <string name="more">Еще</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="email">Электронная почта</string>
+    <string name="hint_enter_email">Пожалуйста, введите ваш адрес электронной почты</string>
+    <string name="problem_type">Тип проблемы</string>
+    <string name="suggestions">Предложения</string>
+    <string name="bugs">Ошибки</string>
+    <string name="others">Другое</string>
+    <string name="content">Содержимое</string>
+    <string name="hint_content_description">Пожалуйста, предоставьте подробное описание возникшей проблемы, которое поможет нам более эффективно решить ваш вопрос.</string>
+    <string name="str_submit">Отправить</string>
+    <string name="invalid_email_format">Пожалуйста, введите корректный адрес электронной почты</string>
+    <string name="not_empty_email">Электронная почта не может быть пустой</string>
+    <string name="not_empty_content">Содержимое не может быть пустым</string>
+    <string name="sent_feedback_success">Обратная связь успешно отправлена!</string>
+    <string name="sent_feedback_fail">Не удалось отправить обратную связь!</string>
+    <string name="language_change_successful">Язык успешно изменен</string>
+    <string name="label_grant_permission">Пожалуйста, проверьте и предоставьте необходимые разрешения для корректной работы приложения.</string>
+    <string name="notification_permission">Разрешение на уведомления</string>
+    <string name="label_notification_permission">Это приложение запрашивает разрешение на отправку уведомлений, позволяя вам получать важные обновления и оповещения.</string>
+    <string name="manage_files_permission">Разрешение на управление файлами</string>
+    <string name="label_grant_manage_files_permission">Это приложение требует разрешения на управление вашими файлами, чтобы вы могли беспрепятственно получать доступ, организовывать и сохранять контент.</string>
+    <string name="write_storage_permission">Разрешение на запись в хранилище</string>
+    <string name="permission_denied">Это приложение требует разрешения для правильного сохранения ваших файлов.</string>
+    <string name="access_files_permission_message">Smart Recovery требует доступа к вашим фотографиям, видео и аудиофайлам для их правильного сохранения. Пожалуйста, предоставьте эти разрешения в настройках, чтобы продолжить.</string>
+    <string name="label_manage_files_permission">Это приложение требует разрешения на управление вашими файлами, позволяя вам беспрепятственно получать доступ, организовывать и сохранять контент. Пожалуйста, предоставьте это разрешение, чтобы продолжать использовать все функции.</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="permission_request">Приложение требует разрешений на чтение файлов для корректной работы. Пожалуйста, предоставьте разрешение!</string>
+    <string name="battery_limit_free">Бесплатное ограничение батареи</string>
+    <string name="battery_optimization_label">Запретить системе завершать работу приложения</string>
+    <string name="str_exit">Выход</string>
+
+    <string name="notification_permission_title">Разрешение на уведомления</string>
+    <string name="notification_permission_desc">Приложению требуется разрешение на уведомления, чтобы искать телефон по хлопку.</string>
+    <string name="allow_access">Разрешить доступ</string>
+    <string name="featured_items">Рекомендуемые элементы</string>
+    <string name="download_now">Скачать сейчас</string>
+    <string name="no_data_found">Данные не найдены</string>
+    <string name="live">В эфире</string>
+    <string name="search_here">Искать здесь</string>
+    <string name="no_data_for">Нет данных для</string>
+    <string name="select">Выбрать</string>
+    <string name="locked">Заблокировано</string>
+    <string name="premium">Премиум</string>
+    <string name="all_wallpaper">Все обои</string>
+    <string name="please_type_something">Пожалуйста, введите что-нибудь…</string>
+    <string name="set_wallpaper_as">Установить обои как?</string>
+    <string name="home_screen_only">Только главный экран</string>
+    <string name="lock_screen_only">Только экран блокировки</string>
+    <string name="home_lock_screen"><![CDATA[Главный & экран блокировки]]></string>
+    <string name="download">Скачать</string>
+    <string name="apply">Применить</string>
+    <string name="wallpaper_added_successfully">Обои успешно добавлены</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+    <string name="setting_wallpaper_is_not_allowed">Установка обоев не разрешена</string>
+    <string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">Наслаждайтесь доступом ко всем премиум-обоям без рекламы.</string>
+    <string name="unlock_exclusive_wallpaper">Разблокировать эксклюзивные обои</string>
+    <string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">Посмотрите короткую рекламу, чтобы получить потрясающие обои для вашего устройства. Ваш экран будет выглядеть потрясающе!</string>
+    <string name="watch_ad_amp_download"><![CDATA[Смотреть рекламу & Скачать]]></string>
+    <string name="watch_ad_amp_apply"><![CDATA[Смотреть рекламу & Применить]]></string>
+    <string name="saved_to_gallery">Сохранено в галерею</string>
+    <string name="permission_required_to_save_images">Для сохранения изображений требуется разрешение на хранилище. Пожалуйста, предоставьте разрешение в настройках.</string>
+    <string name="error_saving_image">Не удалось сохранить изображение. Пожалуйста, попробуйте снова.</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="storage_permission_explanation">Для сохранения обоев на вашем устройстве требуется разрешение на хранилище. Пожалуйста, предоставьте разрешение, чтобы продолжить.</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="permission_denied_go_to_settings">Вы отклонили разрешение на хранилище. Перейдите в Настройки и включите его вручную, чтобы сохранить обои.</string>
+    <string name="go_to_settings">Перейти в настройки</string>
+    <string name="media_read_permission_explanation">Этому приложению требуется разрешение для чтения изображений из вашей галереи</string>
+    <string name="storage_access_denied">Доступ к хранилищу запрещен. Проверьте разрешения приложения.</string>
+    <string name="error_network_connection">Ошибка сетевого соединения. Проверьте подключение к интернету.</string>
+    <string name="permission_revoked_message">Разрешение на хранилище было отозвано. Пожалуйста, предоставьте его снова, чтобы скачать обои.</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="subscribe_to">Подписаться на</string>
+    <string name="become_a">Стать</string>
+    <string name="all">Все</string>
+    <string name="simple">Простой</string>
+    <string name="wallpaper">Обои</string>
+    <string name="no_favourites">Нет избранных фото</string>
+    <string name="no_photos">Нет фото</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="activate">Активировать</string>
+    <string name="activate_lock_screen">Активировать экран блокировки</string>
+    <string name="ad">Реклама</string>
+    <string name="ad1">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.camouflagezipperlockscreen</string>
+    <string name="ad2">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.bluejeanszipperlockscreen</string>
+    <string name="ad3">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.diamondszipperlocker</string>
+    <string name="ad_app_name1">Экран блокировки с камуфляжной молнией</string>
+    <string name="ad_app_name2">Экран блокировки с синей джинсовой молнией</string>
+    <string name="ad_app_name3">Шкафчик с бриллиантовой молнией</string>
+    <string name="admob_app_key">ca-app-pub-8480863067551099~7453550976</string>
+    <string name="advertisement">Реклама</string>
+    <string name="android_7">Android 7</string>
+    <!-- Russian (ru) -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applovin_list_item_image_description">Отображает больше информации об элементе списка.</string>
+    <string name="backgroundCound">53</string>
+    <string name="background_wallpaper">Установить фон</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="change_color">Изменить цвет</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="character_counter_content_description">Превышено ограничение символов: %1$d из %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="continue_label">Нажмите здесь, чтобы продолжить</string>
+    <string name="continue_str">Продолжить</string>
+    <string name="customize">Настроить</string>
+    <string name="date">Дата</string>
+    <string name="disable_lock_screen">Включить экран блокировки</string>
+    <string name="disable_pin_lock">Включить PIN-код</string>
+    <string name="dummy_button">Кнопка-пустышка</string>
+    <string name="dummy_content">ПУСТЫШКА\10СОДЕРЖАНИЕ</string>
+    <string name="enable_pin_lock">Включить PIN-код</string>
+    <string name="enter_password">Введите пароль:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="font_style">Установить стиль шрифта</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="general_setting">Общие настройки</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_to_use">Как использовать</string>
+    <string name="info">Информация</string>
+    <string name="info_str1">Авторы:</string>
+    <string name="info_str2">UI иконки созданы:</string>
+    <string name="info_str3">https://www.flaticon.com/authors/icongeek26</string>
+    <string name="info_str4">https://icons8.com/</string>
+    <string name="install">УСТАНОВИТЬ</string>
+    <string name="lock_screen">Включить экран блокировки</string>
+    <string name="more_app_link">https://play.google.com/store/apps/developer?id=ZipperOnScreenApps</string>
+    <string name="more_applications">Больше приложений</string>
+    <string name="more_apps">Больше приложений</string>
+    <string name="more_settings">Больше настроек</string>
+    <string name="more_zipper_themes">Больше тем для молнии</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить %1$s</string>
+    <string name="native_text">Родной ТЕСТ</string>
+    <string name="nav_app_bar_navigate_up_description">Перейти вверх</string>
+    <string name="nav_app_bar_open_drawer_description">Открыть панель навигации</string>
+    <string name="no_thank_you">Нет, спасибо</string>
+    <string name="of">ВЫКЛ</string>
+    <string name="offline_notification_text">Нажмите, чтобы открыть рекламу</string>
+    <string name="offline_notification_title">Посмотреть рекламу, сохраненную в автономном режиме</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Вы получите уведомление со ссылкой, когда снова будете в сети</string>
+    <string name="offline_opt_in_decline">Нет, спасибо</string>
+    <string name="offline_opt_in_message">Мы отправим вам уведомление со ссылкой на сайт рекламодателя.</string>
+    <string name="offline_opt_in_title">Открыть рекламу, когда вы снова будете в сети.</string>
+    <string name="ok">Ok</string>
+    <string name="on">ВКЛ</string>
+    <string name="personalisation">Персонализация</string>
+    <string name="privacy_policy_link">https://docs.google.com/document/d/1KJSP4ZyiHTtdWqlhu4I1M3xx6myLk9sh0q5e_pcKH0s/edit?usp=sharing</string>
+    <string name="question1">Как девичья фамилия вашей матери?</string>
+    <string name="question2">Как зовут вашего первого питомца?</string>
+    <string name="question3">Как зовут вашего лучшего друга?</string>
+    <string name="question4">Как зовут вашего первого учителя?</string>
+    <string name="rate">Оценить</string>
+    <string name="reenter_password">Повторите пароль:</string>
+    <string name="retunr_to_default">Вернуться к стандартным настройкам</string>
+    <string name="s1">Сохранить изображение</string>
+    <string name="s2">Разрешить рекламному объявлению сохранять изображение в галерее?</string>
+    <string name="s3">Принять</string>
+    <string name="s4">Отклонить</string>
+    <string name="s5">Создать событие в календаре</string>
+    <string name="s6">Разрешить рекламному объявлению создавать событие в календаре?</string>
+    <string name="s7">Тестовое объявление</string>
+    <string name="save">Сохранить</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="security_question">Секретный вопрос</string>
+    <string name="set">Установить</string>
+    <string name="set_background">Установить фон</string>
+    <string name="set_font">Установить шрифт</string>
+    <string name="set_foreground">Установить передний план</string>
+    <string name="set_lock_screen">Установить экран блокировки</string>
+    <string name="set_password">Установить пароль</string>
+    <string name="set_pendant_type">Установить стиль подвески</string>
+    <string name="set_zipper_style">Установить стиль молнии</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Поделиться</string>
+    <string name="share_text">Поделиться текстом</string>
+    <string name="sound">Звук</string>
+    <string name="star_4_8">4.8</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">Время</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="toast_message">Всплывающее сообщение</string>
+    <string name="tt_will_play">Воспроизвести сейчас</string>
+    <string name="vibration">Вибрация</string>
+    <string name="yes_exit">Да - Выйти</string>
+    <string name="yes_i_agree">Да, я согласен</string>
+    <string name="zipper_wallpaper">Установить передний план</string>
+    <string name="notification">Уведомление</string>
+    <string name="terms_amp_condition"><![CDATA[Условия и положения]]></string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="str_new">Новейший</string>
+    <string name="str_for_you">Для вас</string>
+    <string name="title_intro_3">Мгновенно изменить обои</string>
+    <!-- Grant Permission Fragment -->
+    <string name="grant_permission_title">Предоставить разрешение</string>
+    <string name="permission_title">Разрешение</string>
+    <string name="notification_permission_subtitle">Разрешить отправку уведомлений</string>
+    <string name="manage_files_permission_subtitle">Разрешить приложению доступ и управление файлами</string>
+    <string name="write_storage_permission_subtitle">Разрешить приложению сохранять файлы в хранилище</string>
+    <string name="battery_optimization_title">Оптимизация батареи</string>
+    <string name="battery_optimization_subtitle">Поддерживать работу приложения в фоновом режиме</string>
+    <string name="overlay_permission_title">Поверх других приложений</string>
+    <string name="overlay_permission_subtitle">Разрешить приложению отображаться поверх других приложений</string>
+    <string name="overlay_permission_desc">Это разрешение позволяет приложению показывать экран блокировки с молнией поверх других приложений, когда устройство заблокировано</string>
+
+    <!-- Manage File Permission Fragment -->
+    <string name="manage_file_permission_title">Разрешение на файлы</string>
+    <string name="manage_file_permission_description">Приложению нужно разрешение уведомлений, чтобы обеспечить поиск телефона по хлопкам.</string>
+    <string name="file_permission_title">Разрешение на файлы</string>
+    <string name="file_permission_description">Приложению нужно разрешение на файлы для корректного сохранения и управления вашими файлами.</string>
+    <string name="message_disconnect_internet">Проверьте соединение и обновите страницу</string>
+    <string name="str_retry">Повторить</string>
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="maybe_later">Может быть позже</string>
+
+    <!-- History Screen -->
+    <string name="history">История</string>
+    <string name="home_screen">Главный экран</string>
+    <string name="no_history">Истории пока нет</string>
+    <string name="no_history_desc">Ваша история обоев появится здесь, как только вы начнёте их устанавливать</string>
+    <string name="removed_from_history">Удалено из истории</string>
+    <string name="undo">Отмена</string>
+
+    <string name="upgrade_pro">Обновить до Pro</string>
+    <string name="str_remove_ads">Убрать рекламу</string>
+    <string name="str_zipper">Молния</string>
+    <string name="str_home">Главная</string>
+    <string name="str_category">Категория</string>
+    <string name="str_set_now">Установить</string>
+    <string name="msg_reward_change_free">Смените обои с наградой на бесплатные!</string>
+    <string name="intro1_msg">Множество уникальных тем</string>
+    <string name="intro2_msg">Высококачественные обои</string>
+    <string name="intro3_msg">Мгновенно изменить обои</string>
+    <string name="intro4_msg">Регулярно новый контент</string>
+    <string name="lock_home_key">Заблокировать клавишу Home</string>
+    <string name="str_on">вкл</string>
+    <string name="str_current">Текущий</string>
+    <string name="answer_is_incorrect">Неправильный ответ</string>
+    <string name="favourite">Избранное</string>
+    <string name="str_zipper_wallpaper">Обои с молнией</string>
+    <string name="str_background_wallpaper">Фоновые обои</string>
+    <string name="default_char_lenght_2000">0/2000</string>
+    <string name="default_image_length_3">0/3</string>
+    <string name="browse_wallpapers">Просмотр обоев</string>
+    <string name="no_wallpaper_history">Нет истории обоев</string>
+    <string name="start_personalizing_device">Начните персонализировать свое устройство, устанавливая красивые обои</string>
+    <string name="no_wallpapers_filter">Обои не найдены</string>
+    <string name="try_different_filter">Попробуйте выбрать другой фильтр или очистить текущий</string>
+    <string name="clear_filters">Очистить фильтры</string>
+    <string name="no_search_results">Нет результатов поиска</string>
+    <string name="try_different_keywords">Попробуйте поиск с другими ключевыми словами</string>
+    <string name="clear_search">Очистить поиск</string>
+    <string name="overlay_permission_denied_message">Для использования функции экрана блокировки-молнии требуется разрешение на отображение поверх других приложений</string>
+    <string name="permission_denied_title">Разрешение отклонено</string>
+    <string name="permission_denied_msg">Чтобы использовать функцию молнии, вам нужно предоставить разрешение на доступ к хранилищу в настройках приложения.</string>
+    <string name="success">Успех</string>
+    <string name="set_zipper_success">Молния успешно установлена!</string>
+    <string name="wallpapers">Обои</string>
+    <string name="set_chain_success"> Стиль цепи успешно установлен!</string>
+    <string name="set_font_success">Шрифт успешно установлен!</string>
+    <string name="set_background_success">Фоновое изображение успешно установлено!</string>
+    <string name="set_foreground_success">Передний план успешно установлен!</string>
+    <string name="app_auto_click_des">Автоматизируйте свои нажатия.</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="rating_invitation">Мы усердно работаем над улучшением пользовательского опыта. Мы будем очень признательны, если вы сможете оценить нас.</string>
+    <string name="thanks_feedback">Спасибо за ваш отзыв</string>
+    <string name="the_best_we_can_get">Лучшее, что мы можем получить</string>
+    <string name="battery_widget">Виджет батареи</string>
+    <string name="enter_your_answer">Введите ваш ответ</string>
+    <string name="enable_pin_lock_success">Пин-код успешно активирован!</string>
+    <string name="no_categories">Нет категорий</string>
+    <string name="enable_disable_lock_screen">Включить/отключить экран блокировки</string>
+    <string name="zipper_locker_theme">Тема шкафчика с молнией</string>
+    <string name="zipper_description">Потрясающий экран с сердцем, красивые цвета!</string>
+    <string name="disable_zip_locker_toast">Экран блокировки отключен. Включите снова, если хотите использовать блокировку на молнии.</string>
+    <string name="pin_is_incorrect">PIN неверный !</string>
+    <string name="enable_zip_locker_toast"><![CDATA[Экран блокировки Zipper успешно включен!]]></string>
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title"><![CDATA[Вы уверены, что хотите выйти?]]></string>
+    <string name="exit_dialog_cancel"><![CDATA[Отмена]]></string>
+    <string name="exit_dialog_exit"><![CDATA[Выйти]]></string>
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_title"><![CDATA[Нравится наше приложение?]]></string>
+    <string name="rating_dialog_message"><![CDATA[Если вам нравится наше приложение, не могли бы вы оценить нас в Play Store?]]></string>
+    <string name="rating_dialog_rate_now"><![CDATA[Оценить сейчас]]></string>
+    <string name="rating_dialog_no_thanks"><![CDATA[Нет, спасибо]]></string>
+    <!-- History Menu -->
+    <string name="history_select_items"><![CDATA[Выбрать элементы]]></string>
+    <string name="history_delete_all"><![CDATA[Удалить все]]></string>
+    <string name="history_sort_by_date"><![CDATA[Сортировать по дате]]></string>
+    <string name="history_sort_by_type"><![CDATA[Сортировать по типу]]></string>
+    <string name="history_items_selected"><![CDATA[Выбрано: %d]]></string>
+    <!-- Clear History Dialog -->
+    <string name="clear_history_title"><![CDATA[Очистить историю]]></string>
+    <string name="clear_history_message"><![CDATA[Удалить все обои из истории? Это действие нельзя отменить.]]></string>
+    <string name="clear_history_confirm"><![CDATA[Очистить все]]></string>
+    <string name="history_cleared"><![CDATA[История очищена]]></string>
+    <!-- Download Manager -->
+    <string name="download_image_title"><![CDATA[Скачать изображение %s]]></string>
+    <string name="download_image_description"><![CDATA[Скачивание изображения с %s]]></string>
+    <!-- Error Messages -->
+    <string name="error"><![CDATA[Ошибка]]></string>
+    <string name="error_message"><![CDATA[Ошибка: %s]]></string>
+    <string name="cant_share_file"><![CDATA[Невозможно поделиться этим файлом]]></string>
+    <!-- Status -->
+    <string name="status_on"><![CDATA[вкл]]></string>
+    <string name="status_off"><![CDATA[выкл]]></string>
+    <!-- Zipper Test (Debug) -->
+    <string name="zipper_test_title"><![CDATA[Тест изображений Zipper]]></string>
+    <string name="zipper_test_total"><![CDATA[Всего Zippers: %d]]></string>
+    <string name="zipper_test_filtered"><![CDATA[Отфильтрованные Zippers: %d]]></string>
+    <string name="zipper_test_refresh"><![CDATA[Обновить]]></string>
+    <string name="zipper_test_free"><![CDATA[Бесплатно]]></string>
+    <string name="zipper_test_premium"><![CDATA[Премиум]]></string>
+    <string name="zipper_test_locked"><![CDATA[Заблокировано]]></string>
+    <string name="zipper_test_id"><![CDATA[ID: %d]]></string>
+    <string name="zipper_test_name"><![CDATA[Имя: %s]]></string>
+    <string name="zipper_test_category"><![CDATA[Категория: %s]]></string>
+    <string name="zipper_test_access"><![CDATA[Доступ: %s]]></string>
+    <string name="msg_no_ads_available"><![CDATA[Ой! Сейчас нет доступных объявлений]]></string>
+
+    <!-- Hardcoded String Fixes -->
+    <!-- Toast Messages -->
+    <string name="storage_permission_granted_zipper"><![CDATA[Разрешение на хранение предоставлено. Теперь вы можете использовать функцию молнии.]]></string>
+    <string name="no_security_password_set"><![CDATA[Пароль безопасности не установлен!]]></string>
+    <string name="confirm_your_password"><![CDATA[Подтвердите ваш пароль]]></string>
+    <string name="password_changed_successfully"><![CDATA[Пароль успешно изменен]]></string>
+    <string name="wrong_confirmation_password"><![CDATA[Неверный пароль подтверждения. Попробуйте снова!]]></string>
+    <string name="playstore_not_found"><![CDATA[Не удалось открыть Google Play Store, пожалуйста, установите приложение Google Play.]]></string>
+    <string name="no_app_to_handle_action"><![CDATA[Нет приложения для выполнения этого действия]]></string>
+    <!-- Service Notifications -->
+    <string name="syncing_language_data"><![CDATA[Синхронизация языковых данных]]></string>
+    <string name="updating_app_content"><![CDATA[Обновление контента...]]></string>
+    <string name="lockscreen_service_running"><![CDATA[Экран блокировки работает]]></string>
+    <string name="service_running"><![CDATA[Работает]]></string>
+    <!-- Text/Size Selection -->
+    <string name="select_text_size_range"><![CDATA[Выберите размер текста 10-60]]></string>
+    <!-- Ad Label -->
+    <string name="upgrade_premium"><![CDATA[Перейти на Премиум]]></string>
+    <string name="show_background"><![CDATA[Показать фон]]></string>
+    <string name="locale">ru</string>
+    <string name="str_loading"><![CDATA[Загрузка...]]></string>
+    <string name="str_loading_content"><![CDATA[Применение %1$s может занять несколько секунд. Пожалуйста, подождите...]]></string>
+    <string name="str_loading_content_download"><![CDATA[Загрузка обоев может занять несколько секунд. Пожалуйста, подождите...]]></string>
+    <string name="foreground"><![CDATA[Передний план]]></string>
+    <string name="background"><![CDATA[Фон]]></string>
+    <string name="str_font_style"><![CDATA[Стиль шрифта]]></string>
+    <string name="zipper_style"><![CDATA[Стиль молнии]]></string>
+    <string name="pendant_style"><![CDATA[Стиль подвески]]></string>
+    <string name="str_completed"><![CDATA[Завершено]]></string>
+    <string name="str_completed_content"><![CDATA[Всё готово. Наслаждайтесь!]]></string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="highlight_text"><![CDATA[250 билетов]]></string>
+    <string name="str_multi_five"><![CDATA[x5]]></string>
+    <string name="str_ad_free"><![CDATA[Без рекламы]]></string>
+    <string name="str_ad_free_description_15_day"><![CDATA[Наслаждайтесь приложением без рекламы в течение 15 дней! Попадите на этот сектор, чтобы убрать рекламу и пользоваться приложением с большим комфортом.]]></string>
+    <string name="str_ad_free_description_1_day"><![CDATA[Больше никакой назойливой рекламы в течение 1 дня! Играйте без перерывов прямо сейчас.]]></string>
+    <string name="str_ad_free_15_day"><![CDATA[Убрать рекламу на 15 дней]]></string>
+    <string name="str_extra_spin"><![CDATA[Дополнительные вращения]]></string>
+    <string name="str_extra_spin_description"><![CDATA[Вы выиграли дополнительное бесплатное вращение! Продолжайте испытывать свою удачу и открывать новые захватывающие награды.]]></string>
+    <string name="str_ad_free_1_day"><![CDATA[Убрать рекламу на 1 день]]></string>
+    <string name="str_surprise_gift"><![CDATA[Подарок-сюрприз]]></string>
+    <string name="str_surprise_gift_description"><![CDATA[Вы выиграли таинственный подарок! Не упустите эту возможность!]]></string>
+    <string name="str_expried_on"><![CDATA[Истекает]]></string>
+    <string name="str_dont_miss_it"><![CDATA[Не пропустите]]></string>
+    <string name="title_get_more_spin"><![CDATA[Получить больше бесплатных вращений]]></string>
+    <string name="str_lose_turn"><![CDATA[У вас закончились вращения! Возвращайтесь завтра, чтобы получить больше бесплатных вращений и продолжить вращать колесо удачи!]]></string>
+    <string name="come_back_tomorrow"><![CDATA[Вернуться завтра]]></string>
+    <string name="wheel_of_fortune"><![CDATA[Колесо фортуны]]></string>
+    <string name="str_multi_one"><![CDATA[x1]]></string>
+    <string name="str_start"><![CDATA[Начать]]></string>
+    <string name="str_congratulations"><![CDATA[Поздравляем!]]></string>
+    <string name="str_receive"><![CDATA[Получить]]></string>
+    <string name="str_multi_double"><![CDATA[x2]]></string>
+    <string name="str_award_description_title"><![CDATA[Описание награды]]></string>
+    <string name="lucky_wheel_descrepion"><![CDATA[Участвуйте во вращении колеса удачи, чтобы получить шанс бесплатно пользоваться приложением без рекламы в течение 1 или 15 дней.]]></string>
+    <string name="str_confirm"><![CDATA[Подтвердить]]></string>
+    <string name="str_subscribe"><![CDATA[Подписаться]]></string>
+    <string name="special_offer"><![CDATA[Специальное предложение]]></string>
+    <string name="str_buy"><![CDATA[Купить]]></string>
+    <string name="get_more_coins"><![CDATA[Получить больше монет]]></string>
+    <string name="set_use_coins"><![CDATA[Использовать монеты]]></string>
+    <string name="msg_not_enough_keys"><![CDATA[Недостаточно монет, попробуйте позже!]]></string>
+    <string name="msg_used_keys"><![CDATA[Успешно! Вы обменяли %1$d монет. Баланс: %2$d монет.]]></string>
+    <string name="most_popular"><![CDATA[Самое\nпопулярное]]></string>
+    <string name="weekly_for_subscribers"><![CDATA[Еженедельно для подписчиков]]></string>
+    <string name="use_coins_content"><![CDATA[Вам нужно %1$d монет, чтобы разблокировать эти обои. Ваш баланс: %2$d монет.]]></string>
+    <string name="str_restore"><![CDATA[Восстановить]]></string>
+    <string name="ready_to_redeem_wallpaper"><![CDATA[Готовы обменять обои?]]></string>
+    <string name="str_congratulations_content"><![CDATA[Поздравляем! 🎉 Вы разблокировали таинственный подарок – получите специальную скидку на покупку монет!]]></string>
+    <string name="discount_month"><![CDATA[%s / месяц]]></string>
+    <string name="save_75"><![CDATA[Экономия %d%%]]></string>
+    <string name="discount_year"><![CDATA[%s / год]]></string>
+    <string name="num_w_coins"><![CDATA[%1$d монет]]></string>
+    <string name="get_more_free"><![CDATA[На %1$d%% больше бесплатно]]></string>
+    <string name="price_per_coins"><![CDATA[%1$s / %2$d монет]]></string>
+    <string name="get_coins_immediately"><![CDATA[Получить монеты немедленно]]></string>
+    <string name="your_daily_reward"><![CDATA[Ваша ежедневная награда]]></string>
+    <string name="plus_10"><![CDATA[+10]]></string>
+    <string name="vip_coin"><![CDATA[VIP-монета]]></string>
+    <string name="unlock_using_coins"><![CDATA[Разблокировать за монеты]]></string>
+    <string name="str_vip_ticket_description"><![CDATA[Используйте монеты, чтобы разблокировать и применять обои, молнии, цепочки и многое другое. Зарабатывайте монеты за ежедневные награды, рекламу или покупайте их, чтобы наслаждаться неограниченной настройкой.]]></string>
+    <string name="user_id">Идентификатор пользователя</string>
+    <string name="copy_user_id">Копировать ID пользователя</string>
+    <string name="str_claim">Получить награду</string>
+    <string name="get_coin">Получить монеты</string>
+    <string name="free_coins">Бесплатные монеты</string>
+    <string name="discount_number">Скидка %2$s</string>
+    <string name="watch_ads_get_coins">Смотрите рекламу — получайте монеты</string>
+    <string name="get_more_spin">Получить больше вращений</string>
+    <string name="use_coins">Использовать монеты</string>
+    <string name="congratulations_w_num_coins">Вы получили %1$d монет</string>
+    <string name="notification_permission_message">Получайте уведомления о новых обоях, обновлениях и специальных предложениях. Вы можете изменить это в настройках в любое время.</string>
+    <string name="notification_permission_settings_message">Чтобы получать уведомления, необходимо включить разрешение в настройках. Открыть настройки сейчас?</string>
+    <string name="wallpaper_downloaded_successfully">Обои успешно загружены</string>
+    <string name="str_static"><![CDATA[Статичный]]></string>
+
+</resources>

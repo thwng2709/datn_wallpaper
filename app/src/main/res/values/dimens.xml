@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="common_0dp">0dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_3dp">3dp</dimen>
+    <dimen name="common_4dp">4dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_6dp">6dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_14dp">14dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_24dp">24dp</dimen>
+    <dimen name="common_26dp">26dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_32dp">32dp</dimen>
+    <dimen name="common_36dp">36dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_48dp">48dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_54dp">54dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_68dp">68dp</dimen>
+    <dimen name="common_150dp">150dp</dimen>
+    <dimen name="common_160dp">160dp</dimen>
+
+
+    <!--    New -->
+    <dimen name="ts_26">26sp</dimen>
+    <dimen name="ts_12">12sp</dimen>
+    <dimen name="ts_13">13sp</dimen>
+    <dimen name="ts_14">14sp</dimen>
+    <dimen name="ts_15">15sp</dimen>
+    <dimen name="ts_16">16sp</dimen>
+    <dimen name="ts_18">18sp</dimen>
+    <dimen name="ts_20">20sp</dimen>
+
+<!--    Zipper Lock : Remove duplicate later-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+
+    <dimen name="bormalTextSize">18sp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+
+    <dimen name="highlight_alpha_material_colored">0.26</dimen>
+    <dimen name="hint_alpha_material_dark">0.5</dimen>
+    <dimen name="hint_alpha_material_light">0.38</dimen>
+    <dimen name="hint_pressed_alpha_material_dark">0.7</dimen>
+    <dimen name="hint_pressed_alpha_material_light">0.54</dimen>
+    <dimen name="margin1">1dp</dimen>
+    <dimen name="margin3">5dp</dimen>
+    <dimen name="margin4">10dp</dimen>
+    <dimen name="margin5">15dp</dimen>
+
+
+    <dimen name="splash_continue_button_height">60dp</dimen>
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="tooltip_corner_radius">2dp</dimen>
+</resources>

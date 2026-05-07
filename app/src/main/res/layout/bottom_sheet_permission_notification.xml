@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_16dp"
+        android:background="@drawable/bg_bottom_sheet">
+
+        <TextView
+            android:id="@+id/txt_title_dialog_permission"
+            style="@style/BottomSheetTextTitle"
+            android:text="@string/title_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lytContent"
+            style="@style/BottomSheetTextMessage"
+            android:text="@string/message_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_dialog_permission"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/llDontShowAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lytContent"
+            android:layout_marginTop="@dimen/common_24dp">
+
+            <CheckBox
+                android:id="@+id/cbDontShowAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@color/color_F9AA33"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dont_show_again"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12sp"
+                android:fontFamily="@font/sf_pro_regular"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnConfirmYes"
+            style="@style/ButtonConfirmStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/allow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llDontShowAgain"
+            android:layout_marginTop="@dimen/common_16dp"/>
+
+        <TextView
+            android:id="@+id/btnCancel"
+            style="@style/ButtonCancelStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_12dp"
+            android:text="@string/deny"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConfirmYes" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

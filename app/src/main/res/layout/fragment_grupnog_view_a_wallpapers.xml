@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="@+id/rl" android:background="#3b414a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/title_layout" android:background="@color/black_overlay" android:layout_width="match_parent" android:layout_height="60dp" android:layout_centerInParent="false" android:layout_centerHorizontal="true" android:layout_centerVertical="false">
+        <TextView android:textSize="35sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/app_name"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp" android:layout_marginBottom="65dp">
+        <LinearLayout android:orientation="vertical"
+            android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/iv8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <ImageView android:id="@+id/maska8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/LL5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <RelativeLayout android:layout_gravity="center" android:id="@+id/more_app_rl" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_weight="0.5">
+                    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/white"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_zipper_themes" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" android:layout_alignParentStart="true"/>
+                    <ImageView
+                        android:background="@drawable/google_play_badge" android:layout_width="140dp" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navMain"
+    app:startDestination="@id/splashFragment">
+
+    <action
+        android:id="@+id/atcOpenAskAgeScreen"
+        app:destination="@id/askLanguageFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:popUpTo="@id/navMain"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.splash.view.SplashFragment"
+        tools:layout="@layout/fragment_splash" >
+
+        <action
+            android:id="@+id/atcOpenIntro"
+            app:destination="@id/introFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/navMain"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.splash.view.IntroFragment"
+        tools:layout="@layout/fragment_intro">
+
+        <action
+            android:id="@+id/action_introFragment_to_notificationPermissionFragment"
+            app:destination="@id/notificationPermissionFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_manageFilePermissionFragment"
+            app:destination="@id/manageFilePermissionFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_batteryPermissionFragment"
+            app:destination="@id/batteryPermissionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/askLanguageFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.splash.view.AskLanguageFragment"
+        tools:layout="@layout/fragment_ask_language">
+
+        <action
+            android:id="@+id/atcOpen_askLanguageFragment_toIntro2"
+            app:destination="@id/introFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_askLanguageFragment_to_askLanguageFragment2"
+            app:destination="@id/askLanguageFragment2"
+            app:popUpTo="@id/navMain"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/askLanguageFragment2"
+        android:name="com.itsthwng.twallpaper.ui.component.splash.view.AskLanguageFragment2"
+        android:label="AskLanguageFragment2" >
+        <action
+            android:id="@+id/action_askLanguageFragment2_to_introFragment"
+            app:destination="@id/introFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/notificationPermissionFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.permission.NotificationPermissionFragment"
+        android:label="NotificationPermissionFragment" >
+        <action
+            android:id="@+id/action_notificationPermissionFragment_to_manageFilePermissionFragment"
+            app:destination="@id/manageFilePermissionFragment" />
+        <action
+            android:id="@+id/action_notificationPermissionFragment_to_batteryPermissionFragment"
+            app:destination="@id/batteryPermissionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageFilePermissionFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.permission.ManageFilePermissionFragment"
+        android:label="ManageFilePermissionFragment" >
+        <action
+            android:id="@+id/action_manageFilePermissionFragment_to_batteryPermissionFragment"
+            app:destination="@id/batteryPermissionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batteryPermissionFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.permission.BatteryPermissionFragment"
+        android:label="BatteryPermissionFragment" />
+    
+    <fragment
+        android:id="@+id/overlayPermissionFragment"
+        android:name="com.itsthwng.twallpaper.ui.component.permission.OverlayPermissionFragment"
+        android:label="OverlayPermissionFragment" />
+
+</navigation>

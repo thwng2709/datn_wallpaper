@@ -1,0 +1,203 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="AppTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+    </style>
+
+    <style name="AppButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+
+    <style name="ButtonConfirmStyleAds">
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_button_stop_after</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="ButtonConfirmStyle">
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_button_stop_after</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="ButtonCancelStyle">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="background">@drawable/ripple_rectangle</item>
+        <item name="android:background">@drawable/ripple_rectangle</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BottomSheetTextTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/common_16dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BottomSheetTextMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">@dimen/common_12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonNextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_48dp</item>
+        <item name="android:background">@drawable/bg_curved_24dp_white</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColor">@color/colorTxtSettingCommon</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="TextSettingStyle">
+        <item name="android:textColor">@color/colorTxtSettingCommon</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <!-- Base AppTheme that extends Material Components -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorEdgeEffect">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="android:buttonStyle">@style/AppButtonStyle</item>
+        <item name="android:windowBackground">@color/black_02</item>
+    </style>
+
+    <declare-styleable name="SmileRating">
+        <attr name="angryColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="drawingColor" format="color" />
+        <attr name="showLine" format="boolean" />
+        <attr name="placeHolderSmileColor" format="color" />
+        <attr name="placeHolderBackgroundColor" format="color" />
+        <attr name="textSelectionColor" format="color" />
+        <attr name="textNonSelectionColor" format="color" />
+        <attr name="isIndicator" format="boolean" />
+    </declare-styleable>
+
+    <style name="foodRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/drawable_rating_star</item>
+    </style>
+
+    <!-- Material Theme with NoActionBar -->
+
+    <style name="WhiteBottomSheetDialogTheme"
+        parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/WhiteAppModalStyle</item>
+    </style>
+
+    <style name="WhiteAppModalStyle" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
+
+    <style name="ButtonSelectStyle">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/common_10dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+
+    <!--    New-->
+    <style name="TextViewLocal" parent="android:Widget.TextView">
+        <item name="android:textDirection">locale</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+    </style>
+
+    <style name="EditTextLocal" parent="android:Widget.EditText">
+        <item name="android:textDirection">locale</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+    </style>
+
+    <style name="CircleShape">
+        <item name="cornerSize">20%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <!-- Switch Theme for Permission Screen -->
+    <!-- Custom Switch Style for Permission Screen -->
+
+    <!-- Popup Menu Animation Style -->
+
+    <!-- Custom Alert Dialog Style -->
+
+</resources>

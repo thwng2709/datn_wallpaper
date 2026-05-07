@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <com.itsthwng.twallpaper.ui.component.zipper.lib.Glszl_GameAdapters.Glszl_Drawer
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/passwordHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:keepScreenOn="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/enter_password"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView8"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/applogo" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/applogo" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/applogo" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent">
+
+                <com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.Glszl_pinLockView.Glszl_IndicatorDots
+                    android:id="@+id/indicator_dots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    app:dotDiameter="18dp"
+                    app:dotEmptyBackground="@drawable/normal"
+                    app:dotFilledBackground="@drawable/press" />
+
+                <com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.Glszl_pinLockView.Glszl_PinLockView
+                    android:id="@+id/pin_lock_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/indicator_dots"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    app:keypadButtonBackgroundDrawable="@drawable/press"
+                    app:keypadButtonSize="52dp"
+                    app:keypadHorizontalSpacing="16dp"
+                    app:keypadShowDeleteButton="true"
+                    app:keypadTextColor="@color/white"
+                    app:keypadTextSize="15dp"
+                    app:keypadVerticalSpacing="16dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/forgot_password_dialog"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="50dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/common_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/passwordHolder"
+            app:layout_constraintEnd_toEndOf="@+id/passwordHolder"
+            app:layout_constraintStart_toStartOf="@+id/passwordHolder"
+            app:layout_constraintTop_toTopOf="@+id/passwordHolder">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="@dimen/common_24dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttons2">
+
+                    <TextView
+                        android:id="@+id/forgot_password_question"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Question 1 dedw dewde efeewfewfew fewf?" />
+
+                    <EditText
+                        android:id="@+id/forgot_password_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/zipper_gold_white_round_button"
+                        android:gravity="center"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/forgot_password_question"
+                        tools:ignore="TextFields" />
+
+                    <ImageView
+                        android:id="@+id/forgot_password_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/zipper_gold_white_round_button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/forgot_password_input"
+                        app:layout_constraintWidth_percent="0.4" />
+
+                    <ImageView
+                        android:id="@+id/forgot_password_ok"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/zipper_gold_white_round_button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/forgot_password_input"
+                        app:layout_constraintWidth_percent="0.4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sf_pro_medium"
+                        android:text="@string/cancel"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="@+id/forgot_password_cancel"
+                        app:layout_constraintEnd_toEndOf="@+id/forgot_password_cancel"
+                        app:layout_constraintStart_toStartOf="@+id/forgot_password_cancel"
+                        app:layout_constraintTop_toTopOf="@+id/forgot_password_cancel" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sf_pro_medium"
+                        android:text="@string/ok"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="@+id/forgot_password_ok"
+                        app:layout_constraintEnd_toEndOf="@+id/forgot_password_ok"
+                        app:layout_constraintStart_toStartOf="@+id/forgot_password_ok"
+                        app:layout_constraintTop_toTopOf="@+id/forgot_password_ok" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/error_message"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/passwordHolder"
+            app:layout_constraintStart_toStartOf="@+id/passwordHolder"
+            app:layout_constraintTop_toBottomOf="@+id/passwordHolder"
+            app:layout_constraintWidth_percent="0.4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/error_button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sf_pro_medium"
+                android:gravity="center"
+                android:text="@string/answer_is_incorrect"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/forgot_password"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/passwordHolder"
+            app:layout_constraintStart_toStartOf="@+id/passwordHolder"
+            app:layout_constraintTop_toBottomOf="@+id/passwordHolder"
+            app:layout_constraintWidth_percent="0.4">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="7dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/bg_item_zipper"
+                    app:cardCornerRadius="7dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/buttons2" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/forgot_password"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/cardView9"
+                app:layout_constraintStart_toStartOf="@+id/cardView9"
+                app:layout_constraintTop_toTopOf="@+id/cardView9" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

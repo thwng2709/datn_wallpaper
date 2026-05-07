@@ -1,0 +1,187 @@
+<!-- MISSING TRANSLATIONS TEMPLATE -->
+<!-- Copy these strings to each language file and translate the text content -->
+
+<!-- Wallpaper Feature -->
+<string name="featured_items">Featured Items</string>
+<string name="download_now">Download Now</string>
+<string name="no_data_found">No data found</string>
+<string name="live">Live</string>
+<string name="search_here">Search here</string>
+<string name="no_data_for">No data for</string>
+<string name="select">Select</string>
+<string name="locked">Locked</string>
+<string name="premium">Premium</string>
+<string name="all_wallpaper">All Wallpaper</string>
+<string name="please_type_something">Please type something</string>
+<string name="set_wallpaper_as">Set wallpaper as</string>
+<string name="home_screen_only">Home screen only</string>
+<string name="lock_screen_only">Lock screen only</string>
+<string name="home_lock_screen">Home &amp; lock screen</string>
+<string name="download">Download</string>
+<string name="apply">Apply</string>
+<string name="wallpaper_added_successfully">Wallpaper added successfully</string>
+<string name="something_went_wrong">Something went wrong</string>
+<string name="setting_wallpaper_is_not_allowed">Setting wallpaper is not allowed</string>
+<string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">Enjoy access to all premium wallpapers with ad-free experience</string>
+<string name="unlock_exclusive_wallpaper">Unlock exclusive wallpaper</string>
+<string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">Watch a quick ad to get awesome wallpaper for your device. It'll make your screen look amazing!</string>
+<string name="watch_ad_amp_download"><![CDATA[Watch Ad & Download]]></string>
+<string name="watch_ad_amp_apply"><![CDATA[Watch Ad & Apply]]></string>
+<string name="saved_to_gallery">Saved to gallery</string>
+<string name="permission_required_to_save_images">Permission required to save images</string>
+<string name="error_saving_image">Error saving image</string>
+<string name="permission_required">Permission Required</string>
+<string name="storage_permission_explanation">The app needs storage permission to download and save wallpapers to your device</string>
+<string name="grant_permission">Grant Permission</string>
+<string name="permission_denied_go_to_settings">Permission denied. Please grant permission in Settings</string>
+<string name="go_to_settings">Go to Settings</string>
+<string name="media_read_permission_explanation">The app needs media read permission to access your images</string>
+<string name="storage_access_denied">Storage access denied</string>
+<string name="error_network_connection">Network connection error</string>
+<string name="permission_revoked_message">Permission was revoked. Please grant permission again to continue</string>
+<string name="preview">Preview</string>
+<string name="subscribe_to">Subscribe to</string>
+<string name="become_a">Become a</string>
+<string name="all">All</string>
+<string name="simple">Simple</string>
+<string name="wallpaper">Wallpaper</string>
+<string name="no_favourites">No Favourites</string>
+<string name="no_photos">No Photos</string>
+
+<!-- Notification Permission -->
+<string name="notification_permission_title">Notification Permission</string>
+<string name="notification_permission_desc">Get notified about new wallpapers daily</string>
+<string name="allow_access">Allow Access</string>
+
+<!-- Zipper Lock Feature (Non-translatable font names are excluded) -->
+<string name="title_bg_chooser">Choose Background</string>
+<string name="wallpaper_image">Wallpaper Image</string>
+<string name="chain_types">Chain Types</string>
+<string name="zipper_types">Zipper Types</string>
+<string name="title_font_style_chooser">Choose Font Style</string>
+<string name="action_continue">Continue</string>
+<string name="change_name">Change Name</string>
+<string name="font_style">Font Style</string>
+<string name="enter_name">Enter Name</string>
+<string name="select_wallpaper">Select Wallpaper</string>
+<string name="lock_screen">Lock Screen</string>
+<string name="activate_zipper_lock">Activate Zipper Lock</string>
+<string name="activate_successful">Activate Successful!</string>
+<string name="cancel_lock_screen">Cancel Lock Screen</string>
+<string name="service_activated">Service Activated</string>
+<string name="test_lock_screen">Test Lock Screen</string>
+<string name="more_settings">More Settings</string>
+<string name="enable_lock_screen">Enable Lock Screen</string>
+<string name="disable_lock_screen">Disable Lock Screen</string>
+<string name="lock_after_unlock">Lock After Unlock</string>
+<string name="text_color">Text Color</string>
+<string name="vibrate_on_open">Vibrate On Open</string>
+<string name="sound_on_open">Sound On Open</string>
+<string name="date_time">Date Time</string>
+<string name="show_time">Show Time</string>
+<string name="show_date">Show Date</string>
+<string name="disable_lock_immediate">Disable Lock Immediate</string>
+<string name="date_format">Date Format</string>
+<string name="settings_description">Lock your device after show zipper lock screen</string>
+<string name="color_white">White</string>
+<string name="color_yellow">Yellow</string>
+<string name="color_red">Red</string>
+<string name="color_green">Green</string>
+<string name="color_black">Black</string>
+<string name="enable_sound">Enable Sound</string>
+<string name="enable_vibration">Enable Vibration</string>
+<string name="date_time_visibility">Date Time Visibility</string>
+<string name="visibility_settings">Visibility Settings</string>
+<string name="zipper_lock_enabled">Zipper Lock Enabled</string>
+<string name="zipper_lock_disabled">Zipper Lock Disabled</string>
+
+<!-- Permission & Settings -->
+<string name="notification">Notification</string>
+<string name="terms_amp_condition"><![CDATA[Terms & Condition]]></string>
+<string name="terms_of_use">Terms of Use</string>
+<string name="str_new">New</string>
+<string name="title_intro_3">Enjoy beautiful wallpapers</string>
+
+<!-- Grant Permission Fragment -->
+<string name="grant_permission_title">Grant Permission</string>
+<string name="permission_title">Required Permissions</string>
+<string name="notification_permission_subtitle">Get notified about new wallpapers</string>
+<string name="manage_files_permission_subtitle">Access and manage your wallpapers</string>
+<string name="write_storage_permission_subtitle">Save wallpapers to your device</string>
+<string name="battery_optimization_title">Battery Optimization</string>
+<string name="battery_optimization_subtitle">Allow app to run in background</string>
+<string name="overlay_permission_title">Display Over Other Apps</string>
+<string name="overlay_permission_subtitle">Show zipper lock over apps</string>
+<string name="overlay_permission_desc">Allow app to display content over other apps</string>
+
+<!-- File Permission Fragment -->
+<string name="manage_file_permission_title">Manage File Permission</string>
+<string name="manage_file_permission_description">App needs this permission to access and manage your wallpapers</string>
+<string name="file_permission_title">File Access Permission</string>
+<string name="file_permission_description">Needed to save and manage wallpapers</string>
+<string name="message_disconnect_internet">No internet connection</string>
+<string name="str_retry">Retry</string>
+<string name="no_internet_connection">No Internet Connection</string>
+<string name="maybe_later">Maybe Later</string>
+
+<!-- History Screen -->
+<string name="history">History</string>
+<string name="home_screen">Home Screen</string>
+<string name="no_history">No History Yet</string>
+<string name="no_history_desc">Your wallpaper history will appear here once you start setting wallpapers</string>
+<string name="removed_from_history">Removed from history</string>
+<string name="undo">Undo</string>
+
+<!-- Enhanced Empty States -->
+<string name="no_wallpaper_history">No Wallpaper History</string>
+<string name="start_personalizing_device">Start personalizing your device by setting beautiful wallpapers</string>
+<string name="browse_wallpapers">Browse Wallpapers</string>
+<string name="no_wallpapers_filter">No wallpapers found</string>
+<string name="try_different_filter">Try selecting a different filter or clear the current filter</string>
+<string name="clear_filters">Clear Filters</string>
+<string name="no_search_results">No search results</string>
+<string name="try_different_keywords">Try searching with different keywords</string>
+<string name="clear_search">Clear Search</string>
+
+<!-- Pro/Premium Features -->
+<string name="upgrade_pro">Upgrade pro</string>
+<string name="str_remove_ads">Remove ads</string>
+<string name="str_zipper">Zipper</string>
+<string name="str_home">Home</string>
+<string name="str_category">Category</string>
+<string name="str_set_now">Set Now</string>
+<string name="overlay_permission_denied_message">Overlay permission is required to use the zipper lock screen feature</string>
+
+<!-- Daily notifications array (30 items) -->
+<string-array name="daily_notifications">
+    <item>Beautify your screen with new wallpapers!</item>
+    <item>Today's wallpapers are waiting for you!</item>
+    <item>Discover beautiful wallpapers for your device</item>
+    <item>Time to refresh your screen with new wallpapers!</item>
+    <item>Explore amazing wallpapers curated for you</item>
+    <item>Your daily dose of beautiful wallpapers has arrived!</item>
+    <item>Transform your screen with stunning wallpapers</item>
+    <item>New wallpapers available now!</item>
+    <item>Make your device stand out with unique wallpapers</item>
+    <item>Time for a makeover! Check out new wallpapers</item>
+    <item>Personalize your screen with beautiful wallpapers</item>
+    <item>Today's trending wallpapers are waiting!</item>
+    <item>Give your phone a fresh look with new wallpapers</item>
+    <item>Discover your next favorite wallpaper</item>
+    <item>Today's premium wallpapers are here!</item>
+    <item>Make your screen unique with new wallpapers</item>
+    <item>Explore beautiful wallpapers for every mood</item>
+    <item>Your wallpaper collection awaits updates!</item>
+    <item>Find the perfect wallpaper for your style</item>
+    <item>Refresh your screen with stunning visuals!</item>
+    <item>New amazing wallpapers available now</item>
+    <item>Make your device truly yours</item>
+    <item>Beautiful wallpapers to brighten your day!</item>
+    <item>Your screen deserves a beautiful update</item>
+    <item>Discover wallpapers that match your vibe</item>
+    <item>Time to switch things up with new wallpapers!</item>
+    <item>Find your daily wallpaper inspiration</item>
+    <item>Make every unlock a visual delight</item>
+    <item>Your wallpaper gallery is ready to explore!</item>
+    <item>Fresh new wallpapers just for you</item>
+</string-array>

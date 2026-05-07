@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046235636560",
+    "project_id": "chatapp-302fd",
+    "storage_bucket": "chatapp-302fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046235636560:android:6f82fc30a85d1800c48255",
+        "android_client_info": {
+          "package_name": "com.itsthwng.twallpaper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wqAkDtFsgcs14LbsXvwDPokxAaNoB2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

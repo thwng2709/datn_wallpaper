@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dotDiameter" format="dimension">
+    </attr>
+
+    <attr name="dotEmptyBackground" format="reference">
+    </attr>
+
+    <attr name="dotFilledBackground" format="reference">
+    </attr>
+
+    <attr name="dotSpacing" format="dimension">
+    </attr>
+
+    <attr name="indicatorType">
+        <enum name="fill" value="1" />
+        <enum name="fillWithAnimation" value="2" />
+        <enum name="fixed" value="0" />
+    </attr>
+
+    <attr name="keypadButtonBackgroundDrawable" format="integer">
+    </attr>
+
+    <attr name="keypadButtonSize" format="dimension">
+    </attr>
+
+    <attr name="keypadDeleteButtonDrawable" format="integer">
+    </attr>
+
+    <attr name="keypadDeleteButtonPressedColor" format="color">
+    </attr>
+
+    <attr name="keypadDeleteButtonSize" format="dimension">
+    </attr>
+
+    <attr name="keypadHorizontalSpacing" format="dimension">
+    </attr>
+
+    <attr name="keypadShowDeleteButton" format="boolean">
+    </attr>
+
+    <attr name="keypadTextColor" format="color">
+    </attr>
+
+    <attr name="keypadTextSize" format="dimension">
+    </attr>
+
+    <attr name="keypadVerticalSpacing" format="dimension">
+    </attr>
+
+    <attr name="pinLength" format="integer">
+    </attr>
+
+    <declare-styleable name="PinCodeInputView">
+        <attr name="pinCount" format="integer" />
+        <attr name="maskDelayMs" format="integer" />
+        <attr name="dotRadius" format="dimension" />
+        <attr name="dotSpacing2" format="dimension" />
+        <attr name="digitTextSize" format="dimension" />
+        <attr name="colorDotEmpty" format="color" />
+        <attr name="colorDotFilled" format="color" />
+        <attr name="colorDigit" format="color" />
+    </declare-styleable>
+</resources>

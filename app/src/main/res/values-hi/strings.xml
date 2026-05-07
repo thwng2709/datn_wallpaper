@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mgs_ok"><![CDATA[ठीक]]></string>
+    <string name="text_welcome"><![CDATA[स्वागत है]]></string>
+    <string name="text_create_by"><![CDATA[विकसित किया गया]]></string>
+    <string name="text_next"><![CDATA[अगला]]></string>
+    <string name="text_intro1_msg"><![CDATA[किसी भी गेम, ऐप या वेबसाइट में स्वचालित रूप से टैप करें।]]></string>
+    <string name="text_intro2_msg"><![CDATA[प्रत्येक क्लिकर के क्लिक स्थान, गति और अवधि को आसानी से कॉन्फ़िगर करें।]]></string>
+    <string name="text_intro3_msg"><![CDATA[आप अक्सर उपयोग की जाने वाली सेटिंग्स को सहेज सकते हैं। एक बार कॉन्फ़िगर करें, कभी भी उपयोग करें!]]></string>
+    <string name="text_app_version"><![CDATA[ऐप संस्करण]]></string>
+    <string name="msg_apply_language_dialog"><![CDATA[क्या आप इस भाषा को लागू करना चाहते हैं?]]></string>
+
+    <string name="save_script"><![CDATA[सहेजें]]></string>
+    <string name="cancel"><![CDATA[रद्द करें]]></string>
+    <string name="allow"><![CDATA[अनुमति दें]]></string>
+
+    <string name="title_apply_change_language_dialog"><![CDATA[भाषा परिवर्तन लागू करें]]></string>
+    <string name="title_notification_24h"><![CDATA[ऑटो क्लिकर आपका इंतजार कर रहा है]]></string>
+    <string name="title_notification"><![CDATA[अधिसूचना अनुमति]]></string>
+    <string name="message_notification"><![CDATA[ऑटो क्लिकर को आपको सूचनाएं भेजने की अनुमति दें।]]></string>
+    <string name="deny"><![CDATA[अस्वीकार करें]]></string>
+
+    <string name="other_app"><![CDATA[अन्य एप्लिकेशन]]></string>
+
+    <string name="title_update_version"><![CDATA[नया संस्करण अपडेट करें]]></string>
+    <string name="message_update_version"><![CDATA[ऑटो क्लिकर का एक नया संस्करण है। सर्वोत्तम अनुभव के लिए कृपया नए संस्करण में अपडेट करें!]]></string>
+    <string name="btn_update"><![CDATA[अपडेट करें]]></string>
+    <string name="btn_later"><![CDATA[बाद में]]></string>
+
+    <string name="dont_show_again"><![CDATA[फिर से न दिखाएं]]></string>
+
+    <string name="rating"><![CDATA[ऑटो क्लिकर का आनंद ले रहे हैं?]]></string>
+    <string name="rating_message"><![CDATA[हम हमेशा अपने ऐप और आपके अनुभव को बेहतर बनाने का प्रयास करते हैं। क्या आप हमारे ऐप को रेट करने के लिए कुछ समय निकाल सकते हैं? आपकी हर प्रतिक्रिया का बहुत महत्व है!]]></string>
+
+    <string name="smile_rating_terrible"><![CDATA[1 🌟]]></string>
+    <string name="smile_rating_bad"><![CDATA[2 🌟]]></string>
+    <string name="smile_rating_okay"><![CDATA[3 🌟]]></string>
+    <string name="smile_rating_good"><![CDATA[4 🌟]]></string>
+    <string name="smile_rating_great"><![CDATA[5 🌟]]></string>
+    <string name="choose_email"><![CDATA[एक ईमेल चुनें:]]></string>
+
+    <string-array name="names">
+        <item>@string/smile_rating_terrible</item>
+        <item>@string/smile_rating_bad</item>
+        <item>@string/smile_rating_okay</item>
+        <item>@string/smile_rating_good</item>
+        <item>@string/smile_rating_great</item>
+    </string-array>
+
+    <string name="feedback"><![CDATA[प्रतिक्रिया]]></string>
+    <string name="share_app"><![CDATA[ऐप शेयर करें]]></string>
+
+    <string name="allowed"><![CDATA[अनुमत]]></string>
+
+    <string name="permission"><![CDATA[अनुमति]]></string>
+    <string name="rate_us_now"><![CDATA[हमें अभी रेट करें]]></string>
+    <string name="choose_language"><![CDATA[भाषा चुनें]]></string>
+    <string name="please_select_language"><![CDATA[कृपया प्रदर्शन भाषा का चयन करें।]]></string>
+
+    <string name="content_feedback"><![CDATA[हमें यह सुनकर खेद है कि आप ऑटो क्लिकर से संतुष्ट नहीं हैं। कृपया अपनी प्रतिक्रिया और सुझाव हमें अपने ईमेल पर भेजें, ताकि हम भविष्य में अपनी सेवा में सुधार कर सकें।]]></string>
+    <string name="warning_rating"><![CDATA[कृपया अपनी रेटिंग चुनें।]]></string>
+    <string name="video_starting_in_text"><![CDATA[वीडियो शुरू हो रहा है]]></string>
+    <string name="watch_ad_button_text"><![CDATA[विज्ञापन देखें]]></string>
+    <string name="purchase_vip_button_text"><![CDATA[VIP खरीदें]]></string>
+    <string name="description_remind_watch_ad"><![CDATA[अंतिम स्क्रिप्ट लागू करने के लिए एक छोटा वीडियो देखें]]></string>
+
+    <string name="connect_internet"><![CDATA[इंटरनेट कनेक्शन]]></string>
+    <string name="message_connect_internet"><![CDATA[यह सुनिश्चित करने के लिए कि हम एप्लिकेशन को बनाए रख सकें और बढ़ा सकें, नेटवर्क कनेक्शन आवश्यक है। कृपया ऐप का उपयोग जारी रखने के लिए अपना नेटवर्क सक्षम करें।]]></string>
+    <string name="lost_network_connection"><![CDATA[नेटवर्क कनेक्शन टूट गया। कृपया नेटवर्क से पुनः कनेक्ट करें।]]></string>
+    <string name="reconnect"><![CDATA[पुनः कनेक्ट करें]]></string>
+
+    <string name="str_close">बंद करें</string>
+
+    <string name="exit_app">बाहर निकलें</string>
+    <string name="creator" translatable="false">Higher Studio</string>
+    <string name="txt_loading_ads">विज्ञापन लोड हो रहे हैं…</string>
+    <string name="segment_intro1">अपनी क्रियाएं स्वचालित करें, \nदक्षता बढ़ाएं!</string>
+    <string name="segment_intro2">मल्टी-टारगेट, उच्च \nप्रदर्शन!</string>
+    <string name="segment_intro3">सुविधाजनक रूप से शेड्यूल करें और \nसेटिंग्स सहेजें!</string>
+    <string name="segment_intro4">लचीला अनुकूलन, उपयोग में \nआसान!</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="swipe_to_explore">अन्वेषण के लिए स्वाइप करें</string>
+    <string name="skip_ads">विज्ञापन छोड़ें</string>
+    <string name="title_exit_app">ऐप से बाहर निकलें</string>
+    <string name="label_exit_app">क्या आप निश्चित रूप से ऐप से बाहर निकलना चाहते हैं?</string>
+
+    <string name="description_watch_ad_reward_skin">विज्ञापन देखें और तुरंत इस स्किन तक असीमित पहुंच अनलॉक करें!</string>
+    <string name="app_water_reminder_des">समय पर पानी पिएं, स्वस्थ रहें।</string>
+    <string name="app_recovery_des">हटाए गए फ़ोटो को आसानी से पुनर्स्थापित करें।</string>
+    <string name="str_you_might_like">आपको यह पसंद आ सकता है</string>
+    <string name="app_hide_app_des">ऐप्स, फ़ोटो और वीडियो छिपाएँ।</string>
+    <string name="app_sleep_sounds_des">आपको जल्दी नींद आने में मदद करें।</string>
+    <string name="text_pro">प्रो</string>
+    <string name="setting">सेटिंग</string>
+    <string name="overview">अवलोकन</string>
+    <string name="languages">भाषाएँ</string>
+    <string name="more">अधिक</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="email">ईमेल</string>
+    <string name="hint_enter_email">कृपया अपना ईमेल पता दर्ज करें</string>
+    <string name="problem_type">समस्या का प्रकार</string>
+    <string name="suggestions">सुझाव</string>
+    <string name="bugs">त्रुटियाँ</string>
+    <string name="others">अन्य</string>
+    <string name="content">सामग्री</string>
+    <string name="hint_content_description">कृपया आपके सामने आई समस्या का विस्तृत विवरण प्रदान करें, जो हमें आपकी समस्या को अधिक प्रभावी ढंग से हल करने में मदद करेगा।</string>
+    <string name="str_submit">सबमिट करें</string>
+    <string name="invalid_email_format">कृपया एक मान्य ईमेल पता दर्ज करें</string>
+    <string name="not_empty_email">ईमेल खाली नहीं हो सकता</string>
+    <string name="not_empty_content">सामग्री खाली नहीं हो सकती</string>
+    <string name="sent_feedback_success">प्रतिक्रिया सफलतापूर्वक भेजी गई!</string>
+    <string name="sent_feedback_fail">प्रतिक्रिया भेजने में विफल!</string>
+    <string name="language_change_successful">भाषा परिवर्तन सफल</string>
+    <string name="label_grant_permission">कृपया ऐप को ठीक से काम करने के लिए आवश्यक अनुमतियों की जांच करें और प्रदान करें।</string>
+    <string name="notification_permission">अधिसूचना अनुमति</string>
+    <string name="label_notification_permission">यह ऐप सूचनाएं भेजने की अनुमति का अनुरोध करता है, जिससे आप महत्वपूर्ण अपडेट और अलर्ट प्राप्त कर सकते हैं।</string>
+    <string name="manage_files_permission">फ़ाइलें प्रबंधित करें अनुमति</string>
+    <string name="label_grant_manage_files_permission">इस ऐप को आपकी फ़ाइलों को प्रबंधित करने की अनुमति की आवश्यकता है ताकि आप सामग्री को निर्बाध रूप से एक्सेस, व्यवस्थित और सहेज सकें।</string>
+    <string name="write_storage_permission">लिखने का स्टोरेज अनुमति</string>
+    <string name="permission_denied">इस ऐप को आपकी फ़ाइलों को ठीक से सहेजने के लिए अनुमति की आवश्यकता है।</string>
+    <string name="access_files_permission_message">स्मार्ट रिकवरी को आपकी तस्वीरों, वीडियो और ऑडियो फ़ाइलों को ठीक से सहेजने के लिए एक्सेस की आवश्यकता है। जारी रखने के लिए कृपया सेटिंग्स में ये अनुमतियाँ दें।</string>
+    <string name="label_manage_files_permission">इस ऐप को आपकी फ़ाइलों को प्रबंधित करने की अनुमति की आवश्यकता है, जिससे आप सामग्री को निर्बाध रूप से एक्सेस, व्यवस्थित और सहेज सकें। सभी सुविधाओं का उपयोग जारी रखने के लिए कृपया यह अनुमति दें।</string>
+    <string name="not_now">अभी नहीं</string>
+    <string name="permission_request">ऐप को ठीक से काम करने के लिए फ़ाइल पढ़ने की अनुमतियों की आवश्यकता है। कृपया अनुमति दें!</string>
+    <string name="battery_limit_free">बैटरी सीमा मुफ्त</string>
+    <string name="battery_optimization_label">सिस्टम द्वारा ऐप को समाप्त होने से रोकें</string>
+    <string name="str_exit">बाहर निकलें</string>
+
+    <string name="notification_permission_title">सूचना अनुमति</string>
+    <string name="notification_permission_desc">फोन को ताली बजाकर खोजने के लिए एप्लिकेशन को सूचना अनुमति की आवश्यकता है।</string>
+    <string name="allow_access">पहुँच की अनुमति दें</string>
+    <string name="featured_items">विशेष आइटम</string>
+    <string name="download_now">अभी डाउनलोड करें</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+    <string name="live">लाइव</string>
+    <string name="search_here">यहाँ खोजें</string>
+    <string name="no_data_for">इसके लिए कोई डेटा नहीं</string>
+    <string name="select">चुनें</string>
+    <string name="locked">लॉक्ड</string>
+    <string name="premium">प्रीमियम</string>
+    <string name="all_wallpaper">सभी वॉलपेपर</string>
+    <string name="please_type_something">कृपया कुछ टाइप करें…</string>
+    <string name="set_wallpaper_as">वॉलपेपर सेट करें?</string>
+    <string name="home_screen_only">केवल होम स्क्रीन</string>
+    <string name="lock_screen_only">केवल लॉक स्क्रीन</string>
+    <string name="home_lock_screen"><![CDATA[होम और लॉक स्क्रीन]]></string>
+    <string name="download">डाउनलोड</string>
+    <string name="apply">लागू करें</string>
+    <string name="wallpaper_added_successfully">वॉलपेपर सफलतापूर्वक जोड़ा गया</string>
+    <string name="something_went_wrong">कुछ गलत हो गया</string>
+    <string name="setting_wallpaper_is_not_allowed">वॉलपेपर सेट करने की अनुमति नहीं है</string>
+    <string name="enjoy_access_to_all_premium_wallpapers_with_ad_free_experience">सभी प्रीमियम वॉलपेपर तक बिना विज्ञापन का आनंद लें।</string>
+    <string name="unlock_exclusive_wallpaper">विशेष वॉलपेपर अनलॉक करें</string>
+    <string name="watch_a_quick_ad_to_get_awesome_wallpaper_for_your_device_it_ll_make_your_screen_look_amazing">अपने डिवाइस के लिए शानदार वॉलपेपर पाने के लिए एक छोटा विज्ञापन देखें। यह आपकी स्क्रीन को अद्भुत बना देगा!</string>
+    <string name="watch_ad_amp_download"><![CDATA[विज्ञापन देखें & डाउनलोड करें]]></string>
+    <string name="watch_ad_amp_apply"><![CDATA[विज्ञापन देखें & लागू करें]]></string>
+    <string name="saved_to_gallery">गैलरी में सहेजा गया</string>
+    <string name="permission_required_to_save_images">चित्र सहेजने के लिए स्टोरेज अनुमति आवश्यक है। कृपया सेटिंग्स में अनुमति दें।</string>
+    <string name="error_saving_image">चित्र सहेजने में असमर्थ। कृपया पुनः प्रयास करें।</string>
+    <string name="permission_required">अनुमति आवश्यक</string>
+    <string name="storage_permission_explanation">अपने डिवाइस पर वॉलपेपर सहेजने के लिए स्टोरेज अनुमति आवश्यक है। जारी रखने के लिए कृपया अनुमति दें।</string>
+    <string name="grant_permission">अनुमति दें</string>
+    <string name="permission_denied_go_to_settings">आपने स्टोरेज अनुमति अस्वीकार कर दी है। कृपया सेटिंग्स में जाकर इसे मैन्युअल रूप से सक्षम करें।</string>
+    <string name="go_to_settings">सेटिंग्स पर जाएँ</string>
+    <string name="media_read_permission_explanation">इस ऐप को आपकी गैलरी से चित्र पढ़ने की अनुमति चाहिए</string>
+    <string name="storage_access_denied">स्टोरेज एक्सेस अस्वीकृत। कृपया ऐप अनुमतियाँ जाँचें।</string>
+    <string name="error_network_connection">नेटवर्क कनेक्शन त्रुटि। कृपया अपना इंटरनेट कनेक्शन जाँचें।</string>
+    <string name="permission_revoked_message">स्टोरेज अनुमति रद्द कर दी गई है। वॉलपेपर डाउनलोड करने के लिए कृपया अनुमति फिर से दें।</string>
+    <string name="preview">पूर्वावलोकन</string>
+    <string name="subscribe_to">सदस्यता लें</string>
+    <string name="become_a">बनें</string>
+    <string name="all">सभी</string>
+    <string name="simple">सरल</string>
+    <string name="wallpaper">वॉलपेपर</string>
+    <string name="no_favourites">कोई पसंदीदा फ़ोटो नहीं</string>
+    <string name="no_photos">कोई फ़ोटो नहीं</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="activate">सक्रिय करें</string>
+    <string name="activate_lock_screen">लॉक स्क्रीन सक्रिय करें</string>
+    <string name="ad">विज्ञापन</string>
+    <string name="ad1">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.camouflagezipperlockscreen</string>
+    <string name="ad2">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.bluejeanszipperlockscreen</string>
+    <string name="ad3">http://play.google.com/store/apps/details?id=com.zipperonscreenapps.diamondszipperlocker</string>
+    <string name="ad_app_name1">कैमोफ्लाज जिपर लॉक स्क्रीन</string>
+    <string name="ad_app_name2">ब्लू जीन्स जिपर लॉक स्क्रीन</string>
+    <string name="ad_app_name3">डायमंड्स जिपर लॉकर</string>
+    <string name="admob_app_key">ca-app-pub-8480863067551099~7453550976</string>
+    <string name="advertisement">विज्ञापन</string>
+    <string name="android_7">एंड्रॉयड 7</string>
+    <!-- Hindi (hi) -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applovin_list_item_image_description">सूची आइटम के बारे में अधिक जानकारी दिखाता है.</string>
+    <string name="backgroundCound">53</string>
+    <string name="background_wallpaper">पृष्ठभूमि सेट करें</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="change_color">रंग बदलें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="character_counter_content_description">वर्ण सीमा %1$d से %2$d से अधिक हो गई</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="continue_label">जारी रखने के लिए यहां टैप करें</string>
+    <string name="continue_str">जारी रखें</string>
+    <string name="customize">अनुकूलित करें</string>
+    <string name="date">दिनांक</string>
+    <string name="disable_lock_screen">लॉक स्क्रीन सक्षम करें</string>
+    <string name="disable_pin_lock">पिन लॉक सक्षम करें</string>
+    <string name="dummy_button">डमी बटन</string>
+    <string name="dummy_content">डमी\10सामग्री</string>
+    <string name="enable_pin_lock">पिन लॉक सक्षम करें</string>
+    <string name="enter_password">पासवर्ड दर्ज करें:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="font_style">फ़ॉन्ट शैली सेट करें</string>
+    <string name="forgot_password">अपना पासवर्ड भूल गए?</string>
+    <string name="general_setting">सामान्य सेटिंग</string>
+    <string name="hello_world">नमस्ते दुनिया!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_to_use">कैसे उपयोग करें</string>
+    <string name="info">जानकारी</string>
+    <string name="info_str1">क्रेडिट:</string>
+    <string name="info_str2">यूआई आइकन द्वारा बनाया गया:</string>
+    <string name="info_str3">https://www.flaticon.com/authors/icongeek26</string>
+    <string name="info_str4">https://icons8.com/</string>
+    <string name="install">इंस्टॉल करें</string>
+    <string name="lock_screen">लॉक स्क्रीन सक्षम करें</string>
+    <string name="more_app_link">https://play.google.com/store/apps/developer?id=ZipperOnScreenApps</string>
+    <string name="more_applications">अधिक ऐप्स</string>
+    <string name="more_apps">अधिक ऐप्स</string>
+    <string name="more_settings">अधिक सेटिंग्स</string>
+    <string name="more_zipper_themes">अधिक जिपर थीम</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s निकालें</string>
+    <string name="native_text">देशी टेस्ट</string>
+    <string name="nav_app_bar_navigate_up_description">ऊपर नेविगेट करें</string>
+    <string name="nav_app_bar_open_drawer_description">नेविगेशन दराज खोलें</string>
+    <string name="no_thank_you">नहीं, धन्यवाद</string>
+    <string name="of">बंद</string>
+    <string name="offline_notification_text">विज्ञापन खोलने के लिए टैप करें</string>
+    <string name="offline_notification_title">जब आप ऑफ़लाइन थे तो सहेजे गए विज्ञापन को देखें</string>
+    <string name="offline_opt_in_confirm">ठीक है</string>
+    <string name="offline_opt_in_confirmation">जब आप वापस ऑनलाइन होंगे तो आपको लिंक के साथ एक सूचना मिलेगी</string>
+    <string name="offline_opt_in_decline">कोई धन्यवाद नहीं</string>
+    <string name="offline_opt_in_message">हम आपको विज्ञापनदाता साइट के लिंक के साथ एक सूचना भेजेंगे.</string>
+    <string name="offline_opt_in_title">जब आप वापस ऑनलाइन हों तो विज्ञापन खोलें.</string>
+    <string name="ok">ठीक है</string>
+    <string name="on">चालू</string>
+    <string name="personalisation">वैयक्तिकरण</string>
+    <string name="privacy_policy_link">https://docs.google.com/document/d/1KJSP4ZyiHTtdWqlhu4I1M3xx6myLk9sh0q5e_pcKH0s/edit?usp=sharing</string>
+    <string name="question1">आपकी माँ का विवाह-पूर्व नाम क्या है?</string>
+    <string name="question2">आपके पहले पालतू जानवर का नाम क्या है?</string>
+    <string name="question3">आपके सबसे अच्छे दोस्त का नाम क्या है?</string>
+    <string name="question4">आपके पहले शिक्षक का नाम क्या है?</string>
+    <string name="rate">रेट करें</string>
+    <string name="reenter_password">पासवर्ड पुनः दर्ज करें:</string>
+    <string name="retunr_to_default">डिफ़ॉल्ट पर वापस जाएं</string>
+    <string name="s1">छवि सहेजें</string>
+    <string name="s2">विज्ञापन को चित्र गैलरी में छवि संग्रहीत करने दें?</string>
+    <string name="s3">स्वीकार करें</string>
+    <string name="s4">अस्वीकार करें</string>
+    <string name="s5">कैलेंडर इवेंट बनाएं</string>
+    <string name="s6">क्या विज्ञापन को कैलेंडर इवेंट बनाने दें?</string>
+    <string name="s7">टेस्ट विज्ञापन</string>
+    <string name="save">सहेजें</string>
+    <string name="search_menu_title">खोज</string>
+    <string name="security_question">सुरक्षा प्रश्न</string>
+    <string name="set">सेट करें</string>
+    <string name="set_background">पृष्ठभूमि सेट करें</string>
+    <string name="set_font">फ़ॉन्ट सेट करें</string>
+    <string name="set_foreground">अग्रभूमि सेट करें</string>
+    <string name="set_lock_screen">लॉक स्क्रीन सेट करें</string>
+    <string name="set_password">पासवर्ड सेट करें</string>
+    <string name="set_pendant_type">पेंडेंट शैली सेट करें</string>
+    <string name="set_zipper_style">ज़िपर शैली सेट करें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="share">साझा करें</string>
+    <string name="share_text">टेक्स्ट साझा करें</string>
+    <string name="sound">ध्वनि</string>
+    <string name="star_4_8">4.8</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">समय</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="toast_message">टोस्ट संदेश</string>
+    <string name="tt_will_play">अभी चलाएँ</string>
+    <string name="vibration">कंपन</string>
+    <string name="yes_exit">हाँ - बाहर निकलें</string>
+    <string name="yes_i_agree">हाँ, मैं सहमत हूँ</string>
+    <string name="zipper_wallpaper">अग्रभूमि सेट करें</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="terms_amp_condition"><![CDATA[नियम और शर्तें]]></string>
+    <string name="terms_of_use">उपयोग की शर्तें</string>
+    <string name="str_new">नवीनतम</string>
+    <string name="str_for_you">आपके लिए</string>
+    <string name="title_intro_3">तुरंत अपना वॉलपेपर बदलें</string>
+    <!-- Grant Permission Fragment -->
+    <string name="grant_permission_title">अनुमति दें</string>
+    <string name="permission_title">अनुमति</string>
+    <string name="notification_permission_subtitle">आपको सूचनाएं भेजने की अनुमति दें</string>
+    <string name="manage_files_permission_subtitle">ऐप को फ़ाइलों तक पहुंचने और प्रबंधित करने की अनुमति दें</string>
+    <string name="write_storage_permission_subtitle">ऐप को स्टोरेज में फ़ाइलें सहेजने की अनुमति दें</string>
+    <string name="battery_optimization_title">बैटरी अनुकूलन</string>
+    <string name="battery_optimization_subtitle">ऐप को बैकग्राउंड में चलने दें</string>
+    <string name="overlay_permission_title">अन्य ऐप्स पर प्रदर्शित करें</string>
+    <string name="overlay_permission_subtitle">ऐप को अन्य ऐप्स के ऊपर प्रदर्शित करने की अनुमति दें</string>
+    <string name="overlay_permission_desc">यह अनुमति ऐप को आपके डिवाइस के लॉक होने पर अन्य ऐप्स पर जिपर लॉक स्क्रीन प्रदर्शित करने की अनुमति देती है</string>
+
+    <!-- Manage File Permission Fragment -->
+    <string name="manage_file_permission_title">फ़ाइल अनुमति</string>
+    <string name="manage_file_permission_description">ताली बजाकर फोन खोजने की सुविधा प्रदान करने के लिए एप्लिकेशन को सूचना अनुमति की आवश्यकता है।</string>
+    <string name="file_permission_title">फ़ाइल अनुमति</string>
+    <string name="file_permission_description">एप्लिकेशन को आपकी फ़ाइलों को ठीक से सहेजने और प्रबंधित करने के लिए फ़ाइल अनुमति की आवश्यकता है।</string>
+    <string name="message_disconnect_internet">कृपया अपना कनेक्शन जांचें और फिर पेज रीफ्रेश करें</string>
+    <string name="str_retry">पुनः प्रयास करें</string>
+    <string name="no_internet_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="maybe_later">शायद बाद में</string>
+
+    <!-- History Screen -->
+    <string name="history">इतिहास</string>
+    <string name="home_screen">होम स्क्रीन</string>
+    <string name="no_history">अभी तक कोई इतिहास नहीं</string>
+    <string name="no_history_desc">एक बार जब आप वॉलपेपर सेट करना शुरू कर देंगे तो आपका वॉलपेपर इतिहास यहां दिखाई देगा</string>
+    <string name="removed_from_history">इतिहास से हटाया गया</string>
+    <string name="undo">पूर्ववत करें</string>
+
+    <string name="upgrade_pro">प्रो में अपग्रेड करें</string>
+    <string name="str_remove_ads">विज्ञापन हटाएँ</string>
+    <string name="str_zipper">ज़िपर</string>
+    <string name="str_home">होम</string>
+    <string name="str_category">श्रेणी</string>
+    <string name="str_set_now">अभी सेट करें</string>
+    <string name="msg_reward_change_free">इनाम वॉलपेपर को मुफ्त वॉलपेपर में बदलें!</string>
+    <string name="intro1_msg">अद्वितीय थीम की एक किस्म</string>
+    <string name="intro2_msg">उच्च-गुणवत्ता वाले वॉलपेपर</string>
+    <string name="intro3_msg">तुरंत अपना वॉलपेपर बदलें</string>
+    <string name="intro4_msg">नियमित रूप से ताज़ा सामग्री</string>
+    <string name="lock_home_key">होम कुंजी लॉक करें</string>
+    <string name="str_on">चालू</string>
+    <string name="str_current">वर्तमान</string>
+    <string name="answer_is_incorrect">उत्तर गलत है</string>
+    <string name="favourite">पसंदीदा</string>
+    <string name="str_zipper_wallpaper">ज़िपर वॉलपेपर</string>
+    <string name="str_background_wallpaper">पृष्ठभूमि वॉलपेपर</string>
+    <string name="default_char_lenght_2000">0/2000</string>
+    <string name="default_image_length_3">0/3</string>
+    <string name="browse_wallpapers">वॉलपेपर ब्राउज़ करें</string>
+    <string name="no_wallpaper_history">कोई वॉलपेपर इतिहास नहीं</string>
+    <string name="start_personalizing_device">सुंदर वॉलपेपर सेट करके अपने डिवाइस को वैयक्तिकृत करना शुरू करें</string>
+    <string name="no_wallpapers_filter">कोई वॉलपेपर नहीं मिला</string>
+    <string name="try_different_filter">एक अलग फ़िल्टर चुनने का प्रयास करें या वर्तमान फ़िल्टर साफ़ करें</string>
+    <string name="clear_filters">फ़िल्टर साफ़ करें</string>
+    <string name="no_search_results">कोई खोज परिणाम नहीं</string>
+    <string name="try_different_keywords">अलग-अलग कीवर्ड के साथ खोज करने का प्रयास करें</string>
+    <string name="clear_search">खोज साफ़ करें</string>
+    <string name="overlay_permission_denied_message">ज़िपर लॉक स्क्रीन सुविधा का उपयोग करने के लिए ओवरले अनुमति आवश्यक है</string>
+    <string name="permission_denied_title">अनुमति अस्वीकृत</string>
+    <string name="permission_denied_msg">जिपर सुविधा का उपयोग करने के लिए, आपको ऐप सेटिंग्स में स्टोरेज एक्सेस अनुमति प्रदान करनी होगी।</string>
+    <string name="success">सफलता</string>
+    <string name="set_zipper_success">जिपर सफलतापूर्वक सेट हो गया है!</string>
+    <string name="wallpapers">वॉलपेपर</string>
+    <string name="set_chain_success"> शृंखला शैली सफलतापूर्वक सेट हो गई!</string>
+    <string name="set_font_success">फ़ॉन्ट सफलतापूर्वक सेट हो गया!</string>
+    <string name="set_background_success">बैकग्राउंड इमेज सफलतापूर्वक सेट हो गई!</string>
+    <string name="set_foreground_success">अग्रभूमि सफलतापूर्वक सेट हो गई!</string>
+    <string name="app_auto_click_des">अपने टैप्स को स्वचालित करें।</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="rating_invitation">हम एक बेहतर उपयोगकर्ता अनुभव के लिए कड़ी मेहनत कर रहे हैं। यदि आप हमें रेट कर सकें तो हम इसकी बहुत सराहना करेंगे।</string>
+    <string name="thanks_feedback">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+    <string name="the_best_we_can_get">हमें जो सबसे अच्छा मिल सकता है</string>
+    <string name="battery_widget">बैटरी विजेट</string>
+    <string name="enter_your_answer">अपना उत्तर दर्ज करें</string>
+    <string name="enable_pin_lock_success">पिन लॉक सफलतापूर्वक सक्षम!</string>
+    <string name="no_categories">कोई श्रेणियां नहीं</string>
+    <string name="enable_disable_lock_screen">लॉक स्क्रीन सक्षम/अक्षम करें</string>
+    <string name="zipper_locker_theme">ज़िपर लॉकर थीम</string>
+    <string name="pin_is_incorrect">पिन गलत है !</string>
+    <string name="zipper_description">अद्भुत हृदय स्क्रीन, सुंदर रंग!</string>
+    <string name="disable_zip_locker_toast">लॉक स्क्रीन अक्षम। ज़िपर लॉकर का उपयोग करने के लिए फिर से सक्षम करें।</string>
+    <string name="enable_zip_locker_toast"><![CDATA[ज़िपर लॉकर स्क्रीन सफलतापूर्वक सक्षम करें!]]></string>
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title"><![CDATA[क्या आप निश्चित रूप से बाहर निकलना चाहते हैं?]]></string>
+    <string name="exit_dialog_cancel"><![CDATA[रद्द करें]]></string>
+    <string name="exit_dialog_exit"><![CDATA[बाहर निकलें]]></string>
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_title"><![CDATA[हमारा ऐप पसंद आया?]]></string>
+    <string name="rating_dialog_message"><![CDATA[अगर आपको हमारा ऐप उपयोग करना पसंद है, तो क्या आप Play Store पर हमें रेटिंग देंगे?]]></string>
+    <string name="rating_dialog_rate_now"><![CDATA[अभी रेट करें]]></string>
+    <string name="rating_dialog_no_thanks"><![CDATA[नहीं, धन्यवाद]]></string>
+    <!-- History Menu -->
+    <string name="history_select_items"><![CDATA[आइटम चुनें]]></string>
+    <string name="history_delete_all"><![CDATA[सब हटाएं]]></string>
+    <string name="history_sort_by_date"><![CDATA[तारीख के अनुसार क्रमबद्ध करें]]></string>
+    <string name="history_sort_by_type"><![CDATA[प्रकार के अनुसार क्रमबद्ध करें]]></string>
+    <string name="history_items_selected"><![CDATA[%d चयनित]]></string>
+    <!-- Clear History Dialog -->
+    <string name="clear_history_title"><![CDATA[इतिहास साफ करें]]></string>
+    <string name="clear_history_message"><![CDATA[इतिहास से सभी वॉलपेपर हटाएं? यह क्रिया पूर्ववत नहीं की जा सकती।]]></string>
+    <string name="clear_history_confirm"><![CDATA[सब साफ करें]]></string>
+    <string name="history_cleared"><![CDATA[इतिहास साफ किया गया]]></string>
+    <!-- Download Manager -->
+    <string name="download_image_title"><![CDATA[छवि डाउनलोड करें %s]]></string>
+    <string name="download_image_description"><![CDATA[%s से छवि डाउनलोड हो रही है]]></string>
+    <!-- Error Messages -->
+    <string name="error"><![CDATA[त्रुटि]]></string>
+    <string name="error_message"><![CDATA[त्रुटि: %s]]></string>
+    <string name="cant_share_file"><![CDATA[इस फ़ाइल को साझा नहीं किया जा सकता]]></string>
+    <!-- Status -->
+    <string name="status_on"><![CDATA[चालू]]></string>
+    <string name="status_off"><![CDATA[बंद]]></string>
+    <!-- Zipper Test (Debug) -->
+    <string name="zipper_test_title"><![CDATA[ज़िपर छवियों का परीक्षण]]></string>
+    <string name="zipper_test_total"><![CDATA[कुल ज़िपर: %d]]></string>
+    <string name="zipper_test_filtered"><![CDATA[फ़िल्टर किए गए ज़िपर: %d]]></string>
+    <string name="zipper_test_refresh"><![CDATA[ताज़ा करें]]></string>
+    <string name="zipper_test_free"><![CDATA[मुफ्त]]></string>
+    <string name="zipper_test_premium"><![CDATA[प्रीमियम]]></string>
+    <string name="zipper_test_locked"><![CDATA[लॉक्ड]]></string>
+    <string name="zipper_test_id"><![CDATA[आईडी: %d]]></string>
+    <string name="zipper_test_name"><![CDATA[नाम: %s]]></string>
+    <string name="zipper_test_category"><![CDATA[श्रेणी: %s]]></string>
+    <string name="zipper_test_access"><![CDATA[पहुंच: %s]]></string>
+    <string name="msg_no_ads_available"><![CDATA[उफ़! अभी कोई विज्ञापन उपलब्ध नहीं है]]></string>
+
+    <!-- Hardcoded String Fixes -->
+    <!-- Toast Messages -->
+    <string name="storage_permission_granted_zipper"><![CDATA[स्टोरेज एक्सेस अनुमति दी गई। अब आप ज़िपर सुविधा का उपयोग कर सकते हैं।]]></string>
+    <string name="no_security_password_set"><![CDATA[कोई सुरक्षा पासवर्ड सेट नहीं है!]]></string>
+    <string name="confirm_your_password"><![CDATA[अपना पासवर्ड कन्फर्म करें]]></string>
+    <string name="password_changed_successfully"><![CDATA[पासवर्ड सफलतापूर्वक बदल गया]]></string>
+    <string name="wrong_confirmation_password"><![CDATA[गलत कन्फर्मेशन पासवर्ड, फिर से कोशिश करें!]]></string>
+    <string name="playstore_not_found"><![CDATA[Google Play Store नहीं खुल सका, कृपया Google Play ऐप इंस्टॉल करें।]]></string>
+    <string name="no_app_to_handle_action"><![CDATA[इस एक्शन को करने के लिए कोई ऐप नहीं है]]></string>
+
+    <!-- Service Notifications -->
+    <string name="syncing_language_data"><![CDATA[भाषा डेटा सिंक हो रहा है]]></string>
+    <string name="updating_app_content"><![CDATA[कंटेंट अपडेट हो रहा है...]]></string>
+    <string name="lockscreen_service_running"><![CDATA[लॉकस्क्रीन काम कर रहा है]]></string>
+    <string name="service_running"><![CDATA[चल रहा है]]></string>
+
+    <!-- Text/Size Selection -->
+    <string name="select_text_size_range"><![CDATA[टेक्स्ट साइज़ चुनें 10-60]]></string>
+
+    <!-- Ad Label -->
+    <string name="upgrade_premium"><![CDATA[प्रीमियम में अपग्रेड करें]]></string>
+    <string name="show_background"><![CDATA[पृष्ठभूमि दिखाएं]]></string>
+    <string name="locale">hi</string>
+    <string name="str_loading"><![CDATA[लोड हो रहा है...]]></string>
+    <string name="str_loading_content"><![CDATA[%1$s लागू करने में कुछ सेकंड लग सकते हैं। कृपया प्रतीक्षा करें...]]></string>
+    <string name="str_loading_content_download"><![CDATA[वॉलपेपर डाउनलोड करने में कुछ सेकंड लग सकते हैं। कृपया प्रतीक्षा करें...]]></string>
+    <string name="foreground"><![CDATA[अग्रभूमि]]></string>
+    <string name="background"><![CDATA[पृष्ठभूमि]]></string>
+    <string name="str_font_style"><![CDATA[फ़ॉन्ट शैली]]></string>
+    <string name="zipper_style"><![CDATA[जिपर शैली]]></string>
+    <string name="pendant_style"><![CDATA[पेंडेंट शैली]]></string>
+    <string name="str_completed"><![CDATA[पूर्ण हुआ]]></string>
+    <string name="str_completed_content"><![CDATA[सब कुछ तैयार है। कृपया आनंद लें!]]></string>
+    <string name="open_settings">सेटिंग्स खोलें</string>
+    <string name="highlight_text"><![CDATA[250 टिकट]]></string>
+    <string name="str_multi_five"><![CDATA[x5]]></string>
+    <string name="str_ad_free"><![CDATA[विज्ञापन-मुक्त]]></string>
+    <string name="str_ad_free_description_15_day"><![CDATA[15 दिनों के लिए विज्ञापन-मुक्त अनुभव का आनंद लें! विज्ञापनों को हटाने और ऐप का अधिक आसानी से आनंद लेने के लिए इस पर उतरें।]]></string>
+    <string name="str_ad_free_description_1_day"><![CDATA[1 दिन के लिए और कोई कष्टप्रद विज्ञापन नहीं! बिना किसी रुकावट के तुरंत खेलें।]]></string>
+    <string name="str_ad_free_15_day"><![CDATA[15 दिनों के लिए विज्ञापन हटाएं]]></string>
+    <string name="str_extra_spin"><![CDATA[अतिरिक्त स्पिन]]></string>
+    <string name="str_extra_spin_description"><![CDATA[आपने एक अतिरिक्त मुफ्त स्पिन जीता है! अपनी किस्मत आजमाते रहें और अधिक रोमांचक पुरस्कार खोजें।]]></string>
+    <string name="str_ad_free_1_day"><![CDATA[1 दिन के लिए विज्ञापन हटाएं]]></string>
+    <string name="str_surprise_gift"><![CDATA[आश्चर्यजनक उपहार]]></string>
+    <string name="str_surprise_gift_description"><![CDATA[आपने एक रहस्यमय उपहार जीता है! इस अवसर को न चूकें!]]></string>
+    <string name="str_expried_on"><![CDATA[समाप्त हो गया]]></string>
+    <string name="str_dont_miss_it"><![CDATA[इसे न चूकें]]></string>
+    <string name="title_get_more_spin"><![CDATA[अधिक मुफ्त स्पिन प्राप्त करें]]></string>
+    <string name="str_lose_turn"><![CDATA[आपके स्पिन खत्म हो गए हैं! अधिक मुफ्त स्पिन प्राप्त करने और अपना लकी स्पिन जारी रखने के लिए कल वापस आएं!]]></string>
+    <string name="come_back_tomorrow"><![CDATA[कल वापस आएं]]></string>
+    <string name="wheel_of_fortune"><![CDATA[भाग्य का पहिया]]></string>
+    <string name="str_multi_one"><![CDATA[x1]]></string>
+    <string name="str_start"><![CDATA[शुरू करें]]></string>
+    <string name="str_congratulations"><![CDATA[बधाई हो!]]></string>
+    <string name="str_receive"><![CDATA[प्राप्त करें]]></string>
+    <string name="str_multi_double"><![CDATA[x2]]></string>
+    <string name="str_award_description_title"><![CDATA[पुरस्कार विवरण]]></string>
+    <string name="lucky_wheel_descrepion"><![CDATA[1 दिन या 15 दिनों के लिए मुफ्त में विज्ञापन-मुक्त ऐप का अनुभव करने का मौका पाने के लिए लकी स्पिन में शामिल हों।]]></string>
+    <string name="str_confirm"><![CDATA[पुष्टि करें]]></string>
+    <string name="str_subscribe"><![CDATA[सब्सक्राइब करें]]></string>
+    <string name="special_offer"><![CDATA[विशेष पेशकश]]></string>
+    <string name="str_buy"><![CDATA[खरीदें]]></string>
+    <string name="get_more_coins"><![CDATA[अधिक सिक्के प्राप्त करें]]></string>
+    <string name="set_use_coins"><![CDATA[सिक्कों का उपयोग करें]]></string>
+    <string name="msg_not_enough_keys"><![CDATA[पर्याप्त सिक्के नहीं हैं, कृपया बाद में प्रयास करें!]]></string>
+    <string name="msg_used_keys"><![CDATA[सफलता! आपने %1$d सिक्कों के साथ रिडीम किया है। शेष: %2$d सिक्के।]]></string>
+    <string name="most_popular"><![CDATA[सबसे\nलोकप्रिय]]></string>
+    <string name="weekly_for_subscribers"><![CDATA[सब्सक्राइबर्स के लिए साप्ताहिक]]></string>
+    <string name="use_coins_content"><![CDATA[इस वॉलपेपर को अनलॉक करने के लिए आपको %1$d सिक्कों की आवश्यकता है। आपका शेष: %2$d सिक्के।]]></string>
+    <string name="str_restore"><![CDATA[पुनर्स्थापित करें]]></string>
+    <string name="ready_to_redeem_wallpaper"><![CDATA[वॉलपेपर रिडीम करने के लिए तैयार हैं?]]></string>
+    <string name="str_congratulations_content"><![CDATA[बधाई हो! 🎉 आपने एक रहस्यमय उपहार अनलॉक किया है - अपनी सिक्का खरीद पर एक विशेष छूट का आनंद लें!]]></string>
+    <string name="discount_month"><![CDATA[%s / माह]]></string>
+    <string name="save_75"><![CDATA[बचाएं %d%%]]></string>
+    <string name="discount_year"><![CDATA[%s / वर्ष]]></string>
+    <string name="num_w_coins"><![CDATA[%1$d सिक्के]]></string>
+    <string name="get_more_free"><![CDATA[%1$d%% और मुफ्त]]></string>
+    <string name="price_per_coins"><![CDATA[%1$s / %2$d सिक्के]]></string>
+    <string name="get_coins_immediately"><![CDATA[तुरंत सिक्के प्राप्त करें]]></string>
+    <string name="your_daily_reward"><![CDATA[आपका दैनिक पुरस्कार]]></string>
+    <string name="plus_10"><![CDATA[+10]]></string>
+    <string name="vip_coin"><![CDATA[वीआईपी सिक्का]]></string>
+    <string name="unlock_using_coins"><![CDATA[सिक्कों का उपयोग करके अनलॉक करें]]></string>
+    <string name="str_vip_ticket_description"><![CDATA[वॉलपेपर, ज़िपर, चेन और बहुत कुछ अनलॉक करने और लागू करने के लिए सिक्कों का उपयोग करें। असीमित अनुकूलन का आनंद लेने के लिए दैनिक पुरस्कार, विज्ञापनों से सिक्के अर्जित करें, या उन्हें खरीदें।]]></string>
+    <string name="user_id">उपयोगकर्ता आईडी</string>
+    <string name="copy_user_id">उपयोगकर्ता आईडी कॉपी करें</string>
+    <string name="str_claim">पुरस्कार प्राप्त करें</string>
+    <string name="get_coin">सिक्के प्राप्त करें</string>
+    <string name="free_coins">मुफ्त सिक्के</string>
+    <string name="discount_number">छूट %2$s</string>
+    <string name="watch_ads_get_coins">विज्ञापन देखें, सिक्के पाएं</string>
+    <string name="get_more_spin">अधिक स्पिन प्राप्त करें</string>
+    <string name="use_coins">सिक्के उपयोग करें</string>
+    <string name="congratulations_w_num_coins">आपने %1$d सिक्के प्राप्त किए हैं</string>
+    <string name="notification_permission_message">नए वॉलपेपर, अपडेट और विशेष ऑफ़र के बारे में सूचनाएं प्राप्त करें। आप इसे किसी भी समय सेटिंग में प्रबंधित कर सकते हैं।</string>
+    <string name="notification_permission_settings_message">सूचनाएं प्राप्त करने के लिए, आपको सेटिंग्स में अनुमति सक्षम करनी होगी। क्या आप अभी सेटिंग्स खोलना चाहते हैं?</string>
+    <string name="wallpaper_downloaded_successfully">वॉलपेपर सफलतापूर्वक डाउनलोड हो गया</string>
+    <string name="str_static"><![CDATA[स्थिर]]></string>
+
+</resources>

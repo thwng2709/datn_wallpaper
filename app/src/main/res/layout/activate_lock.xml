@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main_zipper">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_42dp"
+            android:layout_marginBottom="@dimen/common_8dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/common_16dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="@dimen/common_40dp"
+                android:layout_height="@dimen/common_40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ripple_rectangle"
+                android:contentDescription="@string/cancel"
+                android:focusable="true"
+                android:src="@drawable/ic_arrow_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sf_pro_semi_bold"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/activate_lock_screen"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layoutImg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/common_16dp"
+            android:layout_marginVertical="@dimen/common_24dp"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toTopOf="@id/next_button_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbarLayout">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/zipper_wallpaper"
+                android:scaleType="fitXY"
+                tools:src="@drawable/image1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/next_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/splash_continue_button_height"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="@dimen/common_24dp"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside">
+
+            <ImageView
+                android:id="@+id/activate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/splash_continue_button_height"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bg_tv_time"
+                android:contentDescription="@string/activate"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/set_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_medium"
+            android:maxLines="1"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            android:text="@string/activate"
+            android:textAlignment="center"
+            android:textColor="@color/black_02"
+            android:textSize="@dimen/text_size_16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/next_button_container"
+            app:layout_constraintEnd_toEndOf="@+id/next_button_container"
+            app:layout_constraintStart_toStartOf="@+id/next_button_container"
+            app:layout_constraintTop_toTopOf="@+id/next_button_container" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

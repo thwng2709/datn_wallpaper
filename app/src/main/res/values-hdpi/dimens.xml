@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="ic_mobile_play" tools:keep="@dimen/ic_mobile_play">24dp</dimen>
+    <dimen name="main_item_radius" tools:keep="@dimen/main_item_radius">4dp</dimen>
+    <dimen name="height_item_menu" tools:keep="@dimen/height_item_menu">54dp</dimen>
+    <dimen name="detail_item_radius" tools:keep="@dimen/detail_item_radius">4dp</dimen>
+    <dimen name="height_header" tools:keep="@dimen/height_header">56dp</dimen>
+    <dimen name="size_set_wallpaper_icon" tools:keep="@dimen/size_set_wallpaper_icon">56dp</dimen>
+    <dimen name="corner_radius_button" tools:keep="@dimen/corner_radius_button">8dp</dimen>
+    <dimen name="border_input_text" tools:keep="@dimen/border_input_text">2dp</dimen>
+    <dimen name="no_border_input_text" tools:keep="@dimen/no_border_input_text">0dp</dimen>
+    <dimen name="main_fragment_margin_start_nav_view" tools:keep="@dimen/main_fragment_margin_start_nav_view">0dp</dimen>
+    <dimen name="main_fragment_title_header" tools:keep="@dimen/main_fragment_title_header">18sp</dimen>
+    <dimen name="main_fragment_padding_ic_search" tools:keep="@dimen/main_fragment_padding_ic_search">20dp</dimen>
+    <dimen name="splash_fragment_margin_name_input" tools:keep="@dimen/splash_fragment_margin_name_input">16dp</dimen>
+    <dimen name="splash_fragment_margin_top_loading_ic" tools:keep="@dimen/splash_fragment_margin_top_loading_ic">38dp</dimen>
+    <dimen name="left_menu_margin_divider" tools:keep="@dimen/left_menu_margin_divider">8dp</dimen>
+    <dimen name="reward_dialog_button_width" tools:keep="@dimen/reward_dialog_button_width">200dp</dimen>
+    <dimen name="reward_dialog_button_margin_bottom" tools:keep="@dimen/reward_dialog_button_margin_bottom">16dp</dimen>
+    <dimen name="confirm_dialog_title_padding" tools:keep="@dimen/confirm_dialog_title_padding">4dp</dimen>
+    <dimen name="splash_fragment_icon_app_size" tools:keep="@dimen/splash_fragment_icon_app_size">96dp</dimen>
+    <dimen name="splash_fragment_margin_bottom_app_name" tools:keep="@dimen/splash_fragment_margin_bottom_app_name">156dp</dimen>
+    <dimen name="dialog_invite_rate_title_margin_bottom" tools:keep="@dimen/dialog_invite_rate_title_margin_bottom">25dp</dimen>
+    <dimen name="tutorial_main_button_margin" tools:keep="@dimen/tutorial_main_button_margin">16dp</dimen>
+    <dimen name="search_tab_indicator_height" tools:keep="@dimen/search_tab_indicator_height">40dp</dimen>
+    <dimen name="search_tab_layout_height" tools:keep="@dimen/search_tab_layout_height">42dp</dimen>
+    <dimen name="search_edit_text_height" tools:keep="@dimen/search_edit_text_height">44dp</dimen>
+    <dimen name="default_corner_radii" tools:keep="@dimen/default_corner_radii">56dp</dimen>
+    <dimen name="default_badge_corner_radii" tools:keep="@dimen/default_badge_corner_radii">16dp</dimen>
+    <dimen name="default_nav_item_padding" tools:keep="@dimen/default_nav_item_padding">12dp</dimen>
+    <dimen name="default_nav_item_text_size" tools:keep="@dimen/default_nav_item_text_size">14sp</dimen>
+    <dimen name="default_nav_item_text_padding" tools:keep="@dimen/default_nav_item_text_padding">8dp</dimen>
+    <dimen name="default_nav_item_title_max_width" tools:keep="@dimen/default_nav_item_title_max_width">80dp</dimen>
+    <dimen name="default_icon_size" tools:keep="@dimen/default_icon_size">24dp</dimen>
+    <dimen name="default_nav_item_badge_padding" tools:keep="@dimen/default_nav_item_badge_padding">2dp</dimen>
+    <dimen name="default_nav_item_badge_text_size" tools:keep="@dimen/default_nav_item_badge_text_size">7sp</dimen>
+    <dimen name="text_tiny" tools:keep="@dimen/text_tiny">8sp</dimen>
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_small_normal" tools:keep="@dimen/text_small_normal">11sp</dimen>
+    <dimen name="text_normal" tools:keep="@dimen/text_normal">12sp</dimen>
+    <dimen name="text_large" tools:keep="@dimen/text_large">16sp</dimen>
+    <dimen name="text_title" tools:keep="@dimen/text_title">14sp</dimen>
+    <dimen name="text_size_8sp" tools:keep="@dimen/text_size_8sp">8sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_26sp" tools:keep="@dimen/text_size_26sp">26sp</dimen>
+    <dimen name="text_size_30sp" tools:keep="@dimen/text_size_30sp">30sp</dimen>
+    <dimen name="text_size_32sp" tools:keep="@dimen/text_size_32sp">32sp</dimen>
+    <dimen name="text_size_36sp" tools:keep="@dimen/text_size_36sp">36sp</dimen>
+    <dimen name="text_size_38sp" tools:keep="@dimen/text_size_38sp">38sp</dimen>
+    <dimen name="text_size_40sp" tools:keep="@dimen/text_size_40sp">40sp</dimen>
+    <dimen name="text_size_60sp" tools:keep="@dimen/text_size_60sp">60sp</dimen>
+    <dimen name="common_0.5dp" tools:keep="@dimen/common_0_5dp">0.5dp</dimen>
+    <dimen name="common_0.75dp" tools:keep="@dimen/common_0_75dp">0.75dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_3dp">3dp</dimen>
+    <dimen name="common_4dp">4dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_6dp">6dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_14dp">14dp</dimen>
+    <dimen name="common_15dp" tools:keep="@dimen/common_15dp">15dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_24dp">24dp</dimen>
+    <dimen name="common_26dp">26dp</dimen>
+    <dimen name="common_28dp" tools:keep="@dimen/common_28dp">28dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_31dp" tools:keep="@dimen/common_31dp">31dp</dimen>
+    <dimen name="common_32dp">32dp</dimen>
+    <dimen name="common_36dp">36dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_42dp" tools:keep="@dimen/common_42dp">42dp</dimen>
+    <dimen name="common_45dp" tools:keep="@dimen/common_45dp">45dp</dimen>
+    <dimen name="common_46dp" tools:keep="@dimen/common_46dp">46dp</dimen>
+    <dimen name="common_48dp">48dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_52dp" tools:keep="@dimen/common_52dp">52dp</dimen>
+    <dimen name="common_54dp">54dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_65dp" tools:keep="@dimen/common_65dp">65dp</dimen>
+    <dimen name="common_68dp">68dp</dimen>
+    <dimen name="common_70dp" tools:keep="@dimen/common_70dp">70dp</dimen>
+    <dimen name="common_75dp" tools:keep="@dimen/common_75dp">75dp</dimen>
+    <dimen name="common_80dp" tools:keep="@dimen/common_80dp">80dp</dimen>
+    <dimen name="common_84dp" tools:keep="@dimen/common_84dp">84dp</dimen>
+    <dimen name="common_90dp" tools:keep="@dimen/common_90dp">90dp</dimen>
+    <dimen name="common_98dp" tools:keep="@dimen/common_98dp">98dp</dimen>
+    <dimen name="common_100dp" tools:keep="@dimen/common_100dp">100dp</dimen>
+    <dimen name="common_120dp" tools:keep="@dimen/common_120dp">120dp</dimen>
+    <dimen name="common_126dp" tools:keep="@dimen/common_126dp">126dp</dimen>
+    <dimen name="common_128dp" tools:keep="@dimen/common_128dp">128dp</dimen>
+    <dimen name="common_130dp" tools:keep="@dimen/common_130dp">130dp</dimen>
+    <dimen name="common_140dp" tools:keep="@dimen/common_140dp">140dp</dimen>
+    <dimen name="common_150dp">150dp</dimen>
+    <dimen name="common_180dp" tools:keep="@dimen/common_180dp">180dp</dimen>
+    <dimen name="common_160dp">160dp</dimen>
+    <dimen name="common_170dp" tools:keep="@dimen/common_170dp">170dp</dimen>
+    <dimen name="common_200dp" tools:keep="@dimen/common_200dp">200dp</dimen>
+    <dimen name="common_220dp" tools:keep="@dimen/common_220dp">220dp</dimen>
+    <dimen name="common_230dp" tools:keep="@dimen/common_230dp">230dp</dimen>
+    <dimen name="common_240dp" tools:keep="@dimen/common_240dp">240dp</dimen>
+    <dimen name="common_300dp" tools:keep="@dimen/common_300dp">300dp</dimen>
+    <dimen name="common_310dp" tools:keep="@dimen/common_310dp">310dp</dimen>
+    <dimen name="common_330dp" tools:keep="@dimen/common_330dp">330dp</dimen>
+    <dimen name="min_banner_height">50dp</dimen>
+</resources>

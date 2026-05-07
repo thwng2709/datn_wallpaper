@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daily_notifications">
+        <item>⚡ Dokunuşlarınızı otomatikleştirmeye hazır mısınız? Hadi başlayalım!</item>
+        <item>🤖 Parmağınızı dinlendirin – tıklama işini biz hallederiz!</item>
+        <item>🎯 Her seferinde mükemmel bir dokunuş – Otomatik Tıklayıcıyı çalıştırın!</item>
+        <item>⏱️ Zaman tasarrufu modu: etkinleştirildi!</item>
+        <item>🚀 Hıza mı ihtiyacınız var? Otomatik Tıklayıcı her zamankinden daha hızlı!</item>
+        <item>💤 Tıklamaktan yoruldunuz mu? Sizin için biz yaparız!</item>
+        <item>🧠 Akıllı tıklama basitleşti – Otomatik Tıklayıcıyı şimdi başlatın!</item>
+        <item>🔥 En iyi otomatik tıklayıcı güncellendi – göz atın!</item>
+        <item>📱 Daha az dokun. Daha çok kazan. Daha akıllı oyna!</item>
+        <item>🧲 Manyetik dokunma hassasiyeti – ele gerek yok!</item>
+        <item>🎮 Oyun mu oynuyorsunuz? Kasılıyor musunuz? Arkanızdayız!</item>
+        <item>🌙 Gece kasılması mı? Siz dinlenirken Otomatik Tıklayıcı çalışsın!</item>
+        <item>👆 Ağrıyan başparmaklara veda edin!</item>
+        <item>🎉 Bir kez kurun, sonsuza dek tıklasın!</item>
+        <item>💥 Güçlü dokunma modu hazır – uygulamayı şimdi başlatın!</item>
+        <item>🔁 Tekrarlayan dokunuşlar inanılmaz derecede kolaylaştı!</item>
+        <item>🏆 Mükemmel zamanlama ile oyununuza hükmedin!</item>
+        <item>🪄 Otomasyon sihri sadece bir dokunuş uzağınızda!</item>
+        <item>📈 Akıllı dokunuşlarla verimliliğinizi artırın!</item>
+        <item>🛠️ Dokunma otomasyonu, istediğiniz gibi!</item>
+        <item>⛏️ Kaynak mı topluyorsunuz? Tıklamayı bize bırakın!</item>
+        <item>🎯 Hiçbir anı kaçırmayın – özel dokunuşlarınızı ayarlayın!</item>
+        <item>🔋 Pilde hafif, sonuçlarda ağır!</item>
+        <item>🧘 Rahatlayın... dokunuşları biz hallederiz.</item>
+        <item>💪 Daha akıllı kasılın, daha sıkı değil!</item>
+        <item>🚨 Dokunma asistanınız bekliyor – uygulamayı açın!</item>
+        <item>🛸 Otomatik Tıklayıcı: sessiz, hızlı ve durdurulamaz!</item>
+        <item>👀 Hala manuel olarak mı tıklıyorsunuz? Daha iyi bir yolu var!</item>
+        <item>🧬 Hassas dokunma kontrolü parmaklarınızın ucunda!</item>
+        <item>🎈 Otomatik Tıklayıcının bir sürprizi var – şimdi açın!</item>
+    </string-array>
+</resources>

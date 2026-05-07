@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/common_16dp"
+            android:background="@drawable/bg_bottom_sheet_020129"
+            android:padding="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_title_dialog_permission"
+            style="@style/BottomSheetTextTitle"
+            android:text="@string/ready_to_redeem_wallpaper"
+            android:textColor="#FFE143"
+            android:textSize="@dimen/text_size_24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/common_12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_8dp" />
+
+        <TextView
+            android:id="@+id/lytContent"
+            style="@style/BottomSheetTextMessage"
+            tools:text="You need 50 coins to unlock this wallpaper. Your balance: 100 coins."
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp"
+            android:layout_marginHorizontal="@dimen/common_16dp"
+            android:paddingHorizontal="@dimen/common_16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_dialog_permission"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/btnConfirmYes"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/common_24dp"
+            android:background="@drawable/bg_button_purple_75"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/sf_pro_semi_bold"
+            android:gravity="center"
+            android:text="@string/mgs_ok"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lytContent" />
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/common_12dp"
+            android:background="@drawable/bg_button_primary_with_shadow"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/sf_pro_semi_bold"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/black_02"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/common_8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConfirmYes"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

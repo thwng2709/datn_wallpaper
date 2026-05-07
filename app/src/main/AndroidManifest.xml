@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.itsthwng.twallpaper">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- Cho Android 13+ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.HOME" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.itsthwng.twallpaper.App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:hardwareAccelerated="true"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        tools:replace="android:fullBackupContent">
+
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.splash.view.SplashLoadingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.itsthwng.twallpaper.ui.component.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="density|keyboard|screenSize|orientation|uiMode|layoutDirection|locale"
+            android:exported="true"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:supportsRtl="true"
+            android:requestLegacyExternalStorage="true"
+            android:hardwareAccelerated="true">
+
+        </activity>
+        
+        <activity android:name="com.itsthwng.twallpaper.ui.component.permission.OverlayPermissionActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name="com.itsthwng.twallpaper.ui.component.preview.PreviewActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.setting.view.SettingActivity"
+            android:exported="false"
+            android:configChanges="density|keyboard|screenSize|orientation|uiMode|layoutDirection|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.viewWallpaper.ViewWallpapersActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="myapp" android:host="view_wallpaper" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.search.SearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.wallpaperByCat.WallpaperByCatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ZipLockMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.ActivateZipLockActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.ChooseZipperActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.ZipLockPersonalisation"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.MoreSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.FontChooserActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.ChainStyleChooserActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.PendantStyleChooserActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name="com.itsthwng.twallpaper.service.SettingWallpaperService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+
+        <service
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.Glszl_LiveService"
+            android:configChanges="orientation|screenSize"
+            android:enabled="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:foregroundServiceType="specialUse" />
+        <service
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.Glszl_LockScreenService"
+            android:configChanges="orientation|screenSize"
+            android:enabled="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:foregroundServiceType="specialUse" />
+        <service
+            android:name="com.itsthwng.twallpaper.ui.component.zipper.zipperlock.ui.Glszl_TestJobService"
+            android:configChanges="orientation|screenSize"
+            android:label="Word service"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:screenOrientation="portrait" />
+
+
+        <receiver
+            android:name="com.itsthwng.twallpaper.notification.localNotification.AlarmReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.test.intent.action.ALARM" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+
+            <!-- Giữ cái này để ProcessLifecycleOwner hoạt động -->
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+
+            <!-- TẮT riêng WorkManagerInitializer -->
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2137054977810984~4808933929" />
+
+    </application>
+
+</manifest>
