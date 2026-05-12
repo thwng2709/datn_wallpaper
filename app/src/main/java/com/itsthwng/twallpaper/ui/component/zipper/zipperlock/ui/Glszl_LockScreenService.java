@@ -139,7 +139,8 @@ public class Glszl_LockScreenService extends Service {
             this.forgotPassword.setVisibility(View.INVISIBLE);
         }
         this.forrgot_pass_dialog_ok.setOnClickListener(view -> {
-            if (forrgot_pass_input.getText().toString().equals(sharedPreferencisUtil.getSecurityQuestion())) {
+            String forgotAnswer = forrgot_pass_input.getText().toString().toLowerCase().trim();
+            if (forgotAnswer.equals(sharedPreferencisUtil.getSecurityQuestion().toLowerCase().trim())) {
                 // Hide keyboard before closing dialog
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 if (imm != null) {
