@@ -72,7 +72,6 @@
     <string name="str_close">닫기</string>
 
     <string name="exit_app">종료</string>
-    <string name="creator" translatable="false">Higher Studio</string>
     <string name="txt_loading_ads">광고 로딩 중…</string>
     <string name="segment_intro1">액션을 자동화하여\n효율성을 높이세요!</string>
     <string name="segment_intro2">멀티 타겟, 고\n성능!</string>

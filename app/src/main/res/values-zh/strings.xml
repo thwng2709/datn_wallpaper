@@ -72,7 +72,6 @@
     <string name="str_close">关闭</string>
 
     <string name="exit_app">退出</string>
-    <string name="creator" translatable="false">Higher Studio</string>
     <string name="txt_loading_ads">正在加载广告…</string>
     <string name="segment_intro1">自动化您的操作,\n提高效率！</string>
     <string name="segment_intro2">多目标，高性能！</string>

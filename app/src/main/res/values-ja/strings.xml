@@ -72,7 +72,6 @@
     <string name="str_close">閉じる</string>
 
     <string name="exit_app">終了</string>
-    <string name="creator" translatable="false">Higher Studio</string>
     <string name="txt_loading_ads">広告を読み込み中…</string>
     <string name="segment_intro1">アクションを自動化し、\n効率を向上させましょう！</string>
     <string name="segment_intro2">マルチターゲット、高\nパフォーマンス！</string>

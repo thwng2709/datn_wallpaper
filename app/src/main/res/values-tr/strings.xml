@@ -72,7 +72,6 @@
     <string name="str_close">Kapat</string>
 
     <string name="exit_app">Çıkış Yap</string>
-    <string name="creator" translatable="false">Higher Studio</string>
     <string name="txt_loading_ads">Reklamlar Yükleniyor…</string>
     <string name="segment_intro1">Eylemlerinizi otomatikleştirin,\nverimliliği artırın!</string>
     <string name="segment_intro2">Çoklu Hedef, Yüksek\nPerformans!</string>

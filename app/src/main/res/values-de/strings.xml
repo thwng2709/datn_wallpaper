@@ -72,7 +72,6 @@
     <string name="str_close">Schließen</string>
 
     <string name="exit_app">Beenden</string>
-    <string name="creator" translatable="false">Higher Studio</string>
     <string name="txt_loading_ads">Werbung wird geladen…</string>
     <string name="segment_intro1">Automatisieren Sie Ihre Aktionen, \nsteigern Sie die Effizienz!</string>
     <string name="segment_intro2">Multi-Ziel, hohe \nLeistung!</string>
